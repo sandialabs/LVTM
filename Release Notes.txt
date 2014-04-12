@@ -1,3 +1,10 @@
+**Ravi Beniwal, Darren Natinger on 09/23/2011**
+
+Added Find Clones.vi for searching statically referenced clones.
+No longer need to include the Clone VIs FG.vi in the reentrant VIs that are statically referenced.
+But if you put this FG into a reentrant VI that is called asynchronously, it will make sure all clones are found. 
+
+
 **Ravi Beniwal on 09/21/2011**
 
 * Clone VIs FG.vi added. Just drop this VI in any reentrant VI. When the clone is created and run, it will add its name to this FG. The Task Manager will now display "All VIs in Memory" AND the ones in this FG. This solves the "how to find all clones" issue. Slightly inconvenient, as you have to drop this VI in the reentrant VI, but will certainly work in all situations. Also, leaving it in even when deploying the application will not effect the performance as it is just an array of a few strings.
