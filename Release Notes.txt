@@ -1,0 +1,9 @@
+**Ravi Beniwal on 09/19/2011 (LabVIEW 2009)**
+
+* Lists all VIs in memory
+* Displays basic information like VI state, path, data size, code size, FP Behavior, Reentrant? Reentrance Type, etc.
+* Let's you select multiple VIs and open FP or BD
+* Let's you select multiple VIs and Abort
+* let's you select a refresh rate and updates the lsit
+* sort by any column
+* let's you filter file types like vi, vit, and ctl
