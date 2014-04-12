@@ -1,3 +1,16 @@
+**Ravi Beniwal on 09/21/2011**
+
+* Clone VIs FG.vi added. Just drop this VI in any reentrant VI. When the clone is created and run, it will add its name to this FG. The Task Manager will now display "All VIs in Memory" AND the ones in this FG. This solves the "how to find all clones" issue. Slightly inconvenient, as you have to drop this VI in the reentrant VI, but will certainly work in all situations. Also, leaving it in even when deploying the application will not effect the performance as it is just an array of a few strings.
+* Pause.vi added. This addresses AQ's original need of initiating a pause from within any VI on some condition. Just drop this VI in a case structure after your custom probe condition evaluation. It will only work if the task manager is open. If the pause request is generated from a clone of a reentrant VI, it will pause all clones of that VI.
+* Pause and Resume buttons instead of just one (Un)Pause button, because the earlier implementation would have always toggled the state of a VI. So if you if one VI in a selection was already paused and you clicked (Un)Pause to pause all VIs in the selection, that one VI will now resume instead of staying Paused.
+* Close BD button added. This will help to close block diagrams of all selected VIs. This should make life easier after you have paused all the zillion clones of a VI, which would have opened that many block diagram windows.
+* Double Clicking on a VI in the task manager will bring the BD to front if already open, otherwise it will bring the FP to front if already open. Bringing BD to front works only for non-reentrant VIs.
+* Tree symbols added to mark paused VIs. Also, if a clone initiates a pause, a different pause symbol is used for that clone to show which of the clones initiated the pause.
+* UI has been rearranged (filters on top, action buttons on the bottom) for clarity and to make more room (for feature creep)
+* Windows Task Manager style menu with Update Speed and Refresh Now items added.
+* When new VIs are launched, they don't automatically get added to the Task Manager. Hit F5 or select Refresh Now menu item to read all VIs from memory and add them to the tree. The update in the timeout case only updates the current state of all VIs in the tree.
+
+
 **AQ on 09/21/2011**
 
 * Tracking of execution highlight and ability toggle it on all selected VIs
