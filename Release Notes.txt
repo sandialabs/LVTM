@@ -1,3 +1,15 @@
+**AQ on 09/21/2011**
+
+* Tracking of execution highlight and ability toggle it on all selected VIs
+* Tracking of paused VIs and ability to toggle pause on all selected VIs
+* Selection of project/target
+* Filtering of vi.lib
+* Filtering of global VIs
+* Filtering of control templates (.ctt)
+* Sorting by library name
+* Compressed the column text for some entries so more columns fit on the screen
+
+
 **Ravi Beniwal on 09/19/2011 (LabVIEW 2009)**
 
 * Lists all VIs in memory
