@@ -4,3 +4,5 @@
 .lvlps$
 .aliases$
 .viobj
+syntax: glob
+**.bak
