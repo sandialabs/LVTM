@@ -6,7 +6,7 @@
 * In project, converted self-populating folders to virtual folders.
 * Inserted "Generate Clone Name", as supplied by AristosQueue, to fix incompatibility w/ LV2013 clone enumeration.  See <https://decibel.ni.com/content/message/58984#58984>
 * Added FindName and FilterOnName functions (I personally like these very much)
-* Built a VIPM package for tool installation
+* Built a VIP package for tool installation -- to be accomplished using VIPM
 
 **R6 Ohiofudu Israel on 09/26/2011 (LabVIEW 2010)**
 * Error handling improvements
