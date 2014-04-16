@@ -4,6 +4,7 @@
 * Optimized "Get Properties" to optionally retrieve only the properties that might have changed; yields better performance.
 * Fixed bug where custom probes would cause errors in "Compare Two Paths" VI.
 * In project, converted self-populating folders to virtual folders.
+* Added a test case to "Parallel VIs Launcher"
 * Inserted "Generate Clone Name", as supplied by AristosQueue, to fix incompatibility w/ LV2013 clone enumeration.  See <https://decibel.ni.com/content/message/58984#58984>
 * Added FindName and FilterOnName functions (I personally like these very much)
 * Built a VIP package for tool installation -- to be accomplished using VIPM
