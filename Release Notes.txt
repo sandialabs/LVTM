@@ -1,4 +1,4 @@
-**R7 TimVargo on dd/mm/yyyy (LabVIEW xxxx)**
+**TimVargo on dd/mm/yyyy (LabVIEW xxxx)**
 * Added VI descriptions and tip-strips to all UI front panels
 * Added comments to several VIs, especially to clarify the complex process of finding ALL clones.
 * Optimized "Get Properties" to optionally retrieve only the properties that might have changed; yields better performance.
