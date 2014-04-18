@@ -11,7 +11,7 @@ X Make the tool accessible from the LV "Tools" menu.
 * Include a "Tools" item on menu bar.  Create a plug-in architecture allowing users to launch their own LV debugging tools from here, simply by dropping their own tool VIs into a "plugins" folder.
 ** Include the following tools to get them started:  
 *** A tool to find and list all dependent DLL files.  See <http://www.evernote.com/shard/s286/sh/bc26a3f8-2c02-47b7-9a10-6a42761c1455/7766648ffe434144c2804f1429202977>.
-*** A tool to search a LV project (or app instance) for likely ACBR VIs.
+*** A tool to search a LV project (or app instance) for likely ACBR VIs.  The intent is to help the user find all ACBR VIs for which they may want to place the "Clone VIs FG" drop-in VI.
 * Right-click options as alternate ways to perform current button functions.  Needs to work with multiple selections as well as single.
 * Show a count of all items in tree, observing the file type filters.
 * Consider reversing the logic of the item type filters, for consistency.  Currently these are checked to EXCLUDE the associated type, but this is the opposite logic to that used in the VI Hierarchy view, where item types are selected to be INCLUDED.
