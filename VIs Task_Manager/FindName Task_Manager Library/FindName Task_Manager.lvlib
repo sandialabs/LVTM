@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="AdjustIfEmpty.vi" Type="VI" URL="../AdjustIfEmpty.vi"/>
+	<Item Name="Dispatch_FindOrFilterOnName.vi" Type="VI" URL="../Dispatch_FindOrFilterOnName.vi"/>
 	<Item Name="FindTagMatches.vi" Type="VI" URL="../FindTagMatches.vi"/>
 	<Item Name="Remove From Tree If Filtered.vi" Type="VI" URL="../Remove From Tree If Filtered.vi"/>
 	<Item Name="StopFiltering.vi" Type="VI" URL="../StopFiltering.vi"/>
