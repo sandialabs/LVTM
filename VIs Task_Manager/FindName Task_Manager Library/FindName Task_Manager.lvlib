@@ -8,6 +8,5 @@
 	<Item Name="Dispatch_FindOrFilterOnName.vi" Type="VI" URL="../Dispatch_FindOrFilterOnName.vi"/>
 	<Item Name="FindTagMatches.vi" Type="VI" URL="../FindTagMatches.vi"/>
 	<Item Name="Remove From Tree If Filtered.vi" Type="VI" URL="../Remove From Tree If Filtered.vi"/>
-	<Item Name="StopFiltering.vi" Type="VI" URL="../StopFiltering.vi"/>
-	<Item Name="StopFinding.vi" Type="VI" URL="../StopFinding.vi"/>
+	<Item Name="StopLooking.vi" Type="VI" URL="../StopLooking.vi"/>
 </Library>
