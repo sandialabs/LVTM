@@ -21,9 +21,6 @@
 		</Item>
 		<Item Name="VIs Task_Manager" Type="Folder">
 			<Item Name="FindName Task_Manager Library" Type="Folder">
-				<Item Name="Dynamic_FindName_LVTM" Type="Folder" URL="../../VIs Task_Manager/FindName Task_Manager Library/Dynamic_FindName_LVTM">
-					<Property Name="NI.DISK" Type="Bool">true</Property>
-				</Item>
 				<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../../VIs Task_Manager/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
 			</Item>
 			<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../../VIs Task_Manager/Add Pause Symbols to Tree.vi"/>

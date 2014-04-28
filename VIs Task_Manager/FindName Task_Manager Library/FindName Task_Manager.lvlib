@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Dynamic_FindName_LVTM" Type="Folder">
+		<Item Name="FilterOnNameInTree.vi" Type="VI" URL="../Dynamic_FindName_LVTM/FilterOnNameInTree.vi"/>
+		<Item Name="FindNameInTree.vi" Type="VI" URL="../Dynamic_FindName_LVTM/FindNameInTree.vi"/>
+	</Item>
 	<Item Name="AdjustIfEmpty.vi" Type="VI" URL="../AdjustIfEmpty.vi"/>
 	<Item Name="Dispatch_FindOrFilterOnName.vi" Type="VI" URL="../Dispatch_FindOrFilterOnName.vi"/>
 	<Item Name="FindTagMatches.vi" Type="VI" URL="../FindTagMatches.vi"/>
