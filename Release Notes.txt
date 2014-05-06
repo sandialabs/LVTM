@@ -1,13 +1,15 @@
-**TimVargo on dd/mm/yyyy (LabVIEW xxxx)**
-* Added VI descriptions and tip-strips to all UI front panels
+**TimVargo on 06/05/2014 (LabVIEW 2010)**
+* Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements.
 * Added comments to several VIs, especially to clarify the complex process of finding ALL clones.
+* Added a linefeed char within the error dialog
 * Optimized "Get Properties" to optionally retrieve only the properties that might have changed; yields better performance.
 * Fixed bug where custom probes would cause errors in "Compare Two Paths" VI.
 * In project, converted self-populating folders to virtual folders.
 * Added a test case to "Parallel VIs Launcher"
 * Inserted "Generate Clone Name", as supplied by AristosQueue, to fix incompatibility w/ LV2013 clone enumeration.  See <https://decibel.ni.com/content/message/58984#58984>
-* Added FindName and FilterOnName functions (I personally like these very much)
+* Refresh event now includes a re-check for new app instances
 * Built a VIP package for tool installation -- to be accomplished using VIPM
+* This tool can now be invoked from LV's main "Tools" menu
 
 **R6 Ohiofudu Israel on 09/26/2011 (LabVIEW 2010)**
 * Error handling improvements
