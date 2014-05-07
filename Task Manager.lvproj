@@ -70,51 +70,51 @@
 		<Item Name="Error_LVTM" Type="Folder">
 			<Item Name="Error Task_Manager Class" Type="Folder"/>
 			<Item Name="Error Task_Manager Library" Type="Folder">
-				<Item Name="Error Task Manager.lvlib" Type="Library" URL="../../Error Task_Manager/Error Task_Manager Library/Error Task Manager.lvlib"/>
+				<Item Name="Error Task Manager.lvlib" Type="Library" URL="../Error Task_Manager/Error Task_Manager Library/Error Task Manager.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="VIs_LVTM" Type="Folder">
 			<Item Name="FindName Task_Manager Library" Type="Folder">
-				<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../../VIs Task_Manager/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
+				<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs Task_Manager/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
 			</Item>
-			<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../../VIs Task_Manager/Add Pause Symbols to Tree.vi"/>
-			<Item Name="Add VIs and their Protperties to Tree.vi" Type="VI" URL="../../VIs Task_Manager/Add VIs and their Protperties to Tree.vi"/>
-			<Item Name="Clone VIs FG Enum.ctl" Type="VI" URL="../../VIs Task_Manager/Clone VIs FG Enum.ctl"/>
-			<Item Name="Clone VIs FG.vi" Type="VI" URL="../../VIs Task_Manager/Clone VIs FG.vi"/>
-			<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../../VIs Task_Manager/Delete Tree Item If No Longer Needed.vi"/>
-			<Item Name="FilterOutProbes.vi" Type="VI" URL="../../VIs Task_Manager/FilterOutProbes.vi"/>
-			<Item Name="Find Clones.vi" Type="VI" URL="../../VIs Task_Manager/Find Clones.vi"/>
-			<Item Name="Generate Clone Name.vi" Type="VI" URL="../../VIs Task_Manager/Generate Clone Name.vi"/>
-			<Item Name="Get All VIs in Memory Including statically-referenced Reentrant Clones.vi" Type="VI" URL="../../VIs Task_Manager/Get All VIs in Memory Including statically-referenced Reentrant Clones.vi"/>
-			<Item Name="Get Properties.vi" Type="VI" URL="../../VIs Task_Manager/Get Properties.vi"/>
-			<Item Name="Get Tags of All Child Items.vi" Type="VI" URL="../../VIs Task_Manager/Get Tags of All Child Items.vi"/>
-			<Item Name="NonVILib Qualified Name Array To Single String.vi" Type="VI" URL="../../VIs Task_Manager/NonVILib Qualified Name Array To Single String.vi"/>
-			<Item Name="NonVILib Single String To Qualified Name Array.vi" Type="VI" URL="../../VIs Task_Manager/NonVILib Single String To Qualified Name Array.vi"/>
-			<Item Name="Pause VI.vi" Type="VI" URL="../../VIs Task_Manager/Pause VI.vi"/>
-			<Item Name="Pause.vi" Type="VI" URL="../../VIs Task_Manager/Pause.vi"/>
-			<Item Name="Resume VI.vi" Type="VI" URL="../../VIs Task_Manager/Resume VI.vi"/>
-			<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../../VIs Task_Manager/Sort Tree Items by Numerical order.vi"/>
-			<Item Name="Update AppInst Ring.vi" Type="VI" URL="../../VIs Task_Manager/Update AppInst Ring.vi"/>
+			<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../VIs Task_Manager/Add Pause Symbols to Tree.vi"/>
+			<Item Name="Add VIs and their Protperties to Tree.vi" Type="VI" URL="../VIs Task_Manager/Add VIs and their Protperties to Tree.vi"/>
+			<Item Name="Clone VIs FG Enum.ctl" Type="VI" URL="../VIs Task_Manager/Clone VIs FG Enum.ctl"/>
+			<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs Task_Manager/Clone VIs FG.vi"/>
+			<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs Task_Manager/Delete Tree Item If No Longer Needed.vi"/>
+			<Item Name="FilterOutProbes.vi" Type="VI" URL="../VIs Task_Manager/FilterOutProbes.vi"/>
+			<Item Name="Find Clones.vi" Type="VI" URL="../VIs Task_Manager/Find Clones.vi"/>
+			<Item Name="Generate Clone Name.vi" Type="VI" URL="../VIs Task_Manager/Generate Clone Name.vi"/>
+			<Item Name="Get All VIs in Memory Including statically-referenced Reentrant Clones.vi" Type="VI" URL="../VIs Task_Manager/Get All VIs in Memory Including statically-referenced Reentrant Clones.vi"/>
+			<Item Name="Get Properties.vi" Type="VI" URL="../VIs Task_Manager/Get Properties.vi"/>
+			<Item Name="Get Tags of All Child Items.vi" Type="VI" URL="../VIs Task_Manager/Get Tags of All Child Items.vi"/>
+			<Item Name="NonVILib Qualified Name Array To Single String.vi" Type="VI" URL="../VIs Task_Manager/NonVILib Qualified Name Array To Single String.vi"/>
+			<Item Name="NonVILib Single String To Qualified Name Array.vi" Type="VI" URL="../VIs Task_Manager/NonVILib Single String To Qualified Name Array.vi"/>
+			<Item Name="Pause VI.vi" Type="VI" URL="../VIs Task_Manager/Pause VI.vi"/>
+			<Item Name="Pause.vi" Type="VI" URL="../VIs Task_Manager/Pause.vi"/>
+			<Item Name="Resume VI.vi" Type="VI" URL="../VIs Task_Manager/Resume VI.vi"/>
+			<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs Task_Manager/Sort Tree Items by Numerical order.vi"/>
+			<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs Task_Manager/Update AppInst Ring.vi"/>
 		</Item>
 		<Item Name="TestVIs_LVTM" Type="Folder">
 			<Item Name="Test Class" Type="Folder">
-				<Item Name="Test Class.lvclass" Type="LVClass" URL="../../Test VIs Task_Manager/Test Class/Test Class.lvclass"/>
+				<Item Name="Test Class.lvclass" Type="LVClass" URL="../Test VIs_LVTM/Test Class/Test Class.lvclass"/>
 			</Item>
-			<Item Name="Normal VI.vi" Type="VI" URL="../../Test VIs Task_Manager/Normal VI.vi"/>
-			<Item Name="Parallel VIs Launcher.vi" Type="VI" URL="../../Test VIs Task_Manager/Parallel VIs Launcher.vi"/>
-			<Item Name="Reentrant VI.vi" Type="VI" URL="../../Test VIs Task_Manager/Reentrant VI.vi"/>
-			<Item Name="Reentrant VI.vit" Type="VI" URL="../../Test VIs Task_Manager/Reentrant VI.vit"/>
+			<Item Name="Normal VI.vi" Type="VI" URL="../Test VIs_LVTM/Normal VI.vi"/>
+			<Item Name="Parallel VIs Launcher.vi" Type="VI" URL="../Test VIs_LVTM/Parallel VIs Launcher.vi"/>
+			<Item Name="Reentrant VI.vi" Type="VI" URL="../Test VIs_LVTM/Reentrant VI.vi"/>
+			<Item Name="Reentrant VI.vit" Type="VI" URL="../Test VIs_LVTM/Reentrant VI.vit"/>
 		</Item>
 		<Item Name="Main_LVTM" Type="Folder">
-			<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../../LabVIEW Task Manager.vi"/>
-			<Item Name="Task Manager Menu.rtm" Type="Document" URL="../../Task Manager Menu.rtm"/>
+			<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../LabVIEW Task Manager.vi"/>
+			<Item Name="Task Manager Menu.rtm" Type="Document" URL="../Task Manager Menu.rtm"/>
 		</Item>
 		<Item Name="Project_LVTM" Type="Folder">
 			<Item Name="License.txt" Type="Document" URL="../License.txt"/>
 			<Item Name="Task Manager.aliases" Type="Document" URL="../Task Manager.aliases"/>
 			<Item Name="Task Manager.lvlps" Type="Document" URL="../Task Manager.lvlps"/>
 			<Item Name="Release Notes.txt" Type="Document" URL="../Release Notes.txt"/>
-			<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../../Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
+			<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
