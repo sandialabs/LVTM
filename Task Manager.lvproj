@@ -67,13 +67,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Error Task_Manager" Type="Folder">
+		<Item Name="Error_LVTM" Type="Folder">
 			<Item Name="Error Task_Manager Class" Type="Folder"/>
 			<Item Name="Error Task_Manager Library" Type="Folder">
 				<Item Name="Error Task Manager.lvlib" Type="Library" URL="../../Error Task_Manager/Error Task_Manager Library/Error Task Manager.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="VIs Task_Manager" Type="Folder">
+		<Item Name="VIs_LVTM" Type="Folder">
 			<Item Name="FindName Task_Manager Library" Type="Folder">
 				<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../../VIs Task_Manager/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
 			</Item>
@@ -96,12 +96,7 @@
 			<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../../VIs Task_Manager/Sort Tree Items by Numerical order.vi"/>
 			<Item Name="Update AppInst Ring.vi" Type="VI" URL="../../VIs Task_Manager/Update AppInst Ring.vi"/>
 		</Item>
-		<Item Name="Project Task_Manager" Type="Folder">
-			<Item Name="License.txt" Type="Document" URL="../License.txt"/>
-			<Item Name="Task Manager.aliases" Type="Document" URL="../Task Manager.aliases"/>
-			<Item Name="Task Manager.lvlps" Type="Document" URL="../Task Manager.lvlps"/>
-		</Item>
-		<Item Name="Test VIs Task_Manager" Type="Folder">
+		<Item Name="TestVIs_LVTM" Type="Folder">
 			<Item Name="Test Class" Type="Folder">
 				<Item Name="Test Class.lvclass" Type="LVClass" URL="../../Test VIs Task_Manager/Test Class/Test Class.lvclass"/>
 			</Item>
@@ -110,9 +105,16 @@
 			<Item Name="Reentrant VI.vi" Type="VI" URL="../../Test VIs Task_Manager/Reentrant VI.vi"/>
 			<Item Name="Reentrant VI.vit" Type="VI" URL="../../Test VIs Task_Manager/Reentrant VI.vit"/>
 		</Item>
-		<Item Name="Main Task_Manager" Type="Folder">
-			<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../../Main Task_Manager/LabVIEW Task Manager.vi"/>
-			<Item Name="Task Manager Menu.rtm" Type="Document" URL="../../Main Task_Manager/Task Manager Menu.rtm"/>
+		<Item Name="Main_LVTM" Type="Folder">
+			<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../../LabVIEW Task Manager.vi"/>
+			<Item Name="Task Manager Menu.rtm" Type="Document" URL="../../Task Manager Menu.rtm"/>
+		</Item>
+		<Item Name="Project_LVTM" Type="Folder">
+			<Item Name="License.txt" Type="Document" URL="../License.txt"/>
+			<Item Name="Task Manager.aliases" Type="Document" URL="../Task Manager.aliases"/>
+			<Item Name="Task Manager.lvlps" Type="Document" URL="../Task Manager.lvlps"/>
+			<Item Name="Release Notes.txt" Type="Document" URL="../Release Notes.txt"/>
+			<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../../Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -126,6 +128,7 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -157,27 +160,27 @@
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Error Task_Manager</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Error_LVTM</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Main Task_Manager</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/VIs Task_Manager</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/VIs_LVTM</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Project Task_Manager</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Test VIs Task_Manager</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/TestVIs_LVTM</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>

@@ -6,3 +6,4 @@
 .viobj
 syntax: glob
 **.bak
+_LVTM_2010/*
