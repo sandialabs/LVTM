@@ -1,14 +1,14 @@
-**TimVargo on 06/05/2014 (LabVIEW 2010)**
-* Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements.
-* Added comments to several VIs, especially to clarify the complex process of finding ALL clones.
-* Added linefeed chars within the error dialog
-* Optimized "Get Properties" to optionally retrieve only the properties that might have changed; yields better performance.
-* Fixed bug where custom probes would cause errors in "Compare Two Paths" VI.
-* In project, converted self-populating folders to virtual folders, and shortened their names.
-* In folder hierarchy, moved some files back out to project root, instead of in "Main Task_Manager" and "Project_Task Manager"; due to some problems encountered with LV save for previous, and the VSI TSVN toolkit.
-* Added a test case to "Parallel VIs Launcher"
+**TimVargo on 05/07/2014 (LabVIEW 2010)**
 * Inserted "Generate Clone Name", as supplied by AristosQueue, to fix incompatibility w/ LV2013 clone enumeration.  See <https://decibel.ni.com/content/message/58984#58984>
+* Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements.
+* Fixed bug where custom probes would cause errors in "Compare Two Paths" VI.
 * Refreshing now includes a re-check for new app instances
+* Optimized "Get Properties" to optionally retrieve only the properties that might have changed; yields better performance.
+* Added some linefeed chars to the error dialog messages
+* In project, converted self-populating folders to virtual folders, and shortened their names.
+* In folder hierarchy, shortened some folder names, and moved some files back out to project root, instead of in "Main Task_Manager" and "Project_Task Manager"; due to some problems encountered with LV Save for Previous Version, and the VSI TSVN toolkit.
+* Added a test case to "Parallel VIs Launcher"
+* Added several comments to several VIs
 * Built a VIP package for tool installation -- to be accomplished using VIPM
 * This tool can now be invoked from LV's main "Tools" menu
 
