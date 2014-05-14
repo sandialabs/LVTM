@@ -95,7 +95,8 @@
 			<Item Name="Resume VI.vi" Type="VI" URL="../VIs_LVTM/Resume VI.vi"/>
 			<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs_LVTM/Sort Tree Items by Numerical order.vi"/>
 			<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
-			<Item Name="MsgBox.vi" Type="VI" URL="../VIs_LVTM/MsgBox.vi"/>
+			<Item Name="MsgBox_Win.vi" Type="VI" URL="../VIs_LVTM/MsgBox_Win.vi"/>
+			<Item Name="MsgBox_LV.vi" Type="VI" URL="../VIs_LVTM/MsgBox_LV.vi"/>
 		</Item>
 		<Item Name="TestVIs_LVTM" Type="Folder">
 			<Item Name="Test Class" Type="Folder">
@@ -131,6 +132,7 @@
 				<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="../../../../../../../../Windows/System32/user32.dll"/>
+			<Item Name="Wait For LACK OF Front Panel Activity.vi" Type="VI" URL="../VIs_LVTM/FindName Task_Manager Library/Wait For LACK OF Front Panel Activity.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Source Distribution" Type="Source Distribution">
