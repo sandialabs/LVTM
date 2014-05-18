@@ -95,6 +95,7 @@
 			<Item Name="Resume VI.vi" Type="VI" URL="../VIs_LVTM/Resume VI.vi"/>
 			<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs_LVTM/Sort Tree Items by Numerical order.vi"/>
 			<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
+			<Item Name="Wait For LACK OF Front Panel Activity.vi" Type="VI" URL="../VIs_LVTM/FindName Task_Manager Library/Wait For LACK OF Front Panel Activity.vi"/>
 		</Item>
 		<Item Name="TestVIs_LVTM" Type="Folder">
 			<Item Name="Test Class" Type="Folder">
