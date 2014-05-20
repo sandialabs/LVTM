@@ -120,6 +120,7 @@
 			<Item Name="MsgBox_LV.vi" Type="VI" URL="../Utils_LVTM/MsgBox_LV.vi"/>
 			<Item Name="MsgBox_Win.vi" Type="VI" URL="../Utils_LVTM/MsgBox_Win.vi"/>
 			<Item Name="Wait For LACK OF Front Panel Activity.vi" Type="VI" URL="../Utils_LVTM/Wait For LACK OF Front Panel Activity.vi"/>
+			<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
