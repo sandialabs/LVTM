@@ -14,8 +14,9 @@ To contribute code modifications to this tool:
 * At strategic points during your development PUSH your committed changesets from your local repository to your fork on Bitbucket.
 * Use this site on Bitbucket to ask for help with testing and code reviews of your modifications.
 * When your mods are ready to publish, issue a "PULL request".
-* Create and submit a VIPM package if you can, otherwise ask someone here to create that for you.
-* Also submit that same VIPM package to the LAVA Code Repository (LAVAcr).  The URL is <[TBD]>.
+* Create a VIPM package if you can, otherwise ask someone here to create that for you.
+* Publish the VIPM package to [this tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads).
+* Also publish that same VIPM package to the LAVA Code Repository (LAVAcr).  The URL is <[TBD]>.
 
 ###What Is the LabVIEW Task Manager ?###
 LabVIEW Task Manager is a debugging tool for use during development.  A tree diagram displays detailed information on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and has the following features: 
