@@ -11,7 +11,7 @@ To contribute code modifications to this tool:
 * First create your own personal fork of the main code repository on Bitbucket.
 * Use Mercurial to PULL files from your fork on Bitbucket into your local repository on your computer.
 * Write and test your code, making frequent commits to your local repository.
-* At strategic points during your development PUSH your committed changesets from your local repository to your fork on Bitbucket.
+* At strategic points during your development, PUSH your committed changesets from your local repository to your fork on Bitbucket.
 * Use this site on Bitbucket to ask for help with testing and code reviews of your modifications.
 * When your mods are ready to publish, issue a "PULL request".
 * Create a VIPM package if you can, otherwise ask someone here to create that for you.
