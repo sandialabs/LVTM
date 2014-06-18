@@ -50,4 +50,4 @@ To contribute code modifications to this tool:
 * Publish the VIPM package to [this tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads).
 * Also publish that same VIPM package to the LAVA Code Repository (LAVAcr).  The URL is <[TBD]>.
 
-######This application was originally authored by Ravi Beniwal, with code contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, and TimVargo.  Packaged by TimVargo.######
+######This application was originally authored by Ravi Beniwal, and now includes code contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, and TimVargo.  Packaged by TimVargo.######
