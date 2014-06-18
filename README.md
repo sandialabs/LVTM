@@ -1,7 +1,7 @@
 ## README ##
 
 ###What Is the LabVIEW Task Manager ?###
-LabVIEW Task Manager is a debugging tool for use during LabVIEW(R) code development.  A tree diagram displays detailed information on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and has the following features: 
+LabVIEW Task Manager is a debugging tool for use during LabVIEW(R) code development.  An expandable/collapsible tree diagram displays detailed information on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and has the following features: 
 
 * Windows Task Manager style menu with Update Speed and Refresh Now
 * Selection of project/target
