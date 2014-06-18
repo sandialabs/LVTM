@@ -15,7 +15,7 @@ To contribute code modifications to this tool:
 * Use this site on Bitbucket to ask for help with testing and code reviews of your modifications.
 * When your mods are ready to publish, issue a "PULL request".
 * Create and submit a VIPM package if you can, otherwise ask someone here to create that for you.
-* Also submit that same VIPM package to the LAVA Code Repository (LAVAcr).  The URL is <TBD>.
+* Also submit that same VIPM package to the LAVA Code Repository (LAVAcr).  The URL is <[TBD]>.
 
 ###What Is the LabVIEW Task Manager ?###
 LabVIEW Task Manager is a debugging tool for use during development.  A tree diagram displays detailed information on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and has the following features: 
@@ -41,6 +41,14 @@ LabVIEW Task Manager is a debugging tool for use during development.  A tree dia
 * Select multiple VIs and Abort
 
 ###How Do I Use It ?###
-During LabVIEW code development, invoke the LabVIEW Task Manager from your main "Tools" menu.  Use the "App Instance" drop-down to select which of your loaded projects/targets to work with.  A tree diagram will show detailed information on all VIs in memory.  You may interacting with single or multiple selected VIs at a time.
+During LabVIEW code development, invoke the LabVIEW Task Manager from your main "Tools" menu.  Use the "App Instance" drop-down to select which of your loaded projects/targets you wish to debug.  A tree diagram will show detailed information on all VIs in memory.  You may interacting with single or multiple selected VIs at a time.
+
+####Helper Functions####
+There are helper functions available to assist with your debugging effort, and these are made available from the pallets [describe where].
+
+* ####Pause####
+The Pause function allows for initiating a pause from within any VI on some condition.  Just drop this VI in a case structure after your custom probe condition evaluation.  It will only work if the task manager is open.  If the pause request is generated from a clone of a reentrant VI, it will pause all clones of that VI.
+* ####Cloned VIs####
+Asynchronously called reentrant VIs cannot normally be seen by the LabVIEW Task Manager, because they run in their own treads, independent of the rest of the project.  This function remedies that problem.  Just drop the "Cloned VIs" Functional Global VI into any asynchronously called reentrant VI, to force it to be seen by LabVIEW Task Manager.  There is no need to drop this into a statically called reentrant VI, because these are already searched for by the tool.  When the reentrant clone is created and run, it will add its name to this Functional Global.  LabVIEW Task Manager will now display "All VIs in Memory" AND the ones in this FG.  Leaving this FG in your VI, even when deploying your application, will not effect the performance; as it is merely an array of a few strings.
 
 ######Application authored by Ravi Beniwal, with code contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, and TimVargo.  Packaged by TimVargo######
