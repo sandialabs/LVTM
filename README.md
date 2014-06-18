@@ -6,7 +6,16 @@ This code repository holds the LabVIEW(R) source code for the **LabVIEW Task Man
 To install this tool for your own use, simply download and install its package (lava_lib_labview_task_manager-x.x.x.x) using VIPM.  LabVIEW 2010 and up are supported -- (at the time of this writing, LabVIEW 2013 is the most recent release).
 
 ###Contributing New Features###
-To contribute code modifications to this tool, first use Mercurial to fork your own copy of the main code repository.  Use this Bitbucket site to ask for help with testing and code reviews of your modifications.  When your mods are ready to publish, issue a "pull request".  Include a VIPM package if you can, otherwise ask someone here to do that for you.
+To contribute code modifications to this tool: 
+
+* First use Mercurial to create your own personal fork of the main code repository. Your fork still resides on Bitbucket.
+* Use Mercurial to PULL files from your fork on Bitbucket into your local repository on your computer.
+* Write and test your code, making frequent commits to your local repository.
+* At strategic points during your development PUSH your committed changesets from your local repository to your fork on Bitbucket.
+* Use this site on Bitbucket to ask for help with testing and code reviews of your modifications.
+* When your mods are ready to publish, issue a "PULL request".
+* Create and submit a VIPM package if you can, otherwise ask someone here to create that for you.
+* Also submit that same VIPM package to the LAVA Code Repository (LAVAcr).
 
 ###What Is the LabVIEW Task Manager ?###
 LabVIEW Task Manager is a debugging tool for use during development.  A tree diagram displays detailed information on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and has the following features: 
