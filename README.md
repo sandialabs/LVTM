@@ -13,7 +13,7 @@ To contribute code modifications to this tool:
 * Write and test your code, making frequent commits to your local repository.
 * At strategic points during your development, PUSH your committed changesets from your local repository to your fork on Bitbucket.
 * Use this site on Bitbucket to ask for help with testing and code reviews of your modifications.
-* When your mods are ready to publish, issue a "PULL request".
+* When your mods are ready to publish, issue a "PULL request".  Once the request is approved, your personal fork will be merged back into the main branch.
 * Create a VIPM package if you can, otherwise ask someone here to create that for you.
 * Publish the VIPM package to [this tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads).
 * Also publish that same VIPM package to the LAVA Code Repository (LAVAcr).  The URL is <[TBD]>.
