@@ -1,6 +1,4 @@
 ## README ##
-###What is this repository for?###
-This code repository holds the LabVIEW(R) source code for the _**LabVIEW Task Manager**_ tool.
 
 ###What Is the LabVIEW Task Manager ?###
 LabVIEW Task Manager is a debugging tool for use during development.  A tree diagram displays detailed information on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and has the following features: 
