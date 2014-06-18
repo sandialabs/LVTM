@@ -1,8 +1,8 @@
-# README #
+## README ##
 ###What is this repository for?###
-This code repository holds the LabVIEW source code for the **LabVIEW Task Manager** tool.  For tool installation, there is also a VIPM package available.
+This code repository holds the LabVIEW(R) source code for the **LabVIEW Task Manager** tool.
 
-###Installation###
+###Tool Installation###
 To install this tool for your own use, simply download and install its package (lava_lib_labview_task_manager-x.x.x.x) using VIPM.  LabVIEW 2010 and up are supported -- (at the time of this writing, LabVIEW 2013 is the most recent release).
 
 ###Contributing New Features###
