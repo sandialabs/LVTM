@@ -41,7 +41,7 @@ LabVIEW Task Manager is a debugging tool for use during development.  A tree dia
 * Select multiple VIs and Abort
 
 ###How Do I Use It ?###
-During LabVIEW code development, invoke the LabVIEW Task Manager from your main "Tools" menu.  Use the "App Instance" drop-down to select which of your loaded projects/targets you wish to debug.  A tree diagram will show detailed information on all VIs in memory.  You may interacting with single or multiple selected VIs at a time.
+During LabVIEW code development, invoke the LabVIEW Task Manager from your main "Tools" menu.  Use the "App Instance" drop-down to select which of your loaded projects/targets you wish to manage.  A tree diagram will show detailed information on all VIs in memory.  You may interacting with single or multiple selected VIs at a time.
 
 ####Helper Functions####
 There are helper functions available to assist with your debugging effort, and these are made available from the pallets [describe where].
