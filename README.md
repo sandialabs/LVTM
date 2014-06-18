@@ -34,8 +34,6 @@ The Pause function allows for initiating a pause from within any VI on some cond
 * ####Cloned VIs####
 Asynchronously called reentrant VIs are not normally be seen by the LabVIEW Task Manager, because they run in their own threads, independent from the rest of the project.  This function remedies that problem.  Just drop the "Cloned VIs" Functional Global VI into any asynchronously called reentrant VI, to force it to be seen by LabVIEW Task Manager.  There is no need to drop this into a statically called reentrant VI, because these are already searched for by the tool.  When the reentrant clone is created and run, it will add its name to this Functional Global.  LabVIEW Task Manager will now display "All VIs in Memory" AND the ones in this FG.  Leaving this FG in your VI, even when deploying your application, will not effect the performance; as it is merely an array of a few strings.
 
-######Application authored by Ravi Beniwal, with code contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, and TimVargo.  Packaged by TimVargo######
-
 ###Tool Installation###
 To install this tool for your own use, simply download its VIPM package from [the tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads), then install the package (lava_lib_labview_task_manager-x.x.x.x) using [VI Package Manager](http://jki.net/vipm).  LabVIEW 2010 and up are supported -- (at the time of this writing, LabVIEW 2013 is the most recent release).
 
@@ -51,3 +49,5 @@ To contribute code modifications to this tool:
 * Create a VIPM package if you can, otherwise ask someone here to create that for you.
 * Publish the VIPM package to [this tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads).
 * Also publish that same VIPM package to the LAVA Code Repository (LAVAcr).  The URL is <[TBD]>.
+
+######This application was originally authored by Ravi Beniwal, with code contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, and TimVargo.  Packaged by TimVargo######
