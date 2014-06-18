@@ -15,7 +15,7 @@ To contribute code modifications to this tool:
 * Use this site on Bitbucket to ask for help with testing and code reviews of your modifications.
 * When your mods are ready to publish, issue a "PULL request".
 * Create and submit a VIPM package if you can, otherwise ask someone here to create that for you.
-* Also submit that same VIPM package to the LAVA Code Repository (LAVAcr).
+* Also submit that same VIPM package to the LAVA Code Repository (LAVAcr).  The URL is <TBD>.
 
 ###What Is the LabVIEW Task Manager ?###
 LabVIEW Task Manager is a debugging tool for use during development.  A tree diagram displays detailed information on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and has the following features: 
@@ -41,6 +41,6 @@ LabVIEW Task Manager is a debugging tool for use during development.  A tree dia
 * Select multiple VIs and Abort
 
 ###How Do I Use It ?###
-During LabVIEW code development, invoke the LabVIEW Task Manager from your main "Tools" menu.  Use the "App Instance" drop-down to select which of your loaded projects to work with.  A tree diagram will show detailed information on all VIs in memory.  You may interacting with single or multiple selected VIs at a time.
+During LabVIEW code development, invoke the LabVIEW Task Manager from your main "Tools" menu.  Use the "App Instance" drop-down to select which of your loaded projects/targets to work with.  A tree diagram will show detailed information on all VIs in memory.  You may interacting with single or multiple selected VIs at a time.
 
 ######Application authored by Ravi Beniwal, with code contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, and TimVargo.  Packaged by TimVargo######
