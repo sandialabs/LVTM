@@ -40,7 +40,7 @@ To install this tool for your own use, simply download its VIPM package from [th
 ###Contributing New Features###
 To contribute code modifications to this tool: 
 
-* First create your own personal fork of the main code repository on Bitbucket.
+* First [create your own personal fork](https://bitbucket.org/lavag/labview-task-manager/fork) of the main code repository on Bitbucket.
 * Use Mercurial to PULL files from your fork on Bitbucket into your local repository on your computer.
 * Write and test your code, making frequent commits to your local repository.
 * At strategic points during your development, PUSH your committed changesets from your local repository to your fork on Bitbucket.
