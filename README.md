@@ -27,7 +27,7 @@ _LabVIEW Task Manager_ is a debugging tool for use during LabVIEW(R) code develo
 During LabVIEW(R) code development, invoke the LabVIEW Task Manager from your main "Tools" menu.  Use the "App Instance" drop-down to select which of your loaded projects/targets you wish to manage.  A tree diagram will show detailed information on all VIs in memory.  You may interact with single or multiple selected VIs at a time.
 
 ####Helper Functions####
-There are helper functions available to assist with your debugging effort, and these are made available from the pallets [describe where].
+There are helper functions available to assist with your debugging effort, and these are made available from Functions Palette > Addons > LAVA > LabVIEW Task Manager.
 
 * ####Pause####
 The Pause function allows for initiating a pause from within any VI on some condition.  Just drop this VI in a case structure after your custom probe condition evaluation.  It will only work if the task manager is open.  If the pause request is generated from a clone of a reentrant VI, it will pause all clones of that VI.
