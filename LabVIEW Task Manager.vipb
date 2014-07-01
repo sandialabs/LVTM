@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2014-06-22 13:14:14" Creator="Timothy D. Vargo" Comments="" ID="f1219590f1b7b2051b8cb707d9418110">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2014-06-30 18:34:23" Creator="Timothy D. Vargo" Comments="" ID="46379db4b9359be977700082c691c68e">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.7.0.27</Library_Version>
+    <Library_Version>1.7.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..\_LVTM_LV2010</Library_Source_Folder>
     <Library_Output_Folder>..\..</Library_Output_Folder>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>lava_rsc_lava_palette &gt;=1.0.0.1</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -53,10 +55,10 @@
       <Copyright>Copyright (c) 2011-2014, Ravi Beniwal</Copyright>
       <Packager>Ravi Beniwal (packaged by TimVargo)</Packager>
       <URL>https://bitbucket.org/lavag/labview-task-manager</URL>
-      <Release_Notes>19-Jun-2014 -- Initial release of VIPM package
+      <Release_Notes>30-Jun-2014 -- Initial release of VIPM package
 Changes from version R6: 
 * Versioning format changed from Rx to Major.Minor.Fix/Bug.Build
-* Inserted "Generate Clone Name", as supplied by AristosQueue, to fix incompatibility w/ LV2013 clone enumeration.  See &lt;https://decibel.ni.com/content/message/58984#58984&gt;
+* Inserted "Generate Clone Name", as supplied by Aristos Queue, to fix incompatibility w/ LV2013 clone enumeration.  See &lt;https://decibel.ni.com/content/message/58984#58984&gt;
 * Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements.
 * Fixed bug where custom probes would cause errors in "Compare Two Paths" VI.
 * Refreshing now includes a re-check for new app instances
@@ -150,9 +152,6 @@ Changes from version R6:
       </Namespace_Overrides>
       <Exclusions>
         <Path>_builds</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>_SfPV_proj</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\WrkDirs\LVTM_find-filter\License.txt</License_Agreement_Filepath>
@@ -269,7 +268,7 @@ Changes from version R6:
         <Path>..\..\_LVTM_LV2010\VIs_LVTM</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA078BC63ED37A6A71B7523746E8D514</GUID>
+      <GUID>F06FBDDB4715BA94A1EECDA9596A4ECE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -360,7 +359,7 @@ Changes from version R6:
         <Path>..\..\_LVTM_LV2010\Test VIs_LVTM\Reentrant VI.vit</Path>
         <VI_Title>Reentrant VI.vit</VI_Title>
       </Items_Data>
-      <GUID>8397CFC90EAB525DA97AE4FE4EAD0A9E</GUID>
+      <GUID>47105B5D5F4263E8A32D2E1FC2C7C60B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -409,7 +408,7 @@ Changes from version R6:
         <Path>..\..\_LVTM_LV2010\VIs_LVTM\Pause.vi</Path>
         <VI_Title>Pause.vi</VI_Title>
       </Items_Data>
-      <GUID>2D5B05E761ECF00B12072A6AF03BC43B</GUID>
+      <GUID>AFF776FA6B005EA7760816C1F1CB2297</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -458,7 +457,7 @@ Changes from version R6:
         <Path>..\..\_LVTM_LV2010\Test VIs_LVTM\Test Class\Write Numeric.vi</Path>
         <VI_Title>Write Numeric.vi</VI_Title>
       </Items_Data>
-      <GUID>5967BB5194524D345D14E571298E0A88</GUID>
+      <GUID>67BC4230908A22F29107E2B0D08D1DEE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
