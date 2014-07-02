@@ -48,6 +48,6 @@ To contribute code modifications to this tool:
 * When your mods are ready to publish, issue a "PULL request".  Once the request is approved, your personal fork will be merged back into the main branch.
 * Create a VIPM package if you can, otherwise ask someone here to create that for you.
 * Publish the VIPM package to [this tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads).
-* Also publish that same VIPM package to the LAVA Code Repository (LAVAcr).  The URL is <[TBD]>.
+* Also publish that same VIPM package to the LAVA Code Repository.  The LAVAcr for this project is at <[http://lavag.org/files/file/245-labview-task-manager](http://lavag.org/files/file/245-labview-task-manager)>.
 
 ######This application was originally authored by Ravi Beniwal, and now includes code contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, and TimVargo.  Packaged by TimVargo.######
