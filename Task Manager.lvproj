@@ -115,6 +115,8 @@
 			<Item Name="Task Manager.lvlps" Type="Document" URL="../Task Manager.lvlps"/>
 			<Item Name="Release Notes.txt" Type="Document" URL="../Release Notes.txt"/>
 			<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
+			<Item Name="readme.bb.txt" Type="Document" URL="../readme.bb.txt"/>
+			<Item Name="readme.txt" Type="Document" URL="../readme.txt"/>
 		</Item>
 		<Item Name="Utils_LVTM" Type="Folder">
 			<Item Name="MsgBox_LV.vi" Type="VI" URL="../Utils_LVTM/MsgBox_LV.vi"/>
