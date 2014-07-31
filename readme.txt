@@ -46,7 +46,9 @@ a time, and has the following features:
  * Select multiple VIs and Abort
 
 Installation and instructions:
-Install this tool by using VIPM to install its package file (.vip).
+Install this tool by using the VI Package Manager to install its associated 
+package file (.vip).  VIPM 2014 or higher is required, and is available for 
+free from <http://jki.net/vipm>.
 
 Known Issues:
  * Cannot abort SubVIs launched from remote VI Server and local Asynch Call By Ref

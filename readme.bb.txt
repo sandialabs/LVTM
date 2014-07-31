@@ -50,7 +50,9 @@ a time, and has the following features:
 [/LIST]
  
 [b]Installation and instructions:[/b]
-Install this tool by using VIPM to install its package file (.vip).
+Install this tool by using the VI Package Manager to install its associated 
+package file (.vip).  VIPM 2014 or higher is required, and is available for 
+free from [url=http://jki.net/vipm]jki.net/vipm[/url].
 
 [b]Known Issues:[/b]
 [LIST]
