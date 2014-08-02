@@ -19,11 +19,11 @@ LV2010, LV2013
 
 [b]Dependencies:[/b]
 [LIST]
-[*]LAVA Palette[/*]
+[*]LAVA Palette v1.0.0.1[/*]
 [/LIST]
 
 [b]Description:[/b]
-[b]LabVIEW Task Manager[/b] is a debugging tool for use during development.  A tree
+[i]LabVIEW Task Manager[/i] is a debugging tool for use during development.  A tree
 diagram displays detailed information on all VIs in memory, belonging to a selected
 project/target.  It allows for interacting with single or multiple selected VIs at
 a time, and has the following features:
