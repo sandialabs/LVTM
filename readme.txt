@@ -18,7 +18,7 @@ LabVIEW Versions Tested on:
 LV2010, LV2013
 
 Dependencies:
- * LAVA Palette
+ * LAVA Palette v1.0.0.1
 
 Description:
 LabVIEW Task Manager is a debugging tool for use during development.  A tree 
