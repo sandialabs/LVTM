@@ -4,3 +4,6 @@
 .lvlps$
 .aliases$
 .viobj
+syntax: glob
+**.bak
+_LVTM_2010/*
