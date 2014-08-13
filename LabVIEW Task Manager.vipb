@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2014-07-10 13:28:53" Creator="Timothy D. Vargo" Comments="" ID="3bfc2ca53efbbda4e4332a378c33c2c9">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2014-08-13 11:43:40" Creator="Timothy D. Vargo" Comments="" ID="4258edbf83da55f86b19e48001e1ec6d">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
     <Library_Version>1.7.0.29</Library_Version>
@@ -154,7 +154,7 @@ Plus changes from version R6:
         <Path>_builds</Path>
       </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath>..\WrkDirs\LVTM_find-filter\License.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>License.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -268,7 +268,7 @@ Plus changes from version R6:
         <Path>..\..\_LVTM_LV2010\VIs_LVTM</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6180CEA7889AA3E158B4CF1C60006DC</GUID>
+      <GUID>4C20185DAECFA9D11CADB2E03EAA4CB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -359,7 +359,7 @@ Plus changes from version R6:
         <Path>..\..\_LVTM_LV2010\Test VIs_LVTM\Reentrant VI.vit</Path>
         <VI_Title>Reentrant VI.vit</VI_Title>
       </Items_Data>
-      <GUID>C28D72EBA882CED3BC7ACD0286267DEF</GUID>
+      <GUID>6679A49EDE22A998F2278A5C25362DC1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -408,7 +408,7 @@ Plus changes from version R6:
         <Path>..\..\_LVTM_LV2010\VIs_LVTM\Pause.vi</Path>
         <VI_Title>Pause.vi</VI_Title>
       </Items_Data>
-      <GUID>FC70DCC94A9EA33C2316BC46F34B4C4F</GUID>
+      <GUID>DC88668C5B26FAAFD8BE79552FE4DB29</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -457,7 +457,7 @@ Plus changes from version R6:
         <Path>..\..\_LVTM_LV2010\Test VIs_LVTM\Test Class\Write Numeric.vi</Path>
         <VI_Title>Write Numeric.vi</VI_Title>
       </Items_Data>
-      <GUID>30314D9C59BDDA1841161FC7F1C31800</GUID>
+      <GUID>BFF71F7F4996FFDDF3217CEA7C94E335</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
