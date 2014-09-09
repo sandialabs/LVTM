@@ -1,12 +1,14 @@
 X Add tip strips in appropriate places, including the control for "Search Clones Up To".  This needs to explain what kinds of clones won't and will be searched for.
 X Make the tool accessible from the LV "Tools" menu.
 X Refresh should include re-checking for new app instances.
-* BUG: As of R6, item type filtering is applied early in the discovery process, causing items to not get properly filtered once the next two of three "find all clones" VIs are called (they are inserted back in again).
+* BUG: As of R6, item type filtering is applied early in the discovery process, causing items to not get properly filtered once the next two of three "find all clones" VIs are called (they are inserted back in again).  According to <http://lavag.org/topic/14921-labview-task-manager/page-2#entry89848>, the Find Clones VI was intended to "be inserted into the list of VIs after filtering".
 * BUG: Trap error when any operation (Open, Close, Hilite, Pause, etc.) is attempted on a library.
 * The LVTM "Regression Tests" VIs are located below the vi.lib folder, and are thus excluded from view in LVTM, unless the exclude option (on by default) is turned off.  Configure the build-spec to place these VIs elsewhere.
+* Add an "All" option to the "Application Instance" dropdown selector.  This will help with use cases where multiple projects are related to each other, such as server/clients that run in individual app instances.
 * Add to the readme file "What use cases would this tool help me with?"
 * Add logging to error file.
 * The collapsed/expanded state of each library in the list should persist after a refresh operation.
+* Automate the refresh function, so that F5 need not be pressed.  Spawn an independent process that continuously determines "All VIs in Memory", compares that list with a cached list of the previous results, and sends the refreshed list to its caller VI ONLY IF a change is detected.
 * Prevent ability to attempt abort on a subVI (these cannot be aborted).  Gray out?
 * Finish the find & filter functions.
 * Show a count of all items in tree, observing the file type filters.  Show this value in the existing subpanel.
@@ -31,6 +33,7 @@ X Refresh should include re-checking for new app instances.
 * Right-click options as alternate ways to perform current button functions.  Needs to work with multiple selections as well as single.
 * Consider reversing the logic of the item type filters, for consistency.  Currently these are checked to EXCLUDE the associated type, but this is the opposite logic to that used in the VI Hierarchy view, where item types are selected to be INCLUDED.
 * For "Clone VIs FG", consider making the "Add Calling VI" case the default case.  See comment in that VI.
+* Track start-stop and runtime <http://lavag.org/topic/14921-labview-task-manager/?p=89522>.
 * Include a column that lists each VI's Caller.  Inspired by SJ_Buddy: <http://lavag.org/topic/14921-labview-task-manager/?p=105474>
 * This entire tool deserves a nice custom icon!
 * Could the inability to Abort SubVIs be solved by automating a process that would: 

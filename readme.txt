@@ -31,8 +31,8 @@ a time, and has the following features:
  * Searches for statically referenced clones
  * DropIn VI for including ACBR reentrant clones
  * Refresh Now (F5) reads all VIs from memory and adds them to the tree
- * Displays VI name, owning class/library, state, path, data size &amp; code size
- * Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? &amp; Highlight?
+ * Displays VI name, owning class/library, state, path, data size & code size
+ * Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? & Highlight?
  * Sort by any column, including by library name
  * Filter by item types vi, ctl, and vit/ctt
  * Filter out vi.lib and global VIs
@@ -40,9 +40,8 @@ a time, and has the following features:
  * Tracking of paused VIs with ability to Pause/Resume/TogglePause all selected VIs
  * DropIn VI for pausing on a condition
  * If a clone initiates a pause, a different pause symbol is used for that clone
- * Select multiple VIs and open their FP or BD
- * Double Click a VI from the tree to bring the FP or BD to front (if already open)
- * Select multiple VIs and close their FP or BD
+ * Select multiple VIs and open or close their FP or BD
+ * Double Click a VI from the tree to bring the BD (first choice) or FP to front, if already open
  * Select multiple VIs and Abort
 
 Installation and instructions:
@@ -79,7 +78,7 @@ modification, are permitted provided that the following conditions are met:
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of RBeniwal nor the
+    * Neither the name of RBeniwal, LAVA, nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
       
