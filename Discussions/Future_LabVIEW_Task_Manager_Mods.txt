@@ -12,8 +12,8 @@ X Refresh should include re-checking for new app instances.
 * Prevent ability to attempt abort on a subVI (these cannot be aborted).  Gray out?
 * Finish the find & filter functions.
 * Show a count of all items in tree, observing the file type filters.  Show this value in the existing subpanel.
-* Add a "Help" menu item
-** To fully comply with the BSD license terms, add a Help>About menu item, and include copyright info.
+* Add a "Help" menu item (see Ton Plomp's Code Capture Tool for a very nice implimentation of a multi-tabbed Help window).
+** To fully comply with the BSD license terms, add a Help>About menu item, and include copyright info (or in a separate tab).
 ** Add a Help>Support menu item, directing users to the LAVAcr page for LVTM Support <http://lavag.org/topic/18322-cr-labview-task-manager>.
 * Merge columns "Reentrant" and "Reentrancy Type" into one column with three possible modes: NotReentrant, Preallocated, Shared.
 * Cause a value of zero in "Search Clones Up To" to filter out all statically-referenced clones.  The goal is to display no MORE clones than this value.
