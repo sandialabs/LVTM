@@ -1,6 +1,7 @@
 X Add tip strips in appropriate places, including the control for "Search Clones Up To".  This needs to explain what kinds of clones won't and will be searched for.
 X Make the tool accessible from the LV "Tools" menu.
 X Refresh should include re-checking for new app instances.
+* The "Pause" VI impliments User Events internally, but developers using this tool should NOT wire to the Pause User Event terminals.  Mark these terminals as Connection Optional, and add some text to the VI description warning the developer to NOT wire these terminals.
 * BUG: As of R6, item type filtering is applied early in the discovery process, causing items to not get properly filtered once the next two of three "find all clones" VIs are called (they are inserted back in again).  According to <http://lavag.org/topic/14921-labview-task-manager/page-2#entry89848>, the Find Clones VI was intended to "be inserted into the list of VIs after filtering".
 * BUG: Trap error when any operation (Open, Close, Hilite, Pause, etc.) is attempted on a library.
 * The LVTM "Regression Tests" VIs are located below the vi.lib folder, and are thus excluded from view in LVTM, unless the exclude option (on by default) is turned off.  Configure the build-spec to place these VIs elsewhere.
@@ -18,6 +19,7 @@ X Refresh should include re-checking for new app instances.
 * Merge columns "Reentrant" and "Reentrancy Type" into one column with three possible modes: NotReentrant, Preallocated, Shared.
 * Cause a value of zero in "Search Clones Up To" to filter out all statically-referenced clones.  The goal is to display no MORE clones than this value.
 * Optimize performance: 
+** The "Hidden Gems in vi.lib" palette includes a "Tree Sorter" function.  Will this sort both alpha and numberically?  If so, consider replacing the existing "Sort Tree Items by Numerical order" project VI with this Hidden Gem.
 ** "May be use add multiple items to tree instead of adding each item individually" <http://lavag.org/topic/14921-labview-task-manager/?p=90037>
 ** Optimizations per Neil Pate: <http://lavag.org/topic/14921-labview-task-manager/?p=109249>
 ** Fixes/Enhancements per xceric: <http://lavag.org/topic/14921-labview-task-manager/?p=108665>
