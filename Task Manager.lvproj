@@ -119,10 +119,13 @@
 			<Item Name="readme.txt" Type="Document" URL="../readme.txt"/>
 		</Item>
 		<Item Name="Utils_LVTM" Type="Folder">
+			<Item Name="CtrlVITypeCounts.ctl" Type="VI" URL="../Utils_LVTM/CtrlVITypeCounts.ctl"/>
+			<Item Name="DiscoverTypeDefs.vi" Type="VI" URL="../Utils_LVTM/DiscoverTypeDefs.vi"/>
+			<Item Name="Wait For LACK OF Front Panel Activity.vi" Type="VI" URL="/&lt;userlib&gt;/TDV/Wait For LACK OF Front Panel Activity.vi"/>
 			<Item Name="MsgBox_LV.vi" Type="VI" URL="../Utils_LVTM/MsgBox_LV.vi"/>
 			<Item Name="MsgBox_Win.vi" Type="VI" URL="../Utils_LVTM/MsgBox_Win.vi"/>
-			<Item Name="Wait For LACK OF Front Panel Activity.vi" Type="VI" URL="../Utils_LVTM/Wait For LACK OF Front Panel Activity.vi"/>
 			<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
+			<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -136,6 +139,9 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="/&lt;userlib&gt;/TDV/U64 Millisecond Tick Count.vi"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="../../../../../../../../Windows/System32/user32.dll"/>
 		</Item>
