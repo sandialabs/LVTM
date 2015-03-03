@@ -126,6 +126,9 @@
 			<Item Name="MsgBox_Win.vi" Type="VI" URL="../Utils_LVTM/MsgBox_Win.vi"/>
 			<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
 			<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+			<Item Name="DiscoverCommonTypeDefCallers.vi" Type="VI" URL="../Utils_LVTM/DiscoverCommonTypeDefCallers.vi"/>
+			<Item Name="GetModificationsBitsets.vi" Type="VI" URL="../Utils_LVTM/GetModificationsBitsets.vi"/>
+			<Item Name="GetDependentTypeDefs.vi" Type="VI" URL="../Utils_LVTM/GetDependentTypeDefs.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -175,9 +178,6 @@
 				<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="/&lt;userlib&gt;/TDV/U64 Millisecond Tick Count.vi"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="../../../../../../../../Windows/System32/user32.dll"/>
-			<Item Name="DiscoverCommonTypeDefCallers.vi" Type="VI" URL="../Utils_LVTM/DiscoverCommonTypeDefCallers.vi"/>
-			<Item Name="GetModificationsBitsets.vi" Type="VI" URL="../Utils_LVTM/GetModificationsBitsets.vi"/>
-			<Item Name="GetDependentTypeDefs.vi" Type="VI" URL="../Utils_LVTM/GetDependentTypeDefs.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Source Distribution" Type="Source Distribution">
