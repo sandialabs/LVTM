@@ -175,7 +175,7 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="/&lt;userlib&gt;/TDV/U64 Millisecond Tick Count.vi"/>
+				<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="/&lt;userlib&gt;/TDV/_Safe Tick Count poly/U64 Millisecond Tick Count.vi"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="../../../../../../../../Windows/System32/user32.dll"/>
 		</Item>
