@@ -120,6 +120,7 @@
 		</Item>
 		<Item Name="Utils_LVTM" Type="Folder">
 			<Item Name="CtrlVITypeCounts.ctl" Type="VI" URL="../Utils_LVTM/CtrlVITypeCounts.ctl"/>
+			<Item Name="DependendentTypeDefswParents.ctl" Type="VI" URL="../Utils_LVTM/DependendentTypeDefswParents.ctl"/>
 			<Item Name="DiscoverTypeDefs.vi" Type="VI" URL="../Utils_LVTM/DiscoverTypeDefs.vi"/>
 			<Item Name="MsgBox_LV.vi" Type="VI" URL="../Utils_LVTM/MsgBox_LV.vi"/>
 			<Item Name="MsgBox_Win.vi" Type="VI" URL="../Utils_LVTM/MsgBox_Win.vi"/>
