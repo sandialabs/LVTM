@@ -119,19 +119,15 @@
 			<Item Name="readme.txt" Type="Document" URL="../readme.txt"/>
 		</Item>
 		<Item Name="Utils_LVTM" Type="Folder">
-			<Item Name="CtrlVITypeCounts.ctl" Type="VI" URL="../Utils_LVTM/CtrlVITypeCounts.ctl"/>
-			<Item Name="DependendentTypeDefswParents.ctl" Type="VI" URL="../Utils_LVTM/DependendentTypeDefswParents.ctl"/>
-			<Item Name="DiscoverTypeDefs.vi" Type="VI" URL="../Utils_LVTM/DiscoverTypeDefs.vi"/>
+			<Item Name="DiscoverCommonTypeDefCallers Library" Type="Folder">
+				<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
+			</Item>
 			<Item Name="MsgBox_LV.vi" Type="VI" URL="../Utils_LVTM/MsgBox_LV.vi"/>
 			<Item Name="MsgBox_Win.vi" Type="VI" URL="../Utils_LVTM/MsgBox_Win.vi"/>
 			<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
 			<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
-			<Item Name="DiscoverCommonTypeDefCallers.vi" Type="VI" URL="../Utils_LVTM/DiscoverCommonTypeDefCallers.vi"/>
-			<Item Name="GetModificationsBitsets.vi" Type="VI" URL="../Utils_LVTM/GetModificationsBitsets.vi"/>
-			<Item Name="GetDependentTypeDefs.vi" Type="VI" URL="../Utils_LVTM/GetDependentTypeDefs.vi"/>
 			<Item Name="Wait For LACK OF Front Panel Activity.vi" Type="VI" URL="../Utils_LVTM/Wait For LACK OF Front Panel Activity.vi"/>
 		</Item>
-		<Item Name="SelectAppRef.vi" Type="VI" URL="../Utils_LVTM/SelectAppRef.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
