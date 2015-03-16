@@ -131,6 +131,7 @@
 			<Item Name="GetDependentTypeDefs.vi" Type="VI" URL="../Utils_LVTM/GetDependentTypeDefs.vi"/>
 			<Item Name="Wait For LACK OF Front Panel Activity.vi" Type="VI" URL="../Utils_LVTM/Wait For LACK OF Front Panel Activity.vi"/>
 		</Item>
+		<Item Name="SelectAppRef.vi" Type="VI" URL="../Utils_LVTM/SelectAppRef.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
