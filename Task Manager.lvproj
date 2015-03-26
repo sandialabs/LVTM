@@ -171,30 +171,11 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Get Current__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get Current__v01.vi"/>
-				<Item Name="Item Properties__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Item Properties__v01.vi"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Tag Convert__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Tag Convert__v01.vi"/>
-				<Item Name="Tool - AllowUpdates__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Tool - AllowUpdates__v01.vi"/>
-				<Item Name="Tool - DeferUpdates__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Tool - DeferUpdates__v01.vi"/>
-				<Item Name="Item Remove__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Item Remove__v01.vi"/>
 				<Item Name="Item Add__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Item Add__v01.vi"/>
 				<Item Name="Get Children__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get Children__v01.vi"/>
-				<Item Name="Sub - Dialog - Create Key__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Sub - Dialog - Create Key__v01.vi"/>
-				<Item Name="Get Oldest__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get Oldest__v01.vi"/>
-				<Item Name="Item Modify__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Item Modify__v01.vi"/>
-				<Item Name="Tree Expand__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Tree Expand__v01.vi"/>
-				<Item Name="Tree Collapse__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Tree Collapse__v01.vi"/>
 				<Item Name="Get All__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get All__v01.vi"/>
 				<Item Name="Tree Empty__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Tree Empty__v01.vi"/>
-				<Item Name="Error OR__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Error OR__v01.vi"/>
-				<Item Name="States - INI Viewer__v01.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/States - INI Viewer__v01.ctl"/>
-				<Item Name="Utility - INI Viewer__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Utility - INI Viewer__v01.vi"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="../../../../../../../../Windows/System32/user32.dll"/>
 		</Item>
