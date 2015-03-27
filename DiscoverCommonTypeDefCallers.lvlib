@@ -7,11 +7,13 @@
 		<Item Name="CtrlVITypeCounts.ctl" Type="VI" URL="../Utils_LVTM/Controls/CtrlVITypeCounts.ctl"/>
 		<Item Name="DependendentTypeDefwParents.ctl" Type="VI" URL="../Utils_LVTM/Controls/DependendentTypeDefwParents.ctl"/>
 	</Item>
-	<Item Name="AnalyzeCommonTypeDefCallers.vi" Type="VI" URL="../Utils_LVTM/AnalyzeCommonTypeDefCallers.vi"/>
-	<Item Name="DiscoverCommonTypeDefCallers.vi" Type="VI" URL="../Utils_LVTM/DiscoverCommonTypeDefCallers.vi"/>
-	<Item Name="DiscoverTypeDefs.vi" Type="VI" URL="../Utils_LVTM/DiscoverTypeDefs.vi"/>
-	<Item Name="Filter &amp; Build DependentTypeDefs&amp;Parents.vi" Type="VI" URL="../Utils_LVTM/Filter &amp; Build DependentTypeDefs&amp;Parents.vi"/>
-	<Item Name="GetDependentTypeDefs.vi" Type="VI" URL="../Utils_LVTM/GetDependentTypeDefs.vi"/>
-	<Item Name="GetModificationsBitsets.vi" Type="VI" URL="../Utils_LVTM/GetModificationsBitsets.vi"/>
-	<Item Name="SelectAppInstance.vi" Type="VI" URL="../Utils_LVTM/SelectAppInstance.vi"/>
+	<Item Name="Methods" Type="Folder">
+		<Item Name="AnalyzeCommonTypeDefCallers.vi" Type="VI" URL="../Utils_LVTM/AnalyzeCommonTypeDefCallers.vi"/>
+		<Item Name="DiscoverCommonTypeDefCallers.vi" Type="VI" URL="../Utils_LVTM/DiscoverCommonTypeDefCallers.vi"/>
+		<Item Name="DiscoverTypeDefs.vi" Type="VI" URL="../Utils_LVTM/DiscoverTypeDefs.vi"/>
+		<Item Name="Filter &amp; Build DependentTypeDefs&amp;Parents.vi" Type="VI" URL="../Utils_LVTM/Filter &amp; Build DependentTypeDefs&amp;Parents.vi"/>
+		<Item Name="GetDependentTypeDefs.vi" Type="VI" URL="../Utils_LVTM/GetDependentTypeDefs.vi"/>
+		<Item Name="GetModificationsBitsets.vi" Type="VI" URL="../Utils_LVTM/GetModificationsBitsets.vi"/>
+		<Item Name="SelectAppInstance.vi" Type="VI" URL="../Utils_LVTM/SelectAppInstance.vi"/>
+	</Item>
 </Library>
