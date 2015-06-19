@@ -1,6 +1,11 @@
 X Add tip strips in appropriate places, including the control for "Search Clones Up To".  This needs to explain what kinds of clones won't and will be searched for.
 X Make the tool accessible from the LV "Tools" menu.
 X Refresh should include re-checking for new app instances.
+X Recheck for new app instances upon mouse over "App Instance" control.
+X Do not limit multisection to siblings only
+X Do not allow selection of parent libraries
+X For "Clone VIs FG", consider making the "Add Calling VI" case the default case.  See comment in that VI.
+
 * The "Pause" VI impliments User Events internally, but developers using this tool should NOT wire to the Pause User Event terminals.  Mark these terminals as Connection Optional, and add some text to the VI description warning the developer to NOT wire these terminals.
 * BUG: As of R6, item type filtering is applied early in the discovery process, causing items to not get properly filtered once the next two of three "find all clones" VIs are called (they are inserted back in again).  According to <http://lavag.org/topic/14921-labview-task-manager/page-2#entry89848>, the Find Clones VI was intended to "be inserted into the list of VIs after filtering".
 * BUG: Trap error when any operation (Open, Close, Hilite, Pause, etc.) is attempted on a library.
@@ -16,6 +21,7 @@ X Refresh should include re-checking for new app instances.
 * Add a "Help" menu item (see Ton Plomp's Code Capture Tool for a very nice implimentation of a multi-tabbed Help window).
 ** To fully comply with the BSD license terms, add a Help>About menu item, and include copyright info (or in a separate tab).
 ** Add a Help>Support menu item, directing users to the LAVAcr page for LVTM Support <http://lavag.org/topic/18322-cr-labview-task-manager>.
+* Add functionality to "Retain Wire Values" on all selected VIs.  <https://lavag.org/topic/16491-how-to-retail-wire-values-for-entire-vi-hierarchy/>
 * Merge columns "Reentrant" and "Reentrancy Type" into one column with three possible modes: NotReentrant, Preallocated, Shared.
 * Cause a value of zero in "Search Clones Up To" to filter out all statically-referenced clones.  The goal is to display no MORE clones than this value.
 * Optimize performance: 
@@ -37,7 +43,6 @@ X Refresh should include re-checking for new app instances.
 *** A tool to search a LV project (or app instance) for likely ACBR VIs.  The intent is to help the user find all ACBR VIs into which they may want to place the "Clone VIs FG" drop-in VI.
 * Right-click options as alternate ways to perform current button functions.  Needs to work with multiple selections as well as single.
 * Consider reversing the logic of the item type filters, for consistency.  Currently these are checked to EXCLUDE the associated type, but this is the opposite logic to that used in the VI Hierarchy view, where item types are selected to be INCLUDED.
-* For "Clone VIs FG", consider making the "Add Calling VI" case the default case.  See comment in that VI.
 * Track start-stop and runtime <http://lavag.org/topic/14921-labview-task-manager/?p=89522>.
 * More columns?  (will need a mechanism to hide/display selected columns, or perhaps spawn separate tables)
 ** list each VI's Caller.  Inspired by SJ_Buddy: <http://lavag.org/topic/14921-labview-task-manager/?p=105474>
