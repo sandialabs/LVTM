@@ -16,6 +16,7 @@ X Refresh should include re-checking for new app instances.
 * Add a "Help" menu item (see Ton Plomp's Code Capture Tool for a very nice implimentation of a multi-tabbed Help window).
 ** To fully comply with the BSD license terms, add a Help>About menu item, and include copyright info (or in a separate tab).
 ** Add a Help>Support menu item, directing users to the LAVAcr page for LVTM Support <http://lavag.org/topic/18322-cr-labview-task-manager>.
+* Add functionality to "Retain Wire Values" on all selected VIs.  <https://lavag.org/topic/16491-how-to-retail-wire-values-for-entire-vi-hierarchy/>
 * Merge columns "Reentrant" and "Reentrancy Type" into one column with three possible modes: NotReentrant, Preallocated, Shared.
 * Cause a value of zero in "Search Clones Up To" to filter out all statically-referenced clones.  The goal is to display no MORE clones than this value.
 * Optimize performance: 
