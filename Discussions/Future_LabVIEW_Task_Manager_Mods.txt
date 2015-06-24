@@ -5,10 +5,13 @@ X Recheck for new app instances upon mouse over "App Instance" control.
 X Do not limit multisection to siblings only
 X Do not allow selection of parent libraries
 X For "Clone VIs FG", consider making the "Add Calling VI" case the default case.  See comment in that VI.
+X Tree right-click menu now allow for Expand All / Collapse All (called Open All Items / Close All Items).
+X Items not belonging to a parent library are now grouped in tree under "<no parent library>".
+X The "Pause" VI impliments User Events internally, but developers using this tool should NOT wire to the Pause User Event terminals.  Mark these terminals as Connection Optional, and add some text to the VI description warning the developer to NOT wire these terminals.
 
-* The "Pause" VI impliments User Events internally, but developers using this tool should NOT wire to the Pause User Event terminals.  Mark these terminals as Connection Optional, and add some text to the VI description warning the developer to NOT wire these terminals.
+* Prevent the tree from being automatically expanded, and the top item selected, upon a refresh operation.
 * BUG: As of R6, item type filtering is applied early in the discovery process, causing items to not get properly filtered once the next two of three "find all clones" VIs are called (they are inserted back in again).  According to <http://lavag.org/topic/14921-labview-task-manager/page-2#entry89848>, the Find Clones VI was intended to "be inserted into the list of VIs after filtering".
-* BUG: Trap error when any operation (Open, Close, Hilite, Pause, etc.) is attempted on a library.
+* BUG: Trap error when any operation (Open, Close, Hilite, Pause, etc.) is attempted on a library.  Possibly solved by "Do not allow selection of parent libraries"?
 * The LVTM "Regression Tests" VIs are located below the vi.lib folder, and are thus excluded from view in LVTM, unless the exclude option (on by default) is turned off.  Configure the build-spec to place these VIs elsewhere.
 * Add an "All" option to the "Application Instance" dropdown selector.  This will help with use cases where multiple projects are related to each other, such as server/clients that run in individual app instances.
 * Add to the readme file "What use cases would this tool help me with?"
@@ -17,7 +20,7 @@ X For "Clone VIs FG", consider making the "Add Calling VI" case the default case
 * Automate the refresh function, so that F5 need not be pressed.  Spawn an independent process that continuously determines "All VIs in Memory", compares that list with a cached list of the previous results, and sends the refreshed list to its caller VI ONLY IF a change is detected.
 * Prevent ability to attempt abort on a subVI (these cannot be aborted).  Gray out?
 * Finish the find & filter functions.
-* Show a count of all items in tree, observing the file type filters.  Show this value in the existing subpanel.
+* Show a count of all items in tree, observing the file type filters.  Show this value in either the existing subpanel, or in a new Status Bar.
 * Add a "Help" menu item (see Ton Plomp's Code Capture Tool for a very nice implimentation of a multi-tabbed Help window).
 ** To fully comply with the BSD license terms, add a Help>About menu item, and include copyright info (or in a separate tab).
 ** Add a Help>Support menu item, directing users to the LAVAcr page for LVTM Support <http://lavag.org/topic/18322-cr-labview-task-manager>.
@@ -33,7 +36,7 @@ X For "Clone VIs FG", consider making the "Add Calling VI" case the default case
 * Show columns indicating if a VI's FP/BD are currently open or closed.  Optionally click on these columns to open them, shift-click to close them.  Inspired by post from drjdpowell: <http://lavag.org/topic/14921-labview-task-manager/page-3#entry92739>
 * Option to group by library or not (flat list).  Flat is useful when wanting to sort by columns State, Paused?, Hilite?, Reentrant, etc.
 ** If grouped is active, hide the column "Library Name" (CAUTION! This field is used to display the message "Error" when an operation fails).
-** If grouped is active, menu items allow to Expand All / Collapse All.
+** If grouped is NOT active, remove visual selections for Expand All / Collapse All.
 * Use a mechanism (.ini file?) to hold and persist User Preferences.  Include: default value for "Search Clones Up To", default value for Group/Flat option, initially launch tree as Expanded/Collapsed (if grouping option = Grouped), show/hide some columns such as Code Size, Data Size, etc.
 * Include a "Tools" item on menu bar.  Create a plug-in architecture allowing users to launch their own LV debugging tools from here, simply by dropping their own tool VIs into a "plugins" folder.
 ** Include the following tools to get them started:  
@@ -48,7 +51,7 @@ X For "Clone VIs FG", consider making the "Add Calling VI" case the default case
 ** list each VI's Caller.  Inspired by SJ_Buddy: <http://lavag.org/topic/14921-labview-task-manager/?p=105474>
 ** Exec.PrefSys (VI Server > SubsystemVI > Properties > Execution > Prefered Exec System)
 ** Other properties from (VI Server > SubsystemVI > Properties).  A "Properties Popper"?
-* Searching the project for VIs would show VIs that are NOT currently "in memory".  This would be helpful in locating dynamically loaded VIs.
+* Searching the PROJECT for VIs would allow for including VIs that are NOT currently "in memory".  Include a column indicating if "In Memory" or not.  This would be helpful in locating dynamically loaded VIs.
 * Investigate parameters of the "Get VI Dependencies" method, to see if any of them might be helpful with finding even more VIs.  Candidates are: 
 ** Static VI Refs?  (are these already listed if already in memory?)
 ** Dynamic Dispatching? (optional?)
