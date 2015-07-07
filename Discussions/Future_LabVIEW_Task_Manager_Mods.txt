@@ -5,12 +5,12 @@ X Recheck for new app instances upon mouse over "App Instance" control.
 X Do not limit multisection to siblings only
 X Do not allow selection of parent libraries
 X For "Clone VIs FG", consider making the "Add Calling VI" case the default case.  See comment in that VI.
-X Tree right-click menu now allow for Expand All / Collapse All (called Open All Items / Close All Items).
+X Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items).
 X Items not belonging to a parent library are now grouped in tree under "<no parent library>".
 X The "Pause" VI impliments User Events internally, but developers using this tool should NOT wire to the Pause User Event terminals.  Mark these terminals as Connection Optional, and add some text to the VI description warning the developer to NOT wire these terminals.
+X The LVTM "Regression Tests" VIs are located below the vi.lib folder, and are thus excluded from view in LVTM, unless the exclude option (on by default) is turned off.  Configure the build-spec to place these VIs elsewhere.
 
 * Right-click options as alternate ways to perform current button functions.  Needs to work with multiple selections as well as single.
-* The LVTM "Regression Tests" VIs are located below the vi.lib folder, and are thus excluded from view in LVTM, unless the exclude option (on by default) is turned off.  Configure the build-spec to place these VIs elsewhere.
 * Prevent the tree from being automatically expanded, and the top item selected, upon a refresh operation.
 * The collapsed/expanded state of each library in the list should persist after a refresh operation.
 * BUG: As of R6, item type filtering is applied early in the discovery process, causing items to not get properly filtered once the next two of three "find all clones" VIs are called (they are inserted back in again).  According to <http://lavag.org/topic/14921-labview-task-manager/page-2#entry89848>, the Find Clones VI was intended to "be inserted into the list of VIs after filtering".
