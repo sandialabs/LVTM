@@ -1,3 +1,13 @@
+**v1.8.0 TimVargo on 07/08/2015 (LabVIEW 2010)**
+* Rechecking for new app instances upon mouse over "App Instance" control
+* Do not limit multisection to siblings only
+* Do not allow selection of parent libraries
+* For "Clone VIs FG" made the "Add Calling VI" case the default case
+* Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items)
+* Items not belonging to a parent library are now grouped in tree under "&lt;no parent library&gt;"
+* Marked "Pause.vi" User Event terminals as Connection Optional, and added text to the VI description warning to NOT wire these terminals.
+* Relocated the LVTM "Regression Tests" VIs such that they are no longer excluded from view in LVTM by default
+
 **v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)**
 * Inserted "Generate Clone Name", as supplied by Aristos Queue, to fix incompatibility w/ LV2013 clone enumeration.  See <https://decibel.ni.com/content/message/58984#58984>
 * Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements.
