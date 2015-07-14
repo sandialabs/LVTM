@@ -1,6 +1,10 @@
 ## README ##
 
-###What Is the LabVIEW Task Manager ?###
+###Latest Released Version###
+The most recent version of LabVIEW Task Manager is currently 
+v1.7.0, released on 1-Jul-2014
+
+###What Is the LabVIEW Task Manager (LVTM)?###
 _LabVIEW Task Manager_ is a debugging tool for use during LabVIEW(R) code development.  An expandable/collapsible tree diagram displays detailed information on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and has the following features: 
 
 * Windows Task Manager style menu with Update Speed and Refresh Now
