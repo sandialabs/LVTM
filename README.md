@@ -7,7 +7,7 @@ _LabVIEW Task Manager_ is a debugging tool for use during LabVIEW(R) code develo
 * Selection of project/target
 * Lists all VIs in memory, grouped by class/library
 * Searches for statically referenced clones
-* DropIn VI for including ACBR reentrant clones
+* DropIn VI for including (A)CBR reentrant clones (Clone Beacon)
 * Refresh Now (F5) reads all VIs from memory and adds them to the tree
 * Displays VI name, owning class/library, state, path, data size &amp; code size
 * Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? &amp; Highlight?
@@ -31,11 +31,11 @@ There are helper functions available to assist with your debugging effort, and t
 
 * ####Pause####
 The Pause function allows for initiating a pause from within any VI on some condition.  Just drop this VI in a case structure after your custom probe condition evaluation.  It will only work if the task manager is open.  If the pause request is generated from a clone of a reentrant VI, it will pause all clones of that VI.
-* ####Cloned VIs####
+* ####Clone Beacon####
 Asynchronously called reentrant VIs are not automatically recognized by the LabVIEW Task Manager, because they (by design) run in their own threads, independent from the rest of the project.  This function remedies that problem.  Just drop the "Cloned VIs" Functional Global VI into any asynchronously called reentrant VIs that you wish, to force them to be seen by LabVIEW Task Manager.  There is no need to drop this into a statically called reentrant VI, because these are already searched for by the tool.  When the reentrant clone is created and run, it will add its name to this Functional Global.  LabVIEW Task Manager will now display "All VIs in Memory" AND the ones in this FG.  Leaving this FG in your VI, even when deploying your application, will not effect the performance; as it is merely an array of a few strings.
 
 ###Tool Installation###
-To install this tool for your own use, simply download its VIPM package from [the tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads), then install the package (lava_lib_labview_task_manager-x.x.x.x) using [VI Package Manager](http://jki.net/vipm).  LabVIEW 2010 and up are supported -- (at the time of this writing, LabVIEW 2013 is the most recent release).
+To install this tool for your own use, simply download its VIPM package from [the tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads), then install the package (lava_lib_labview_task_manager-x.x.x.x) using [VI Package Manager](http://jki.net/vipm).  LabVIEW 2010 and up are supported -- (at the time of this writing, LabVIEW 2014 is the most recent release, but this tool has been extensively tested only with LV2010 and LV2013).
 
 ###Contributing New Features###
 To contribute code modifications to this tool: 
