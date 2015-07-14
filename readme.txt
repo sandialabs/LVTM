@@ -57,7 +57,7 @@ and TimVargo.
 
 Version History:
 (see Release Notes for the FULL version history)
- * v1.8.0 TimVargo on 07/13/2015 (LabVIEW 2010)
+ * v1.8.0 TimVargo on 07/14/2015 (LabVIEW 2010)
  * v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)
  * R5 Ravi Beniwal, Darren Natinger on 09/26/2011
  * R4 Ravi Beniwal, James Powell on 09/23/2011

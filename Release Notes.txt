@@ -1,10 +1,10 @@
-**v1.8.0 TimVargo on 07/13/2015 (LabVIEW 2010)**
+**v1.8.0 TimVargo on 07/14/2015 (LabVIEW 2010)**
+* Items not belonging to a parent library are now grouped in tree under "<no parent library>"
+* Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items)
 * Rechecking for new app instances upon mouse over "App Instance" control
 * Do not limit multisection to siblings only
 * Do not allow selection of parent libraries
 * For "Clone VIs FG" made the "Add Calling VI" case the default case
-* Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items)
-* Items not belonging to a parent library are now grouped in tree under "&lt;no parent library&gt;"
 * Marked "Pause.vi" User Event terminals as Connection Optional, and added text to the VI description warning to NOT wire these terminals.
 * Relocated the LVTM "Regression Tests" VIs such that they are no longer excluded from view in LVTM by default
 
