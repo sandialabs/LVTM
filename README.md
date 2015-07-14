@@ -42,7 +42,7 @@ Asynchronously called reentrant VIs are not automatically recognized by the LabV
 This tool supports LabVIEW 2010 or higher.  At the time of this writing LabVIEW 2014 is the most recent release, but this tool has been extensively tested only with LV2010 and LV2013.
 
 ###Tool Installation###
-To install this tool for your own use, simply download its VIPM package from [the tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads), then install the package (lava_lib_labview_task_manager-x.x.x.x) using [VI Package Manager](http://jki.net/vipm).  VIPM 2014 or higher is required for installation, and is available for free from <http://jki.net/vipm).
+To install this tool for your own use, simply download its VIPM package from [the tool's download page](https://bitbucket.org/lavag/labview-task-manager/downloads), then install the package (lava_lib_labview_task_manager-x.x.x.x) using [VI Package Manager](http://jki.net/vipm).  VIPM 2014 or higher is required for installation of this tool's installer package.  The latest version of VIPM is available for free from <http://jki.net/vipm).
 
 ###Contributing New Features###
 To contribute code modifications to this tool: 
