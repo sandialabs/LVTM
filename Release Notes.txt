@@ -1,5 +1,6 @@
 **v1.8.0 TimVargo on 07/14/2015 (LabVIEW 2010)**
 * Items not belonging to a parent library are now grouped in tree under "<no parent library>"
+* Prevent the top tree item being selected, after a refresh operation.
 * Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items)
 * Rechecking for new app instances upon mouse over "App Instance" control
 * Do not limit multisection to siblings only

@@ -9,8 +9,9 @@ X Tree right-click menu now allows for Expand All / Collapse All (called Open Al
 X Items not belonging to a parent library are now grouped in tree under "<no parent library>".
 X The "Pause" VI impliments User Events internally, but developers using this tool should NOT wire to the Pause User Event terminals.  Mark these terminals as Connection Optional, and add some text to the VI description warning the developer to NOT wire these terminals.
 X The LVTM "Regression Tests" VIs are located below the vi.lib folder, and are thus excluded from view in LVTM, unless the exclude option (on by default) is turned off.  Configure the build-spec to place these VIs elsewhere.
+X Prevent the top tree item being selected, after a refresh operation.
 
-* Prevent the tree from being automatically expanded, and the top item selected, upon a refresh operation.
+* Prevent the tree from being automatically expanded, upon a refresh operation.
 * The collapsed/expanded state of each library in the list should persist after a refresh operation.
 * Add a bottom "Status Bar".  Include the following: 
 ** A count of all items in tree, observing the file type filters.
