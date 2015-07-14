@@ -1,4 +1,4 @@
-**v1.8.0 TimVargo on 07/08/2015 (LabVIEW 2010)**
+**v1.8.0 TimVargo on 07/13/2015 (LabVIEW 2010)**
 * Rechecking for new app instances upon mouse over "App Instance" control
 * Do not limit multisection to siblings only
 * Do not allow selection of parent libraries

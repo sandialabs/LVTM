@@ -1,14 +1,10 @@
-LabVIEW Task Manager v1.7.0
+LabVIEW Task Manager v1.8.0
 
-Copyright (c) 2014, Ravi Beniwal
+Copyright (c) 2015, Ravi Beniwal
 All rights reserved.
 
-Author:	Ravi Beniwal
-LAVA Name: Ravi Beniwal
-Contact Info:	Contact via PM on lavag.org
-
-Packaged by: Tim Vargo
-LAVA Name: TimVargo
+Author:	Ravi Beniwal & Tim Vargo
+LAVA Name: Ravi Beniwal, TimVargo
 Contact Info:	Contact via PM on lavag.org
 
 LabVIEW Versions Supported:
@@ -29,7 +25,7 @@ a time, and has the following features:
  * Selection of project/target
  * Lists all VIs in memory, grouped by class/library
  * Searches for statically referenced clones
- * DropIn VI for including ACBR reentrant clones
+ * DropIn VI for including (A)CBR reentrant clones
  * Refresh Now (F5) reads all VIs from memory and adds them to the tree
  * Displays VI name, owning class/library, state, path, data size & code size
  * Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? & Highlight?
@@ -46,8 +42,8 @@ a time, and has the following features:
 
 Installation and instructions:
 Install this tool by using the VI Package Manager to install its associated 
-package file (.vip).  VIPM 2014 or higher is required, and is available for 
-free from <http://jki.net/vipm>.
+package file (.vip).  VIPM 2014 or higher is required, and is available 
+for free from <http://jki.net/vipm>.
 
 Known Issues:
  * Cannot abort SubVIs launched from remote VI Server and local Asynch Call By Ref
@@ -57,10 +53,11 @@ Known Issues:
 Acknowledgements:
 This application was originally authored by Ravi Beniwal, and now includes code 
 contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, 
-and TimVargo.  Packaged by TimVargo.
+and TimVargo.
 
 Version History:
 (see Release Notes for the FULL version history)
+ * v1.8.0 TimVargo on 07/13/2015 (LabVIEW 2010)
  * v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)
  * R5 Ravi Beniwal, Darren Natinger on 09/26/2011
  * R4 Ravi Beniwal, James Powell on 09/23/2011
@@ -69,7 +66,7 @@ Version History:
  * R1 Ravi Beniwal on 09/19/2011 (LabVIEW 2009)
 
 License:
-Copyright (c) 2014, Ravi Beniwal
+Copyright (c) 2015, Ravi Beniwal
 All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -78,15 +75,15 @@ modification, are permitted provided that the following conditions are met:
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of RBeniwal, LAVA, nor the
+    * Neither the names of the authors, LAVA, nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
       
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
 ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
 WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL LAVA, NOR ANY CODE CONTRIBUTOR, BE LIABLE FOR ANY
-DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
 (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
 LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
