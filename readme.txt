@@ -25,7 +25,7 @@ a time, and has the following features:
  * Selection of project/target
  * Lists all VIs in memory, grouped by class/library
  * Searches for statically referenced clones
- * DropIn VI for including (A)CBR reentrant clones (Clone Beacon)
+ * DropIn VI for including ACBR reentrant clones (Clone Beacon)
  * Refresh Now (F5) reads all VIs from memory and adds them to the tree
  * Displays VI name, owning class/library, state, path, data size & code size
  * Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? & Highlight?
