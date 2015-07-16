@@ -1,6 +1,6 @@
 LabVIEW Task Manager v1.8.0
 
-Copyright (c) 2015, Ravi Beniwal
+Copyright (c) 2011-2015, Ravi Beniwal
 All rights reserved.
 
 Author:	Ravi Beniwal & Tim Vargo
@@ -66,7 +66,7 @@ Version History:
  * R1 Ravi Beniwal on 09/19/2011 (LabVIEW 2009)
 
 License:
-Copyright (c) 2015, Ravi Beniwal
+Copyright (c) 2011-2015, Ravi Beniwal
 All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:

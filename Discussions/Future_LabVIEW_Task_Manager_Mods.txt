@@ -11,6 +11,7 @@ X The "Pause" VI impliments User Events internally, but developers using this to
 X The LVTM "Regression Tests" VIs are located below the vi.lib folder, and are thus excluded from view in LVTM, unless the exclude option (on by default) is turned off.  Configure the build-spec to place these VIs elsewhere.
 X Prevent the top tree item being selected, after a refresh operation.
 
+* Until Help>About is implimented, display the tool's version number on the FP.
 * Prevent the tree from being automatically expanded, upon a refresh operation.
 * The collapsed/expanded state of each library in the list should persist after a refresh operation.
 * Add a bottom "Status Bar".  Include the following: 
@@ -27,8 +28,9 @@ X Prevent the top tree item being selected, after a refresh operation.
 * Prevent ability to attempt abort on a subVI (these cannot be aborted).  Gray out?
 * Finish the find & filter functions.
 * Add a "Help" menu item (see Ton Plomp's Code Capture Tool for a very nice implimentation of a multi-tabbed Help window).
-** To fully comply with the BSD license terms, add a Help>About menu item, and include copyright info (or in a separate tab).
-** Add a Help>Support menu item, directing users to the LAVAcr page for LVTM Support <http://lavag.org/topic/18322-cr-labview-task-manager>.
+** Add a Help>About menu item (or in a separate tab).
+** To fully comply with the BSD license terms, include copyright info (or tab).
+** Add a Help>Support menu item (or tab), directing users to the LAVAcr page for LVTM Support <http://lavag.org/topic/18322-cr-labview-task-manager>.
 * Add functionality to "Retain Wire Values" on all selected VIs.  <https://lavag.org/topic/16491-how-to-retail-wire-values-for-entire-vi-hierarchy/>
 * Add functionality to "Suspend when Called" on all selected VIs.
 * Merge columns "Reentrant" and "Reentrancy Type" into one column with three possible modes: NotReentrant, Preallocated, Shared.
@@ -49,7 +51,7 @@ X Prevent the top tree item being selected, after a refresh operation.
 *** Output_Debug_String.vi by Fabian Töpper, <http://fabiantoepper.de/get-debug-messages-from-labview-applications>.
 *** WinDebugLogging.vi by Dr. Damien (DFGray), <https://forums.ni.com/t5/LabVIEW/Dr-Damien-s-Development-Debugging-Race-Conditions/td-p/802620>.
 *** A tool to find and list all dependent DLL files.  See <http://www.evernote.com/shard/s286/sh/bc26a3f8-2c02-47b7-9a10-6a42761c1455/7766648ffe434144c2804f1429202977>.
-*** A tool to search a LV project (or app instance) for likely ACBR VIs.  The intent is to help the user find all ACBR VIs into which they may want to place the "Clone VIs FG" drop-in VI.
+*** A tool to search a LV project (or app instance) for likely ACBR VIs.  The intent is to help the user find all ACBR VIs into which they may want to place the "Clone VIs FG" drop-in VI (Clone Beacon).
 * Consider reversing the logic of the item type filters, for consistency.  Currently these are checked to EXCLUDE the associated type, but this is the opposite logic to that used in the VI Hierarchy view, where item types are selected to be INCLUDED.
 * Track start-stop and runtime <http://lavag.org/topic/14921-labview-task-manager/?p=89522>.
 * More columns?  (will need a mechanism to hide/display selected columns, or perhaps spawn separate tables)
