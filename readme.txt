@@ -1,6 +1,6 @@
 LabVIEW Task Manager v1.8.0
 
-Copyright (c) 2011-2015, Ravi Beniwal
+Copyright (c) 2011-2016, Ravi Beniwal
 All rights reserved.
 
 Author:	Ravi Beniwal & Tim Vargo
@@ -21,24 +21,23 @@ LabVIEW Task Manager is a debugging tool for use during development.  A tree
 diagram displays detailed information on all VIs in memory, belonging to a selected 
 project/target.  It allows for interacting with single or multiple selected VIs at 
 a time, and has the following features:
- * Windows Task Manager style menu with Update Speed and Refresh Now
  * Selection of project/target
  * Lists all VIs in memory, grouped by class/library
  * Searches for statically referenced clones
- * DropIn VI for including ACBR reentrant clones (Clone Beacon)
- * Refresh Now (F5) reads all VIs from memory and adds them to the tree
+ * DropIn VI for including dynamically referenced clones (Clone Beacon)
+ * Refresh Now (F5) reads all VIs in memory and adds new ones to the tree
  * Displays VI name, owning class/library, state, path, data size & code size
  * Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? & Highlight?
  * Sort by any column, including by library name
  * Filter by item types vi, ctl, and vit/ctt
  * Filter out vi.lib and global VIs
- * Tracking of, and ability to toggle, execution highlighting on all selected VIs
- * Tracking of paused VIs with ability to Pause/Resume/TogglePause all selected VIs
+ * Tracking of, and ability to toggle, execution highlighting on multiple selected VIs
+ * Tracking of paused VIs with ability to Pause/Resume/TogglePause multiple selected VIs
  * DropIn VI for pausing on a condition
- * If a clone initiates a pause, a different pause symbol is used for that clone
- * Select multiple VIs and open or close their FP or BD
+ * If a clone initiates a pause, a different pause symbol is used for all clones of that same reentrant VI
+ * Select multiple VIs and open or close their FPs or BDs
  * Double Click a VI from the tree to bring the BD (first choice) or FP to front, if already open
- * Select multiple VIs and Abort
+ * Select multiple top-level VIs and Abort them
 
 Installation and instructions:
 Install this tool by using the VI Package Manager to install its associated 
