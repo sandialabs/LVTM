@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
-	<Property Name="CCSymbols" Type="Str">ENABLE_FIND_FILTER,FALSE;</Property>
+	<Property Name="CCSymbols" Type="Str">ENABLE_FIND_FILTER,TRUE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str">A debugging tool for use during development.  Displays detailed information on all VIs in memory, belonging to a selected project/target.  Allows to interact with single or multiple selected VIs at a time; such as Open/Close their FP or BD, toggle execution highlighting, and Pause/Resume/TogglePause their execution state.</Property>
 	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
@@ -150,6 +150,7 @@
 				<Item Name="Error_FilterSingle.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/SubVIs/Filter/Error_FilterSingle.vi"/>
 				<Item Name="Error_ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/Error_ClearError.vi"/>
 				<Item Name="Error_FilterMulti.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/SubVIs/Filter/Error_FilterMulti.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="../../../../../../../../Windows/System32/user32.dll"/>
 		</Item>
