@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
-	<Property Name="CCSymbols" Type="Str">ENABLE_FIND_FILTER,TRUE;</Property>
+	<Property Name="CCSymbols" Type="Str">ENABLE_FIND_FILTER,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str">A debugging tool for use during development.  Displays detailed information on all VIs in memory, belonging to a selected project/target.  Allows to interact with single or multiple selected VIs at a time; such as Open/Close their FP or BD, toggle execution highlighting, and Pause/Resume/TogglePause their execution state.</Property>
 	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
@@ -67,11 +67,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Error_LVTM" Type="Folder">
-			<Item Name="Error Task_Manager Class" Type="Folder"/>
-			<Item Name="Error Task_Manager Library" Type="Folder">
-				<Item Name="Error Task Manager.lvlib" Type="Library" URL="../Error_LVTM/Error Task_Manager Library/Error Task Manager.lvlib"/>
-			</Item>
+		<Item Name="Main_LVTM" Type="Folder">
+			<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../LabVIEW Task Manager.vi"/>
+			<Item Name="Task Manager Menu.rtm" Type="Document" URL="../Task Manager Menu.rtm"/>
 		</Item>
 		<Item Name="VIs_LVTM" Type="Folder">
 			<Item Name="FindName Task_Manager Library" Type="Folder">
@@ -95,28 +93,17 @@
 			<Item Name="Resume VI.vi" Type="VI" URL="../VIs_LVTM/Resume VI.vi"/>
 			<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs_LVTM/Sort Tree Items by Numerical order.vi"/>
 			<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
+			<Item Name="Discover ALL VIs in Memory.vi" Type="VI" URL="../VIs_LVTM/Discover ALL VIs in Memory.vi"/>
+			<Item Name="Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Refresh Tree.vi"/>
 		</Item>
-		<Item Name="TestVIs_LVTM" Type="Folder">
-			<Item Name="Test Class" Type="Folder">
-				<Item Name="Test Class.lvclass" Type="LVClass" URL="../Test VIs_LVTM/Test Class/Test Class.lvclass"/>
+		<Item Name="Controls_LVTM" Type="Folder">
+			<Item Name="LVTM_Config_Info.ctl" Type="VI" URL="../Controls_LVTM/LVTM_Config_Info.ctl"/>
+		</Item>
+		<Item Name="Error_LVTM" Type="Folder">
+			<Item Name="Error Task_Manager Class" Type="Folder"/>
+			<Item Name="Error Task_Manager Library" Type="Folder">
+				<Item Name="Error Task Manager.lvlib" Type="Library" URL="../Error_LVTM/Error Task_Manager Library/Error Task Manager.lvlib"/>
 			</Item>
-			<Item Name="Normal VI.vi" Type="VI" URL="../Test VIs_LVTM/Normal VI.vi"/>
-			<Item Name="Parallel VIs Launcher.vi" Type="VI" URL="../Test VIs_LVTM/Parallel VIs Launcher.vi"/>
-			<Item Name="Reentrant VI.vi" Type="VI" URL="../Test VIs_LVTM/Reentrant VI.vi"/>
-			<Item Name="Reentrant VI.vit" Type="VI" URL="../Test VIs_LVTM/Reentrant VI.vit"/>
-		</Item>
-		<Item Name="Main_LVTM" Type="Folder">
-			<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../LabVIEW Task Manager.vi"/>
-			<Item Name="Task Manager Menu.rtm" Type="Document" URL="../Task Manager Menu.rtm"/>
-		</Item>
-		<Item Name="Project_LVTM" Type="Folder">
-			<Item Name="License.txt" Type="Document" URL="../License.txt"/>
-			<Item Name="Task Manager.aliases" Type="Document" URL="../Task Manager.aliases"/>
-			<Item Name="Task Manager.lvlps" Type="Document" URL="../Task Manager.lvlps"/>
-			<Item Name="Release Notes.txt" Type="Document" URL="../Release Notes.txt"/>
-			<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
-			<Item Name="readme.bb.txt" Type="Document" URL="../readme.bb.txt"/>
-			<Item Name="readme.txt" Type="Document" URL="../readme.txt"/>
 		</Item>
 		<Item Name="Utils_LVTM" Type="Folder">
 			<Item Name="DiscoverCommonTypeDefCallers Library" Type="Folder">
@@ -129,9 +116,24 @@
 			<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/_Safe Tick Count poly/U64 Millisecond Tick Count.vi"/>
 			<Item Name="Wait For LACK OF Front Panel Activity (event driven).vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/Wait For LACK OF Front Panel Activity (event driven).vi"/>
 		</Item>
-		<Item Name="Discover ALL VIs in Memory.vi" Type="VI" URL="../VIs_LVTM/Discover ALL VIs in Memory.vi"/>
-		<Item Name="Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Refresh Tree.vi"/>
-		<Item Name="LVTM_private_data.ctl" Type="VI" URL="../Controls_LVTM/LVTM_private_data.ctl"/>
+		<Item Name="TestVIs_LVTM" Type="Folder">
+			<Item Name="Test Class" Type="Folder">
+				<Item Name="Test Class.lvclass" Type="LVClass" URL="../Test VIs_LVTM/Test Class/Test Class.lvclass"/>
+			</Item>
+			<Item Name="Normal VI.vi" Type="VI" URL="../Test VIs_LVTM/Normal VI.vi"/>
+			<Item Name="Parallel VIs Launcher.vi" Type="VI" URL="../Test VIs_LVTM/Parallel VIs Launcher.vi"/>
+			<Item Name="Reentrant VI.vi" Type="VI" URL="../Test VIs_LVTM/Reentrant VI.vi"/>
+			<Item Name="Reentrant VI.vit" Type="VI" URL="../Test VIs_LVTM/Reentrant VI.vit"/>
+		</Item>
+		<Item Name="Project_LVTM" Type="Folder">
+			<Item Name="License.txt" Type="Document" URL="../License.txt"/>
+			<Item Name="Task Manager.aliases" Type="Document" URL="../Task Manager.aliases"/>
+			<Item Name="Task Manager.lvlps" Type="Document" URL="../Task Manager.lvlps"/>
+			<Item Name="Release Notes.txt" Type="Document" URL="../Release Notes.txt"/>
+			<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
+			<Item Name="readme.bb.txt" Type="Document" URL="../readme.bb.txt"/>
+			<Item Name="readme.txt" Type="Document" URL="../readme.txt"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -204,8 +206,10 @@
 				<Item Name="EXT Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/EXT Changed__ogtk.vi"/>
 				<Item Name="String Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/String Changed__ogtk.vi"/>
 				<Item Name="Data Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/Data Changed__ogtk.vi"/>
+				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="../../../../../../../../Windows/System32/user32.dll"/>
+			<Item Name="wirenut.vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/wirenut.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Source Distribution" Type="Source Distribution">
