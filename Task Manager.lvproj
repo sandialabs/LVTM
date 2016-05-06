@@ -158,9 +158,6 @@
 				<Item Name="Error_ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/Error_ClearError.vi"/>
 				<Item Name="Error_FilterMulti.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/SubVIs/Filter/Error_FilterMulti.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="Resizable1DArray(String).xctl" Type="XControl" URL="/&lt;vilib&gt;/_probes/SAPHIR/ViBox - Probes/Resizable1DArray/Resizable1DArray(String)/Resizable1DArray(String).xctl"/>
-				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
-				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Variant Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D Variant Array Changed__ogtk.vi"/>
