@@ -10,10 +10,14 @@ X Items not belonging to a parent library are now grouped in tree under "<no par
 X The "Pause" VI implements User Events internally, but developers using this tool should NOT wire to the Pause User Event terminals.  Mark these terminals as Connection Optional, and add some text to the VI description warning the developer to NOT wire these terminals.
 X The LVTM "Regression Tests" VIs are located below the vi.lib folder, and are thus excluded from view in LVTM, unless the exclude option (on by default) is turned off.  Configure the build-spec to place these VIs elsewhere.
 X Prevent the top tree item being selected, after a refresh operation.
+X Prevent the tree from being automatically expanded upon a refresh operation.
+X Persist current column sorting after a refresh operation.
+X The collapsed/expanded state of each library node in the tree should persist after a refresh operation.
+X Optimizations per Neil Pate: <http://lavag.org/topic/14921-labview-task-manager/?p=109249>
+X Fixes/Enhancements per xceric: <http://lavag.org/topic/14921-labview-task-manager/?p=108665>
+X When an attempt to abort a non-abortable VI is made, an "error" message currently appears in the "Library Name" column.  This should be changed to appear in the "State" column. 
 
 * Until Help>About is implemented, display the tool's version number on the FP.
-* Prevent the tree from being automatically expanded upon a refresh operation.
-* The collapsed/expanded state of each library node in the tree should persist after a refresh operation.
 * Add a bottom "Status Bar".  Include the following: 
 ** A count of all items in tree, observing the file type filters.
 ** A count of currently selected tree items
@@ -41,14 +45,11 @@ X Prevent the top tree item being selected, after a refresh operation.
 ** Investigate if the Get VI Dependencies" Method parameter "Whole Hierarchy" could be used to return all dependencies at once, therefore avoiding looping on each VI already in memory.  Verify what LV versions this parameter is available in.
 ** The "Hidden Gems in vi.lib" palette includes a "Tree Sorter" function.  Will this sort both alpha and numerically?  If so, consider replacing the existing "Sort Tree Items by Numerical order" project VI with this Hidden Gem.
 ** "May be use ['Add Multiple Items to End' method] instead of adding each item individually" <http://lavag.org/topic/14921-labview-task-manager/?p=90037>
-** Optimizations per Neil Pate: <http://lavag.org/topic/14921-labview-task-manager/?p=109249>
-** Fixes/Enhancements per xceric: <http://lavag.org/topic/14921-labview-task-manager/?p=108665>
 * Show columns indicating if a VI's FP/BD are currently open or closed.  Optionally click on these columns to open them, shift-click to close them.  Inspired by post from drjdpowell: <http://lavag.org/topic/14921-labview-task-manager/page-3#entry92739>
 * Option to group by library or not (flat list).  Flat is useful when wanting to sort by columns State, Paused?, Hilite?, Reentrant, etc.
 ** If grouped is active, hide the column "Library Name" (CAUTION! This field currently displays the message "Error" when an operation fails).
 ** If grouped is NOT active, remove visual selections for Expand All / Collapse All.
-* When an attempt to abort a non-abortable VI is made, an "error" message currently appears in the "Library Name" column.  I suspect this was meant to display in the "State" column, and should be changed to appear there.  Additionally, display in a Status Bar when this occurs for at least one VI in a set of selected VIs.
-* Use ConfigInfo cluster to hold and persist User Preferences.  Include: default value for "Search Clones Up To", default value for Group/Flat option, initially launch tree as Expanded/Collapsed (if grouping option = Grouped), collapsed/expanded state of each library node in the tree, column to sort & direction, show/hide some columns such as Code Size, Data Size, etc.
+* Add options to Show/hide particular columns such as Code Size, Data Size, etc.  Use ConfigInfo cluster to hold and persist these User Preferences.
 ** Possibly also save these preferences between sessions (Win Registry?, .ini file?).
 * Include a "Tools" item on menu bar.  Create a plug-in architecture allowing users to launch their own LV debugging tools from here, simply by dropping their own tool VIs into a "plugins" folder.
 ** Include the following tools to get them started:  
@@ -67,9 +68,9 @@ X Prevent the top tree item being selected, after a refresh operation.
 ** list each VI's Caller.  Inspired by SJ_Buddy: <http://lavag.org/topic/14921-labview-task-manager/?p=105474>
 ** Exec.PrefSys (VI Server > SubsystemVI > Properties > Execution > Preferred Exec System)
 ** Other properties from (VI Server > SubsystemVI > Properties).  A "Properties Popper"?
-* Searching the PROJECT for VIs would allow for including VIs that are NOT currently "in memory".  Include a column indicating if "In Memory" or not.  This would be helpful in locating dynamically loaded VIs.
+* Searching the PROJECT for VIs would allow for including VIs that are NOT currently "in memory".  Include a column indicating if "In Memory" or not, OR group these under a node called <In Project But Not In Memory>.  This would be helpful in locating dynamically loaded VIs.
 * Investigate parameters of the "Get VI Dependencies" method, to see if any of them might be helpful with finding even more VIs.  Candidates are: 
-** Static VI Refs?  (are these already listed if already in memory?)
+** Static VI Refs?  (these are already listed since already in memory)
 ** Dynamic Dispatching? (optional?)
 ** Include Missing Items? (optional?)
 ** Load Block Diagram? (be careful with this one, may slow the tool to a crawl!  Unclear how it would be helpful anyway)
@@ -81,8 +82,8 @@ X Prevent the top tree item being selected, after a refresh operation.
 ** Programmatically send the 'Ctrl+.' keystroke ("Stop" VI)
 ** Close the FP if it was originally not already open
 ** Repeat in a loop for multiple selections
-*** Would this work for reentrant clones?  Can the FP of a reentrant clone be opened?  If not then would have to abort ALL clones by aborting the master parent.
-*** This CAN work, but ONLY under certain circumstances.  I've seen this work on instantiated reentrant clones (had ":ddddddd" appended to their names), IF they were launched with "Start Asynchronous Call", AND their caller VI has since gone idle.  These clones showed their execution state as "RunSub", and were not affected by trying to use the Abort method on them; but their Stop icon was available, as was Stop (Ctrl+.) on their Operate menus, and they did stop (execution state changed to "Idle").  The same did not work on their master VI, but the master went idle as soon as all of its clones went idle.  Execution State "RunSub" can mean either of "Running" OR "Waiting to Run".  Abortable RunSub VIs called by "Start Asynchronous Call" have a state of "Running", and have an attribute of "ACBRProxyCaller.dddddddd".
+*** Would this work for reentrant clones?  The FP of a reentrant clone CAN be opened.
+*** This CAN work, but ONLY under certain circumstances.  I've seen this work on instantiated reentrant clones (had ":ddddddd" appended to their names), IF they were launched with "Start Asynchronous Call", AND their caller VI has since gone idle.  These clones showed their execution state as 'RunSub' (running), and were not affected by trying to use the Abort method on them; but their Stop icon was available, as was Stop (Ctrl+.) on their Operate menus, and they did stop (execution state changed to "Idle").  The same did not work on their master VI, but the master went idle as soon as all of its clones went idle.  Execution State "RunSub" can mean either of "Running" OR "Waiting to Run".  Abortable RunSub VIs called by "Start Asynchronous Call" have a state of "Running", and have an attribute of "ACBRProxyCaller.dddddddd".
 * Investigate Client.lvclass:OpenPorts.vi:Instance
   (what does ":Instance" mean?)  Notice that it is a parent library
 * A similar tool exists on the LabVIEW Tools Network, called "Project Filter and Edit" <http://www.abcdef.biz/FilterAndEdit.htm>.  That tool however seems to focus on batch editing of VI properties, while LVTM focuses on runtime debugging & troubleshooting.

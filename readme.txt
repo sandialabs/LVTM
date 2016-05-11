@@ -23,9 +23,9 @@ project/target.  It allows for interacting with single or multiple selected VIs 
 a time, and has the following features:
  * Selection of project/target
  * Lists all VIs in memory, grouped by class/library
- * Searches for statically referenced clones
+ * Searches for and enumerates clones in memory
  * DropIn VI for including dynamically referenced clones (Clone Beacon)
- * Refresh Now (F5) reads all VIs in memory and adds new ones to the tree
+ * 'Refresh Now' (F5) re-reads all VIs in memory and adds new ones to the tree
  * Displays VI name, owning class/library, state, path, data size & code size
  * Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? & Highlight?
  * Sort by any column, including by library name
@@ -34,7 +34,7 @@ a time, and has the following features:
  * Tracking of, and ability to toggle, execution highlighting on multiple selected VIs
  * Tracking of paused VIs with ability to Pause/Resume/TogglePause multiple selected VIs
  * DropIn VI for pausing on a condition
- * If a clone initiates a pause, a different pause symbol is used for all clones of that same reentrant VI
+ * If a clone initiates a pause, a different pause symbol is used for all clones of that same reentrant original VI
  * Select multiple VIs and open or close their FPs or BDs
  * Double Click a VI from the tree to bring the BD (first choice) or FP to front, if already open
  * Select multiple top-level VIs and Abort them
@@ -51,11 +51,12 @@ Known Issues:
 
 Acknowledgements:
 This application was originally authored by Ravi Beniwal, and now includes code 
-contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, 
+contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, Neil Pate, 
 and TimVargo.
 
 Version History:
 (see Release Notes for the FULL version history)
+ * v1.9.0 TimVargo on 05/10/2016 (LabVIEW 2013)
  * v1.8.0 TimVargo on 07/14/2015 (LabVIEW 2010)
  * v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)
  * R5 Ravi Beniwal, Darren Natinger on 09/26/2011
@@ -65,7 +66,7 @@ Version History:
  * R1 Ravi Beniwal on 09/19/2011 (LabVIEW 2009)
 
 License:
-Copyright (c) 2011-2015, Ravi Beniwal
+Copyright (c) 2011-2016, Ravi Beniwal
 All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:

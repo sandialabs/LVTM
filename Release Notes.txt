@@ -1,6 +1,12 @@
+**v1.9.0 TimVargo on 05/10/2016 (LabVIEW 2013) **
+* Many performance optimizations (including 'dependencies cache' per Neil Pate)
+* Do not create new template instances, and suppress loading dialogs (per xceric)
+* Persist the column sorting between refreshes
+* Persist the collapsed/expanded state of each library node in the tree, between refreshes
+* Persist the selected item between refreshes, if it still exists
+
 **v1.8.0 TimVargo on 07/16/2015 (LabVIEW 2010)**
-* Items not belonging to a parent library are now grouped in tree under "<no parent library>"
-* Prevent the top tree item being selected, after a refresh operation.
+* Items not belonging to a parent library are now grouped under tree node "<no parent library>"
 * Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items)
 * Rechecking for new app instances upon mouse over "App Instance" control
 * Do not limit multisection to siblings only
