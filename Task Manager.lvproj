@@ -100,6 +100,7 @@
 		</Item>
 		<Item Name="Controls_LVTM" Type="Folder">
 			<Item Name="LVTM_Config_Info.ctl" Type="VI" URL="../Controls_LVTM/LVTM_Config_Info.ctl"/>
+			<Item Name="ReentrancyKinds.ctl" Type="VI" URL="../Controls_LVTM/ReentrancyKinds.ctl"/>
 		</Item>
 		<Item Name="Error_LVTM" Type="Folder">
 			<Item Name="Error Task_Manager Class" Type="Folder"/>
