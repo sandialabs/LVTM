@@ -1,6 +1,6 @@
-LabVIEW Task Manager v1.8.0
+LabVIEW Task Manager v2013.1.9.0
 
-Copyright (c) 2011-2016, Ravi Beniwal
+Copyright (c) 2011-2016, Ravi Beniwal & Tim Vargo
 All rights reserved.
 
 Author:	Ravi Beniwal & Tim Vargo
@@ -8,19 +8,23 @@ LAVA Name: Ravi Beniwal, TimVargo
 Contact Info:	Contact via PM on lavag.org
 
 LabVIEW Versions Supported:
-LV2010 and up
+LV2013 and up
 
 LabVIEW Versions Tested on:
-LV2010, LV2013
+LV2013
 
 Dependencies:
- * LAVA Palette v1.0.0.1
+ * GPower Error >= 1.2.0.14
+ * OpenG Application Control Library >= 4.1.0.7
+ * OpenG Comparison Library >= 4.0.0.3
+ * LAVA Palette >= 1.0.0.1
 
 Description:
 LabVIEW Task Manager is a debugging tool for use during development.  A tree 
 diagram displays detailed information on all VIs in memory, belonging to a selected 
 project/target.  It allows for interacting with single or multiple selected VIs at 
 a time, and has the following features:
+ * Look & Feel similar to Windows Task Manager
  * Selection of project/target
  * Lists all VIs in memory, grouped by class/library
  * Searches for and enumerates clones in memory
@@ -66,7 +70,7 @@ Version History:
  * R1 Ravi Beniwal on 09/19/2011 (LabVIEW 2009)
 
 License:
-Copyright (c) 2011-2016, Ravi Beniwal
+Copyright (c) 2011-2016, Ravi Beniwal & Tim Vargo
 All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
