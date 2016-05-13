@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2016-05-12 13:47:57" Creator="Timothy D. Vargo" Comments="" ID="e5361cb34f912d13a350687b53b3356c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2016-05-12 18:40:20" Creator="Timothy D. Vargo" Comments="" ID="383371205cc2170aec222d1c559e0ff3">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.9.1.35</Library_Version>
+    <Library_Version>1.9.1.36</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..\_builds\Task Manager\VIPs</Library_Output_Folder>
+    <Library_Output_Folder>\\snl\home\tdvargo\Documents\_builds\LVTM\VIPackages</Library_Output_Folder>
     <Company_Name>LAVA</Company_Name>
     <Library_Summary/>
     <Library_License>BSD(3-Clause)</Library_License>
@@ -200,9 +200,6 @@
         <Path>Utils_LVTM/BuildPathToDynamic.vi</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Utils_LVTM/Close_If_Valid.vi</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Utils_LVTM/Filter &amp; Build DependentTypeDefs&amp;Parents.vi</Path>
       </Exclusions>
       <Exclusions>
@@ -338,7 +335,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEF73C3870630384E688AE0D4E2EED86</GUID>
+      <GUID>A4AA9D003B2E878D51FF680B0467451F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
