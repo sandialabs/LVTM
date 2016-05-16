@@ -211,6 +211,7 @@
 				<Item Name="Data Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/Data Changed__ogtk.vi"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="../../../../../../../../Windows/System32/user32.dll"/>
+			<Item Name="wirenut.vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/wirenut.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Source Distribution" Type="Source Distribution">
@@ -227,7 +228,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">4</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Source Distribution</Property>
+				<Property Name="Bld_localDestDir" Type="Path">//snl/home/tdvargo/Documents/_builds/LVTM/SourceDistribution</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{962BFC30-CD1D-4254-A2C3-BDF962CBD40D}</Property>
 				<Property Name="Bld_removeVIObj" Type="Bool">true</Property>
@@ -235,14 +236,14 @@
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Source Distribution</Property>
+				<Property Name="Destination[0].path" Type="Path">//snl/home/tdvargo/Documents/_builds/LVTM/SourceDistribution</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Source Distribution/data</Property>
+				<Property Name="Destination[1].path" Type="Path">//snl/home/tdvargo/Documents/_builds/LVTM/SourceDistribution/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F4D2A569-3C8F-4C3A-82A0-7325EED15DA0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E8CBC976-1898-49E6-918F-7CF4E894D66E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -282,7 +283,7 @@
 				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="LVTM Zip File" Type="Zip File">
-				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="Absolute[0]" Type="Bool">true</Property>
 				<Property Name="BuildName" Type="Str">LVTM Zip File</Property>
 				<Property Name="Comments" Type="Str"></Property>
 				<Property Name="DestinationID[0]" Type="Str">{BCEDFA66-DBE6-482F-A13F-61891D50E311}</Property>
@@ -291,7 +292,7 @@
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
 				<Property Name="IncludedItems[0]" Type="Ref">/My Computer</Property>
 				<Property Name="IncludeProject" Type="Bool">true</Property>
-				<Property Name="Path[0]" Type="Path">../../builds/Task Manager/LVTM Zip File/Task Manager.zip</Property>
+				<Property Name="Path[0]" Type="Path">//snl/home/tdvargo/Documents/_builds/LVTM/ZipDistro/LVTM.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasedefault</Property>
 			</Item>
 		</Item>
