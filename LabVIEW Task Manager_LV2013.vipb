@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2016-05-12 13:47:57" Creator="Timothy D. Vargo" Comments="" ID="e5361cb34f912d13a350687b53b3356c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2016-05-16 15:33:48" Creator="Timothy D. Vargo" Comments="" ID="eeb3825bd911fa056214132693e75791">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.9.1.35</Library_Version>
+    <Library_Version>1.9.1.38</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..\_builds\Task Manager\VIPs</Library_Output_Folder>
+    <Library_Output_Folder>\\snl\home\tdvargo\Documents\_builds\LVTM\VIPackages</Library_Output_Folder>
     <Company_Name>LAVA</Company_Name>
     <Library_Summary/>
     <Library_License>BSD(3-Clause)</Library_License>
@@ -60,13 +60,13 @@
       <Copyright>Copyright (c) 2011-2016, Ravi Beniwal &amp; Tim Vargo</Copyright>
       <Packager>Ravi Beniwal &amp; Tim Vargo</Packager>
       <URL>https://bitbucket.org/lavag/labview-task-manager</URL>
-      <Release_Notes>10-May-2016 -- v2013.1.9.0
+      <Release_Notes>16-May-2016 -- v2013.1.9.1
 * Many performance optimizations (including 'dependencies cache' per Neil Pate)
 * Do not create new template instances, and suppress loading dialogs (per xceric)
 * Persist the column sorting between refreshes
 * Persist the collapsed/expanded state of each library node in the tree, between refreshes
 * Persist the selected item between refreshes, if it still exists
-** This build requires LV2013+
+** This build requires LV2013+ to run, and VIPM 2014+ to install
 
 02-Jul-2015 -- v1.8.0.29
 * Rechecking for new app instances upon mouse over "App Instance" control
@@ -165,9 +165,6 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>.hgtags</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>_builds</Path>
       </Exclusions>
       <Exclusions>
         <Path>Discussions</Path>
@@ -338,7 +335,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEF73C3870630384E688AE0D4E2EED86</GUID>
+      <GUID>F4D45EB4FAF0196532054145E7F8A885</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
