@@ -97,6 +97,7 @@
 			<Item Name="Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Refresh Tree.vi"/>
 			<Item Name="Build Tree Struct wProperties.vi" Type="VI" URL="../VIs_LVTM/Build Tree Struct wProperties.vi"/>
 			<Item Name="Find Collapsed Nodes.vi" Type="VI" URL="../VIs_LVTM/Find Collapsed Nodes.vi"/>
+			<Item Name="Get_Version_Info.vi" Type="VI" URL="../VIs_LVTM/Get_Version_Info.vi"/>
 		</Item>
 		<Item Name="Controls_LVTM" Type="Folder">
 			<Item Name="LVTM_Config_Info.ctl" Type="VI" URL="../Controls_LVTM/LVTM_Config_Info.ctl"/>
@@ -159,6 +160,15 @@
 				<Item Name="Error_ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/Error_ClearError.vi"/>
 				<Item Name="Error_FilterMulti.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/SubVIs/Filter/Error_FilterMulti.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
+				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="BuildErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/BuildErrorSource.vi"/>
+				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
+				<Item Name="GetFileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfo.vi"/>
+				<Item Name="GetFileVersionInfoSize.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfoSize.vi"/>
+				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
+				<Item Name="FileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Variant Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D Variant Array Changed__ogtk.vi"/>
@@ -211,7 +221,12 @@
 				<Item Name="Data Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/Data Changed__ogtk.vi"/>
 			</Item>
 			<Item Name="user32.dll" Type="Document" URL="../../../../../../../../Windows/System32/user32.dll"/>
-			<Item Name="wirenut.vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/wirenut.vi"/>
+			<Item Name="version.dll" Type="Document" URL="version.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Source Distribution" Type="Source Distribution">
