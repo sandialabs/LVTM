@@ -7,3 +7,6 @@
 syntax: glob
 **.bak
 _LVTM_2010/*
+.orig
+syntax: regexp
+.orig$
