@@ -97,11 +97,12 @@
 			<Item Name="Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Refresh Tree.vi"/>
 			<Item Name="Build Tree Struct wProperties.vi" Type="VI" URL="../VIs_LVTM/Build Tree Struct wProperties.vi"/>
 			<Item Name="Find Collapsed Nodes.vi" Type="VI" URL="../VIs_LVTM/Find Collapsed Nodes.vi"/>
-			<Item Name="Get_Version_Info.vi" Type="VI" URL="../VIs_LVTM/Get_Version_Info.vi"/>
+			<Item Name="Version_Info.vi" Type="VI" URL="../VIs_LVTM/Version_Info.vi"/>
 		</Item>
 		<Item Name="Controls_LVTM" Type="Folder">
 			<Item Name="LVTM_Config_Info.ctl" Type="VI" URL="../Controls_LVTM/LVTM_Config_Info.ctl"/>
 			<Item Name="ReentrancyKinds.ctl" Type="VI" URL="../Controls_LVTM/ReentrancyKinds.ctl"/>
+			<Item Name="FileVersionInfo+.ctl" Type="VI" URL="../Controls_LVTM/FileVersionInfo+.ctl"/>
 		</Item>
 		<Item Name="Error_LVTM" Type="Folder">
 			<Item Name="Error Task_Manager Class" Type="Folder"/>
@@ -138,6 +139,17 @@
 			<Item Name="readme.bb.txt" Type="Document" URL="../readme.bb.txt"/>
 			<Item Name="readme.txt" Type="Document" URL="../readme.txt"/>
 		</Item>
+		<Item Name="TemporaryForVersionInfoDevelopment" Type="Folder">
+			<Item Name="ConfigKeyEnum.ctl" Type="VI" URL="../TemporaryForVersionInfoDevelopment/ConfigKeyEnum.ctl"/>
+			<Item Name="ExpandEnvironmentStrings_IWsh.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/ExpandEnvironmentStrings_IWsh.vi"/>
+			<Item Name="ReadConfigFile.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/ReadConfigFile.vi"/>
+			<Item Name="Special Folder Enum.ctl" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Special Folder Enum.ctl"/>
+			<Item Name="Insert Reserved Error.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Insert Reserved Error.vi"/>
+			<Item Name="Insert Coded Error.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Insert Coded Error.vi"/>
+			<Item Name="Special Folder Path.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Special Folder Path.vi"/>
+			<Item Name="ConstructConfigFilePath.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/ConstructConfigFilePath.vi"/>
+			<Item Name="Re-PopulateConfigKeyEnum.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Re-PopulateConfigKeyEnum.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -169,6 +181,30 @@
 				<Item Name="GetFileVersionInfoSize.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfoSize.vi"/>
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
 				<Item Name="FileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
+				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
+				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
+				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
+				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
+				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
+				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
+				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
+				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
+				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
+				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
+				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Variant Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D Variant Array Changed__ogtk.vi"/>
@@ -225,6 +261,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
