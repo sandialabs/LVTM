@@ -139,17 +139,6 @@
 			<Item Name="readme.bb.txt" Type="Document" URL="../readme.bb.txt"/>
 			<Item Name="readme.txt" Type="Document" URL="../readme.txt"/>
 		</Item>
-		<Item Name="TemporaryForVersionInfoDevelopment" Type="Folder">
-			<Item Name="ConfigKeyEnum.ctl" Type="VI" URL="../TemporaryForVersionInfoDevelopment/ConfigKeyEnum.ctl"/>
-			<Item Name="ExpandEnvironmentStrings_IWsh.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/ExpandEnvironmentStrings_IWsh.vi"/>
-			<Item Name="ReadConfigFile.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/ReadConfigFile.vi"/>
-			<Item Name="Special Folder Enum.ctl" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Special Folder Enum.ctl"/>
-			<Item Name="Insert Reserved Error.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Insert Reserved Error.vi"/>
-			<Item Name="Insert Coded Error.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Insert Coded Error.vi"/>
-			<Item Name="Special Folder Path.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Special Folder Path.vi"/>
-			<Item Name="ConstructConfigFilePath.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/ConstructConfigFilePath.vi"/>
-			<Item Name="Re-PopulateConfigKeyEnum.vi" Type="VI" URL="../TemporaryForVersionInfoDevelopment/Re-PopulateConfigKeyEnum.vi"/>
-		</Item>
 		<Item Name="VersionInfo" Type="Folder">
 			<Item Name="Access_VersionInfo.vi" Type="VI" URL="../VersionInfo/Access_VersionInfo.vi"/>
 			<Item Name="ProductVersion.ctl" Type="VI" URL="../VersionInfo/ProductVersion.ctl"/>
@@ -185,13 +174,6 @@
 				<Item Name="GetFileVersionInfoSize.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfoSize.vi"/>
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
 				<Item Name="FileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
 				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
@@ -272,9 +254,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
