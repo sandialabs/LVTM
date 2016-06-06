@@ -44,7 +44,7 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 * Optimize performance: 
 ** Investigate if the Get VI Dependencies" Method parameter "Whole Hierarchy" could be used to return all dependencies at once, therefore avoiding looping on each VI already in memory.  Verify what LV versions this parameter is available in.
 ** The "Hidden Gems in vi.lib" palette includes a "Tree Sorter" function.  Will this sort both alpha and numerically?  If so, consider replacing the existing "Sort Tree Items by Numerical order" project VI with this Hidden Gem.
-** "May be use ['Add Multiple Items to End' method] instead of adding each item individually" <http://lavag.org/topic/14921-labview-task-manager/?p=90037>
+** "May be use ['Add Multiple Items to End' method] instead of adding each item individually" <http://lavag.org/topic/14921-labview-task-manager/?p=90037>  An explanation is here: <http://www.notatamelion.com/2015/09/14/a-tree-grows-in-brooklyn-labview/>
 * Show columns indicating if a VI's FP/BD are currently open or closed.  Optionally click on these columns to open them, shift-click to close them.  Inspired by post from drjdpowell: <http://lavag.org/topic/14921-labview-task-manager/page-3#entry92739>
 * Option to group by library or not (flat list).  Flat is useful when wanting to sort by columns State, Paused?, Hilite?, Reentrant, etc.
 ** If grouped is active, hide the column "Library Name" (CAUTION! This field currently displays the message "Error" when an operation fails).
@@ -56,7 +56,7 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 *** Output_Debug_String.vi by Fabian Töpper, <http://fabiantoepper.de/get-debug-messages-from-labview-applications>.
 *** WinDebugLogging.vi by Dr. Damien (DFGray), <https://forums.ni.com/t5/LabVIEW/Dr-Damien-s-Development-Debugging-Race-Conditions/td-p/802620>.
 *** A tool to find and list all dependent DLL files.  See <http://www.evernote.com/shard/s286/sh/bc26a3f8-2c02-47b7-9a10-6a42761c1455/7766648ffe434144c2804f1429202977>.
-*** A tool to search a LV project (or app instance) for possible dynamically launched VIs.  The intent is to help the user find all CBR or Run method VIs into which they may want to place the "Clone VIs FG" drop-in VI (Clone Beacon).
+*** A tool to search a LV project (or app instance) for possible dynamically launched VIs.  The intent is to help the user find all CBR or Run method VIs into which they may want to place the "Clone VIs FG" drop-in VI (Clone Beacon).  Such a tool would need to search for the 'Open VI Reference' primative, AND Static VI References, and then extract the name of each associated VI.
 *** Custom Cluster-Probe Builder, by TimVargo, but not yet written.  Write a Quick Drop plugin VI that will, using LV Scripting methods, determine the structure of the cluster from the selected wire (wire selection required prior to invoking QD), then build a custom probe unique to that cluster.  Search first to see if this has already been done.
 *** Some generally useful Custom Probes could be bundled with LVTM, but these could not be invoked from this Tools menu.  Still, an item in this Tools menu could lead users to a handful of especially useful Custom Probes, such as: 
 **** VI Box Probes, by Saphir

@@ -290,7 +290,7 @@
 				<Property Name="Destination[1].path" Type="Path">//snl/home/tdvargo/Documents/_builds/LVTM/SourceDistribution/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E8CBC976-1898-49E6-918F-7CF4E894D66E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6292E147-AF18-4C36-B481-07A55FF368C1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
