@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2016-06-14 17:00:51" Creator="Timothy D. Vargo" Comments="" ID="72b11c4ec82de30c44f765345091a601">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2016-07-12 19:24:22" Creator="Timothy D. Vargo" Comments="" ID="1e46d8cb8e22285d810ea5f44f87a382">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.9.1.41</Library_Version>
+    <Library_Version>1.9.1.42</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\..\..\builds\LVTM\VIPackages</Library_Output_Folder>
@@ -60,7 +60,7 @@
       <Copyright>Copyright (c) 2011-2016, Ravi Beniwal &amp; Tim Vargo</Copyright>
       <Packager>Ravi Beniwal &amp; Tim Vargo</Packager>
       <URL>https://bitbucket.org/lavag/labview-task-manager</URL>
-      <Release_Notes>09-Jun-2016 -- v2013.1.9.1
+      <Release_Notes>12-Jul-2016 -- v2013.1.9.1
 * Many performance optimizations (including 'dependencies cache' per Neil Pate)
 * Do not create new template instances, and suppress loading dialogs (per xceric)
 * Persist the column sorting between refreshes
@@ -212,9 +212,6 @@
         <Path>Utils_LVTM/LabVIEW Mods-Bitset Mappings.xlsx</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Utils_LVTM/MsgBox_LV.vi</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Utils_LVTM/Controls/DependendentTypeDefwParents.ctl</Path>
       </Exclusions>
       <Exclusions>
@@ -335,7 +332,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F366E8938A110E6480D1262D080FD000</GUID>
+      <GUID>218F5256B5B5C9BCBF8E26B36FB469CE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
