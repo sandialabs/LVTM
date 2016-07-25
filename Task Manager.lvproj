@@ -131,6 +131,11 @@
 			<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
 			<Item Name="readme.bb.txt" Type="Document" URL="../readme.bb.txt"/>
 			<Item Name="readme.txt" Type="Document" URL="../readme.txt"/>
+			<Item Name="LabVIEW Task Manager_LV2013.vipc" Type="Document" URL="../LabVIEW Task Manager_LV2013.vipc"/>
+			<Item Name="LabVIEW Task Manager.vipb" Type="Document" URL="../LabVIEW Task Manager.vipb"/>
+			<Item Name="LabVIEW Task Manager.vipc" Type="Document" URL="../LabVIEW Task Manager.vipc"/>
+			<Item Name="LabVIEW Task Manager_bpLV2010.vipb" Type="Document" URL="../LabVIEW Task Manager_bpLV2010.vipb"/>
+			<Item Name="LabVIEW Task Manager_LV2013.vipb" Type="Document" URL="../LabVIEW Task Manager_LV2013.vipb"/>
 		</Item>
 		<Item Name="VersionInfo" Type="Folder">
 			<Item Name="Access_VersionInfo.vi" Type="VI" URL="../VersionInfo/Access_VersionInfo.vi"/>
@@ -283,7 +288,7 @@
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
 				<Property Name="IncludedItems[0]" Type="Ref">/My Computer</Property>
 				<Property Name="IncludeProject" Type="Bool">true</Property>
-				<Property Name="Path[0]" Type="Path">//snl/home/tdvargo/Documents/_builds/LVTM/ZipDistro/LVTM.zip</Property>
+				<Property Name="Path[0]" Type="Path">&lt;Not A Path&gt;</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasedefault</Property>
 			</Item>
 			<Item Name="LVTM Source Distribution" Type="Source Distribution">
@@ -304,7 +309,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{962BFC30-CD1D-4254-A2C3-BDF962CBD40D}</Property>
 				<Property Name="Bld_removeVIObj" Type="Bool">true</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/builds/LVTM/SourceDistribution/Task Manager_LVTM Source Distribution_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
