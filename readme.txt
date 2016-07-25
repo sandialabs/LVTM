@@ -1,4 +1,4 @@
-LabVIEW Task Manager v2013.1.9.0
+LabVIEW Task Manager v2013.1.9.1
 
 Copyright (c) 2011-2016, Ravi Beniwal & Tim Vargo
 All rights reserved.
@@ -14,9 +14,11 @@ LabVIEW Versions Tested on:
 LV2013
 
 Dependencies:
- * GPower Error >= 1.2.0.14
+ * GPower Error & Warning = 1.2.0.14
+ * lava_lib_tree_control_api >= 1.0.1
  * OpenG Application Control Library >= 4.1.0.7
  * OpenG Comparison Library >= 4.0.0.3
+ * NI SmartBalloon = 2.0.0.2
  * LAVA Palette >= 1.0.0.1
 
 Description:
@@ -60,7 +62,7 @@ and TimVargo.
 
 Version History:
 (see Release Notes for the FULL version history)
- * v1.9.0 TimVargo on 05/10/2016 (LabVIEW 2013)
+ * v1.9.1 TimVargo on 07/25/2016 (LabVIEW 2013)
  * v1.8.0 TimVargo on 07/14/2015 (LabVIEW 2010)
  * v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)
  * R5 Ravi Beniwal, Darren Natinger on 09/26/2011

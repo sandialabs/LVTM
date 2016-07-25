@@ -279,7 +279,7 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">
-				<Property Name="Absolute[0]" Type="Bool">true</Property>
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
 				<Property Name="BuildName" Type="Str">LVTM Zip File</Property>
 				<Property Name="Comments" Type="Str"></Property>
 				<Property Name="DestinationID[0]" Type="Str">{BCEDFA66-DBE6-482F-A13F-61891D50E311}</Property>
@@ -288,7 +288,7 @@
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
 				<Property Name="IncludedItems[0]" Type="Ref">/My Computer</Property>
 				<Property Name="IncludeProject" Type="Bool">true</Property>
-				<Property Name="Path[0]" Type="Path">&lt;Not A Path&gt;</Property>
+				<Property Name="Path[0]" Type="Path">../../builds/LVTM/ZipDistro/LVTM.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasedefault</Property>
 			</Item>
 			<Item Name="LVTM Source Distribution" Type="Source Distribution">
@@ -309,9 +309,10 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{962BFC30-CD1D-4254-A2C3-BDF962CBD40D}</Property>
 				<Property Name="Bld_removeVIObj" Type="Bool">true</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/builds/LVTM/SourceDistribution/Task Manager_LVTM Source Distribution_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">8</Property>
+				<Property Name="Bld_version.minor" Type="Int">9</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/builds/LVTM/SourceDistribution</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -320,7 +321,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/builds/LVTM/SourceDistribution/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2BBDF8C6-692C-4100-8156-FEB51194A67C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FB95FA25-1BC4-4D26-BC78-A2CEEE6874AB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
