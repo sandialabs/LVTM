@@ -121,13 +121,7 @@
 			<Item Name="Wait For LACK OF Front Panel Activity (event driven).vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/Wait For LACK OF Front Panel Activity (event driven).vi"/>
 		</Item>
 		<Item Name="TestVIs_LVTM" Type="Folder">
-			<Item Name="Test Class" Type="Folder">
-				<Item Name="Test Class.lvclass" Type="LVClass" URL="../Test VIs_LVTM/Test Class/Test Class.lvclass"/>
-			</Item>
-			<Item Name="Normal VI.vi" Type="VI" URL="../Test VIs_LVTM/Normal VI.vi"/>
-			<Item Name="Parallel VIs Launcher.vi" Type="VI" URL="../Test VIs_LVTM/Parallel VIs Launcher.vi"/>
-			<Item Name="Reentrant VI.vi" Type="VI" URL="../Test VIs_LVTM/Reentrant VI.vi"/>
-			<Item Name="Reentrant VI.vit" Type="VI" URL="../Test VIs_LVTM/Reentrant VI.vit"/>
+			<Item Name="TestVIs.lvlib" Type="Library" URL="../Test VIs_LVTM/TestVIs.lvlib"/>
 		</Item>
 		<Item Name="Project_LVTM" Type="Folder">
 			<Item Name="License.txt" Type="Document" URL="../License.txt"/>
