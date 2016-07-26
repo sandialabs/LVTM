@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2016-07-25 19:09:27" Creator="Timothy D. Vargo" Comments="" ID="2515fafb9493b6f592ab37108adcc6a0">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2016-07-26 10:46:00" Creator="Timothy D. Vargo" Comments="" ID="33436b7a89ac0c6cb39322b0b4528628">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.9.1.42</Library_Version>
+    <Library_Version>1.9.1.43</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\..\..\builds\LVTM\VIPackages</Library_Output_Folder>
@@ -222,88 +222,10 @@
         <Path>VIs_LVTM/FindName Task_Manager Library</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Test VIs_LVTM/Parallel VIs Launcher.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Test VIs_LVTM/Reentrant VI.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Test VIs_LVTM/Reentrant VI.vit.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Test VIs_LVTM/Test Class/Read Numeric.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Test VIs_LVTM/Test Class/Test Class.lvclass.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Test VIs_LVTM/Test Class/Write Numeric.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/DiscoverCommonTypeDefCallers.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/GetDependentTypeDefs.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/GetModificationsBitsets.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/BuildPathToDynamic.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>.hgtags.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>DiscoverCommonTypeDefCallers.lvlib.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW Task Manager.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW Task Manager.vipc.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW Task Manager_LV2013.vipb.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>License.txt.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>readme.txt.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Release Notes.txt.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Task Manager.lvproj.orig</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Utils_LVTM/MsgBox_Win.vi</Path>
       </Exclusions>
       <Exclusions>
         <Path>Utils_LVTM/MsgBox_LV.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Test VIs_LVTM/Normal VI.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Error_LVTM/Error Task_Manager Class/Send Error Task_Manager.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Error_LVTM/Error Task_Manager Class/Read Task Manager Error.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Error_LVTM/Error Task_Manager Class/Init Error Task_Manager.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Error_LVTM/Error Task_Manager Class/Error Task Manager.lvclass.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Error_LVTM/Error Task_Manager Class/Close Error Task_Manager.vi.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Controls_LVTM/LVTM_Config_Info.ctl.orig</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>License.txt</License_Agreement_Filepath>
@@ -420,7 +342,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56B4F5AC5561CD418B6E84208A3857AF</GUID>
+      <GUID>F85256FD701AF1CD6534B6CA7A03FEBF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
