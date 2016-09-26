@@ -1,3 +1,10 @@
+Tasks to resolve BEFORE the next public release: 
+* Display of version info in upper-right corner
+** Need to strip off suffix from VI name (after and including double underscore).
+** No code yet exists to populate the registry with this info.
+* Pause.vi used to work, now does not.
+* Enable/Disable tool from executing
+
 X Add tip strips in appropriate places, including the control for "Search Clones Up To".  This needs to explain what kinds of clones won't and will be searched for.
 X Make the tool accessible from the LV "Tools" menu.
 X Refresh should include re-checking for new app instances.
@@ -17,6 +24,8 @@ X Optimizations per Neil Pate: <http://lavag.org/topic/14921-labview-task-manage
 X Fixes/Enhancements per xceric: <http://lavag.org/topic/14921-labview-task-manager/?p=108665>
 X When an attempt to abort a non-abortable VI is made, an "error" message currently appears in the "Library Name" column.  This should be changed to appear in the "State" column. 
 
+* When sorted DECENDING on the "State" column, the tree is also (incorrectly) sorted decending by top node name (library/class name).
+** Also, re-sort on each Refresh operation
 * Until Help>About is implemented, display the tool's version number on the FP.
 * Add a bottom "Status Bar".  Include the following: 
 ** A count of all items in tree, observing the file type filters.
@@ -28,6 +37,7 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 * BUG: Trap error when any operation (Open, Close, Hilite, Pause, etc.) is attempted on a library.  Possibly solved by "Do not allow selection of parent libraries"?
 * BUG: Trap error when certain operations are attempted on non-runnable VIs (example: double-click on a .ctl).
 * Add an "All" option to the "Application Instance" dropdown selector.  This will help with use cases where multiple projects are related to each other, such as server/clients that run in individual app instances.
+* Currently "Open BD" works as expected.  Improve this to also minimize the FP, but only if the FP was not already open.
 * Add to the readme file "What use cases would this tool help me with?"
 * Add logging to error file.
 * Automate the refresh function, so that F5 need not be pressed.  Spawn an independent process that continuously determines "All VIs in Memory", compares that list with a cached list of the previous results, and sends the refreshed list to its caller VI ONLY IF a change is detected.
@@ -42,9 +52,12 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 * Merge columns "Reentrant" and "Reentrancy Type" into one column with three possible modes: NotReentrant, Preallocated, Shared.
 * Cause a value of zero in "Search Clones Up To" to filter out all statically-referenced clones.  The goal is to display no MORE clones than this value.
 * Optimize performance: 
+** Try turning off "disable click" argument to "Set Busy.vi" (x2?), to see if UI responsiveness improves.
 ** Investigate if the Get VI Dependencies" Method parameter "Whole Hierarchy" could be used to return all dependencies at once, therefore avoiding looping on each VI already in memory.  Verify what LV versions this parameter is available in.
 ** The "Hidden Gems in vi.lib" palette includes a "Tree Sorter" function.  Will this sort both alpha and numerically?  If so, consider replacing the existing "Sort Tree Items by Numerical order" project VI with this Hidden Gem.
 ** "May be use ['Add Multiple Items to End' method] instead of adding each item individually" <http://lavag.org/topic/14921-labview-task-manager/?p=90037>  An explanation is here: <http://www.notatamelion.com/2015/09/14/a-tree-grows-in-brooklyn-labview/>
+** Spawn a background task to continuously run the "refresh" code in its own thread, but at a lower priority than the UI thread.  Only update the tree and front panel IF a change is detected.
+** Spawn a background task to continuously run the "update" code in its own thread, but at a lower priority than the UI thread.  Only update the tree and front panel IF a change is detected.
 * Show columns indicating if a VI's FP/BD are currently open or closed.  Optionally click on these columns to open them, shift-click to close them.  Inspired by post from drjdpowell: <http://lavag.org/topic/14921-labview-task-manager/page-3#entry92739>
 * Option to group by library or not (flat list).  Flat is useful when wanting to sort by columns State, Paused?, Hilite?, Reentrant, etc.
 ** If grouped is active, hide the column "Library Name" (CAUTION! This field currently displays the message "Error" when an operation fails).
@@ -62,6 +75,7 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 **** VI Box Probes, by Saphir
 **** Variant Probe, by Ton Plomp
 **** WinDebugLoggingProbe, by TimVargo
+BUG: If a VI is paused/unpaused from the VI's own toolbar, pause symbol in LVTM is not synced.
 * Consider reversing the logic of the item type filters, for consistency.  Currently these are checked to EXCLUDE the associated type, but this is the opposite logic to that used in the VI Hierarchy view, where item types are selected to be INCLUDED.
 * Track start-stop and runtime <http://lavag.org/topic/14921-labview-task-manager/?p=89522>.
 * More columns?  (will need a mechanism to hide/display selected columns, or perhaps spawn separate tables)
