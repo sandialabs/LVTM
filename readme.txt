@@ -22,11 +22,11 @@ Dependencies:
  * LAVA Palette >= 1.0.0.1
 
 Description:
-LabVIEW Task Manager is a debugging tool for use during development.  A tree 
-diagram displays detailed information on all VIs in memory, belonging to a selected 
-project/target.  It allows for interacting with single or multiple selected VIs at 
-a time, and has the following features:
- * Look & Feel similar to Windows Task Manager
+LabVIEW Task Manager is a debugging tool for use during LabVIEW code development.  
+An expandable/collapsible tree diagram displays detailed information on all VIs in 
+memory, belonging to a selected project/target.  It allows for interacting with 
+single or multiple selected VIs at a time, and includes the following major features: 
+ * A Look & Feel similar to Windows Task Manager
  * Selection of project/target
  * Lists all VIs in memory, grouped by class/library
  * Searches for and enumerates clones in memory
@@ -47,7 +47,7 @@ a time, and has the following features:
 
 Installation and instructions:
 Install this tool by using the VI Package Manager to install its associated 
-package file (.vip).  VIPM 2014 or higher is required, and is available 
+package file (.vip).  VIPM 2014 or higher is required, which is available 
 for free from <http://jki.net/vipm>.
 
 Known Issues:
