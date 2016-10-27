@@ -29,7 +29,7 @@
 * Built a VIP package for tool installation -- to be accomplished using VIPM
 * This tool can now be invoked from LV's main "Tools" menu
 
-**R6 Ohiofudu Israel on 09/26/2011 (LabVIEW 2010)**
+**R6 Ohiofudu Israel on 04/09/2012 (LabVIEW 2010)**
 * Error handling improvements
 * Modified file hierarchy and naming
 * Backported to LabVIEW 2010

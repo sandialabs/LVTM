@@ -1,4 +1,4 @@
-### Tasks to resolve BEFORE the next public release (may be reduntantly listed both here and elsewhere) ###
+### Tasks to resolve BEFORE the next public release (may be redundantly listed both here and elsewhere) ###
 * Display of version info in upper-right corner
 ** Need to strip off suffix from VI name (after and including double underscore).
 ** No code yet exists to populate the registry with this info.
@@ -28,7 +28,7 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 ######
 
 ### FUTURE BASE FEATURES ###
-* When sorted DECENDING on the "State" column, the tree is also (incorrectly) sorted decending by top node name (library/class name).
+* When sorted DESCENDING on the "State" column, the tree is also (incorrectly) sorted descending by top node name (library/class name).
 ** Also, re-sort on each Refresh operation
 * Until Help>About is implemented, display the tool's version number on the FP.
 * BUG: As of R6, item type filtering is applied early in the discovery process, causing items to not get properly filtered once the next two of three "find all clones" VIs are called (they are inserted back in again).  According to <http://lavag.org/topic/14921-labview-task-manager/page-2#entry89848>, the Find Clones VI was intended to "be inserted into the list of VIs after filtering".
@@ -64,7 +64,7 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 *** Output_Debug_String.vi by Fabian Töpper, <http://fabiantoepper.de/get-debug-messages-from-labview-applications>.
 *** WinDebugLogging.vi by Dr. Damien (DFGray), <https://forums.ni.com/t5/LabVIEW/Dr-Damien-s-Development-Debugging-Race-Conditions/td-p/802620>.
 *** A tool to find and list all dependent DLL files.  See <http://www.evernote.com/shard/s286/sh/bc26a3f8-2c02-47b7-9a10-6a42761c1455/7766648ffe434144c2804f1429202977>.
-*** A tool to search a LV project (or app instance) for possible dynamically launched VIs.  The intent is to help the user find all CBR or Run method VIs into which they may want to place the "Clone VIs FG" drop-in VI (Clone Beacon).  Such a tool would need to search for the 'Open VI Reference' primative, AND Static VI References, and then extract the name of each associated VI.
+*** A tool to search a LV project (or app instance) for possible dynamically launched VIs.  The intent is to help the user find all CBR or Run method VIs into which they may want to place the "Clone VIs FG" drop-in VI (Clone Beacon).  Such a tool would need to search for the 'Open VI Reference' primitive, AND Static VI References, and then extract the name of each associated VI.
 *** Custom Cluster-Probe Builder, by TimVargo, but not yet written.  Write a Quick Drop plugin VI that will, using LV Scripting methods, determine the structure of the cluster from the selected wire (wire selection required prior to invoking QD), then build a custom probe unique to that cluster.  Search first to see if this has already been done.
 *** Some generally useful Custom Probes could be bundled with LVTM, but these could not be invoked from this Tools menu.  Still, an item in this Tools menu could lead users to a handful of especially useful Custom Probes, such as: 
 **** VI Box Probes, by Saphir
@@ -113,12 +113,13 @@ BUG: If a VI is paused/unpaused from the VI's own toolbar, pause symbol in LVTM 
 ######
 
 ### THOUGHTS ###
-O Will (or can it be made to) work while remote debugin?  If Debug Server is being used to debug VIs on a remote machine, and the local development environment has LVTM installed, will it work seemlessly?
+O Will (or can it be made to) work while remote debugging?  If Debug Server is being used to debug VIs on a remote machine, and the local development environment has LVTM installed, will it work seamlessly?
 O IF POSSIBLE -- Allow this tool to run as a built executable.  This would likely focus around replacing the Read Property node: "App.AllVIs" with "App.ExportedVIs"
     * The former "Returns a list of VIs in memory for the specified application instance."
         # This property returns an error if you wire a remote application reference to the reference input. For a remote application, use the Exported VIs in Memory property to return a list of exported VIs.
     * The later "Returns a list of exported VIs in memory."
         # This property is similar to the Exported VIs list option in the Exported VIs section on the VI Server page of the Options dialog box.
+    * The article at <http://www.mooregoodideas.com/vi-server-in-built-executables/> suggests that this IS indeed possible!
     * It may be that this tool CANNOT be run as a separate process.  VI Analyzer indicates several functions as "not compatible with executable".  There are lots of VI Scripting functions used, but this should not be a problem as long as a full IDE is installed.
     * What about building an executable to include as much functionality as possible, which optionally calls a separate library (.lvlib?, .llb?, .plvlib?) of functions which can only be used when a full IDE is detected?  The executable portion could still provide a subset of functionality within a Runtime Engine environment.
 ######
