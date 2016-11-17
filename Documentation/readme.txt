@@ -23,9 +23,10 @@ Dependencies:
 
 Description:
 LabVIEW Task Manager is a debugging tool for use during LabVIEW code development.  
-An expandable/collapsible tree diagram displays detailed information on all VIs in 
-memory, belonging to a selected project/target.  It allows for interacting with 
-single or multiple selected VIs at a time, and includes the following major features: 
+An expandable/collapsible tree diagram displays detailed information 
+(both static and dynamic) on all VIs in memory, belonging to a selected 
+project/target.  It allows for interacting with single or multiple selected VIs 
+at a time, and includes the following major features: 
  * A Look & Feel similar to Windows Task Manager
  * Selection of project/target
  * Lists all VIs in memory, grouped by class/library
