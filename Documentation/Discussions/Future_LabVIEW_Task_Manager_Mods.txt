@@ -48,15 +48,15 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 * Cause a value of zero in "Search Clones Up To" to filter out all statically-referenced clones.  The goal is to display no MORE clones than this value.
 * Optimize performance: 
 ** Try turning off "disable click" argument to "Set Busy.vi" (x2?), to see if UI responsiveness improves.
-** Investigate if the Get VI Dependencies" Method parameter "Whole Hierarchy" could be used to return all dependencies at once, therefore avoiding looping on each VI already in memory.  Verify what LV versions this parameter is available in.
+** Investigate if the "Get VI Dependencies" Method parameter "Whole Hierarchy" could be used to return all dependencies at once, therefore avoiding looping on each VI already in memory.  Verify what LV versions this parameter is available in.
 ** The "Hidden Gems in vi.lib" palette includes a "Tree Sorter" function.  Will this sort both alpha and numerically?  If so, consider replacing the existing "Sort Tree Items by Numerical order" project VI with this Hidden Gem.
 ** "May be use ['Add Multiple Items to End' method] instead of adding each item individually" <http://lavag.org/topic/14921-labview-task-manager/?p=90037>  An explanation is here: <http://www.notatamelion.com/2015/09/14/a-tree-grows-in-brooklyn-labview/>
-** Spawn a background task to continuously run the "refresh" code in its own thread, but at a lower priority than the UI thread.  Only update the tree and front panel IF a change is detected.
 ** Spawn a background task to continuously run the "update" code in its own thread, but at a lower priority than the UI thread.  Only update the tree and front panel IF a change is detected.
 * Show columns indicating if a VI's FP/BD are currently open or closed.  Optionally click on these columns to open them, shift-click to close them.  Inspired by post from drjdpowell: <http://lavag.org/topic/14921-labview-task-manager/page-3#entry92739>
 * Option to group by library or not (flat list).  Flat is useful when wanting to sort by columns State, Paused?, Hilite?, Reentrant, etc.
-** If grouped is active, hide the column "Library Name" (CAUTION! This field currently displays the message "Error" when an operation fails).
+** If grouped is active, hide the column "Library Name".
 ** If grouped is NOT active, remove visual selections for Expand All / Collapse All.
+* If the above "option to group by library or not (flat list)" is not implemented for the State column, then some other way of grouping all VIs with a state of RunTop is needed (or perhaps provide both).  One possible alternative would be to provide a new filter option for VI State, allowing to temporarily hide all VIs with a state of Idle or Running.  This is highly desired when wanting to quickly find all VIs that can be aborted, or to discover what VIs might be still running (unknowingly) in the background.
 * Add options to Show/hide particular columns such as Code Size, Data Size, etc.  Use ConfigInfo cluster to hold and persist these User Preferences.
 ** Possibly also save these preferences between sessions (Win Registry?, .ini file?).
 * Include a "Tools" item on menu bar.  Create a plug-in architecture allowing users to launch their own LV debugging tools from here, simply by dropping their own tool VIs into a "plugins" folder.
@@ -107,13 +107,14 @@ BUG: If a VI is paused/unpaused from the VI's own toolbar, pause symbol in LVTM 
 ** Error messages, such as when an attempt is made to Abort a non-abortable VI.
 * Right-click options as alternate ways to perform current button functions.  Needs to work with multiple selections as well as single.
 * Add an "All" option to the "Application Instance" dropdown selector.  This will help with use cases where multiple projects are related to each other, such as server/clients that run in individual app instances.
-* Automate the refresh function, so that F5 need not be pressed.  Spawn an independent process that continuously determines "All VIs in Memory", compares that list with a cached list of the previous results, and sends the refreshed list to its caller VI ONLY IF a change is detected.
+* Automate the refresh function, so that F5 (optionally) need not be pressed.  Spawn an independent background task that continuously loops the "refresh" code in its own thread, at a lower priority than the UI thread, continuously determining "All VIs in Memory".  Compare that list with a cached list of the previous results, and update the tree ONLY IF a change is detected.  A new user setting will provide for "Automatic" or "Manual (F5)" refresh operation.
+
 * Finish the find & filter functions.
 * Display "CPU Load" for individual VIs.  Particularly useful when the tree is sorted by this column.
 ######
 
 ### THOUGHTS ###
-O Will (or can it be made to) work while remote debugging?  If Debug Server is being used to debug VIs on a remote machine, and the local development environment has LVTM installed, will it work seamlessly?
+O Will it (or can it be made to) work while remote debugging?  If Debug Server is being used to debug VIs on a remote machine, and the local development environment has LVTM installed, will it work seamlessly?
 O IF POSSIBLE -- Allow this tool to run as a built executable.  This would likely focus around replacing the Read Property node: "App.AllVIs" with "App.ExportedVIs"
     * The former "Returns a list of VIs in memory for the specified application instance."
         # This property returns an error if you wire a remote application reference to the reference input. For a remote application, use the Exported VIs in Memory property to return a list of exported VIs.
