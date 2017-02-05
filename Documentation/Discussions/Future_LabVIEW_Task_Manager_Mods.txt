@@ -123,4 +123,5 @@ O IF POSSIBLE -- Allow this tool to run as a built executable.  This would likel
     * The article at <http://www.mooregoodideas.com/vi-server-in-built-executables/> suggests that this IS indeed possible!
     * It may be that this tool CANNOT be run as a separate process.  VI Analyzer indicates several functions as "not compatible with executable".  There are lots of VI Scripting functions used, but this should not be a problem as long as a full IDE is installed.
     * What about building an executable to include as much functionality as possible, which optionally calls a separate library (.lvlib?, .llb?, .plvlib?) of functions which can only be used when a full IDE is detected?  The executable portion could still provide a subset of functionality within a Runtime Engine environment.
+O Consider if "New In-Place Struct border nodes for Variant Attribute access" <https://lavag.org/topic/19722-lv2016-new-in-place-struct-border-nodes-for-variant-attribute-access/?page=1> could increase performance of LVTM, in the section of code (by Neil Pate) that caches VI Depencencies.
 ######
