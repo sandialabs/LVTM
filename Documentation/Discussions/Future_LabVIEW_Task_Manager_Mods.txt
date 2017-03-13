@@ -135,7 +135,7 @@ BUG: If a VI is paused/unpaused from the VI's own toolbar, pause symbol in LVTM 
 * Right-click options as alternate ways to perform current button functions.  Needs to work with multiple selections as well as single.
 * Add an "All" option to the "Application Instance" dropdown selector.  This will help with use cases where multiple projects are related to each other, such as server/clients that run in individual app instances.
 * Automate the refresh function, so that F5 (optionally) need not be pressed.  Spawn an independent background task that continuously loops the "refresh" code in its own thread, at a lower priority than the UI thread, continuously determining "All VIs in Memory".  Compare that list with a cached list of the previous results, and update the tree ONLY IF a change is detected.  A new user setting will provide for "Automatic" or "Manual (F5)" refresh operation.
-
+* Get ACTUAL VI Execution State (running vs reserved); inspired by this post: <https://lavag.org/topic/16660-how-to-get-actual-vi-execution-state/>.  This solution looks at all VIs in memory, and then attempts to save the Run-Time Menu of the VI to a temporary file.  According to the help on this method: "This method works only when the VI is running".  So this only works on VIs running, and not reserved to be ran.
 * Finish the find & filter functions.
 * Display "CPU Load" for individual VIs.  Particularly useful when the tree is sorted by this column.
 ######

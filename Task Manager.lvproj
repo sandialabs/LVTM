@@ -104,6 +104,45 @@
 			<Item Name="ReentrancyKinds.ctl" Type="VI" URL="../Controls_LVTM/ReentrancyKinds.ctl"/>
 			<Item Name="FileVersionInfo+.ctl" Type="VI" URL="../Controls_LVTM/FileVersionInfo+.ctl"/>
 		</Item>
+		<Item Name="Documentation" Type="Folder">
+			<Item Name="Discussions" Type="Folder">
+				<Item Name="Debugging dynamically opened reentrant VIs - LabVIEW General - LAVA.URL" Type="Document" URL="../Documentation/Discussions/Debugging dynamically opened reentrant VIs - LabVIEW General - LAVA.URL"/>
+				<Item Name="Debugging Reentrant VIs_Discussion.URL" Type="Document" URL="../Documentation/Discussions/Debugging Reentrant VIs_Discussion.URL"/>
+				<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Documentation/Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
+				<Item Name="GenerateCloneName_Discussion.url" Type="Document" URL="../Documentation/Discussions/GenerateCloneName_Discussion.url"/>
+				<Item Name="LabVIEW Task Manager_Discussion.URL" Type="Document" URL="../Documentation/Discussions/LabVIEW Task Manager_Discussion.URL"/>
+			</Item>
+			<Item Name="SNL_Legal" Type="Folder">
+				<Item Name="LVTM - Authorship Memo for 2175.0.pdf" Type="Document" URL="../Documentation/SNL_Legal/LVTM - Authorship Memo for 2175.0.pdf"/>
+				<Item Name="LVTM - New Open Source Software Qstn_(completed).docx" Type="Document" URL="../Documentation/SNL_Legal/LVTM - New Open Source Software Qstn_(completed).docx"/>
+				<Item Name="LVTM - Review and Approval of Abstract.pdf" Type="Document" URL="../Documentation/SNL_Legal/LVTM - Review and Approval of Abstract.pdf"/>
+				<Item Name="LVTM - Review and Approval of TDVargo_bio.pdf" Type="Document" URL="../Documentation/SNL_Legal/LVTM - Review and Approval of TDVargo_bio.pdf"/>
+				<Item Name="LVTM - Sensitivity Review Statement.docx" Type="Document" URL="../Documentation/SNL_Legal/LVTM - Sensitivity Review Statement.docx"/>
+				<Item Name="LVTM - Sensitivity Review Statement_(completed).pdf" Type="Document" URL="../Documentation/SNL_Legal/LVTM - Sensitivity Review Statement_(completed).pdf"/>
+				<Item Name="LVTM - Third Party Code Template_(completed).xlsx" Type="Document" URL="../Documentation/SNL_Legal/LVTM - Third Party Code Template_(completed).xlsx"/>
+				<Item Name="TDVargo_Bio_2017.docx - Shortcut.lnk" Type="Document" URL="../Documentation/SNL_Legal/TDVargo_Bio_2017.docx - Shortcut.lnk"/>
+				<Item Name="TDVargo_Bio_2017_R&amp;Aapproved.docx" Type="Document" URL="../Documentation/SNL_Legal/TDVargo_Bio_2017_R&amp;Aapproved.docx"/>
+			</Item>
+			<Item Name="3rd_Party_Licenses.html" Type="Document" URL="../Documentation/3rd_Party_Licenses.html"/>
+			<Item Name="3rd_Party_Licenses.md" Type="Document" URL="../Documentation/3rd_Party_Licenses.md"/>
+			<Item Name="About.txt" Type="Document" URL="../Documentation/About.txt"/>
+			<Item Name="Acknowledgments.html" Type="Document" URL="../Documentation/Acknowledgments.html"/>
+			<Item Name="Acknowledgments.md" Type="Document" URL="../Documentation/Acknowledgments.md"/>
+			<Item Name="Change_Log.html" Type="Document" URL="../Documentation/Change_Log.html"/>
+			<Item Name="Change_Log.md" Type="Document" URL="../Documentation/Change_Log.md"/>
+			<Item Name="License.txt" Type="Document" URL="../Documentation/License.txt"/>
+			<Item Name="LVTM White Paper.docx" Type="Document" URL="../Documentation/LVTM White Paper.docx"/>
+			<Item Name="LVTM White Paper.pdf" Type="Document" URL="../Documentation/LVTM White Paper.pdf"/>
+			<Item Name="LVTM WP_Abstract.docx" Type="Document" URL="../Documentation/LVTM WP_Abstract.docx"/>
+			<Item Name="LVTM_NIWeek2017_Abstract_Submittal.pdf" Type="Document" URL="../Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf"/>
+			<Item Name="Product_Tour.pdf" Type="Document" URL="../Documentation/Product_Tour.pdf"/>
+			<Item Name="Quick_Reference.pdf" Type="Document" URL="../Documentation/Quick_Reference.pdf"/>
+			<Item Name="readme.html" Type="Document" URL="../Documentation/readme.html"/>
+			<Item Name="readme.md" Type="Document" URL="../Documentation/readme.md"/>
+			<Item Name="Release_Notes.txt" Type="Document" URL="../Documentation/Release_Notes.txt"/>
+			<Item Name="Support.html" Type="Document" URL="../Documentation/Support.html"/>
+			<Item Name="Support.md" Type="Document" URL="../Documentation/Support.md"/>
+		</Item>
 		<Item Name="Error_LVTM" Type="Folder">
 			<Item Name="Error Task_Manager Class" Type="Folder"/>
 			<Item Name="Error Task_Manager Library" Type="Folder">
@@ -123,16 +162,9 @@
 			<Item Name="TestVIs.lvlib" Type="Library" URL="../Test VIs_LVTM/TestVIs.lvlib"/>
 		</Item>
 		<Item Name="Project_LVTM" Type="Folder">
-			<Item Name="License.txt" Type="Document" URL="../License.txt"/>
 			<Item Name="Task Manager.aliases" Type="Document" URL="../Task Manager.aliases"/>
 			<Item Name="Task Manager.lvlps" Type="Document" URL="../Task Manager.lvlps"/>
-			<Item Name="Release Notes.txt" Type="Document" URL="../Release Notes.txt"/>
-			<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
-			<Item Name="readme.bb.txt" Type="Document" URL="../readme.bb.txt"/>
-			<Item Name="readme.txt" Type="Document" URL="../readme.txt"/>
-			<Item Name="LabVIEW Task Manager_LV2013.vipc" Type="Document" URL="../LabVIEW Task Manager_LV2013.vipc"/>
 			<Item Name="LabVIEW Task Manager.vipb" Type="Document" URL="../LabVIEW Task Manager.vipb"/>
-			<Item Name="LabVIEW Task Manager.vipc" Type="Document" URL="../LabVIEW Task Manager.vipc"/>
 			<Item Name="LabVIEW Task Manager_bpLV2010.vipb" Type="Document" URL="../LabVIEW Task Manager_bpLV2010.vipb"/>
 			<Item Name="LabVIEW Task Manager_LV2013.vipb" Type="Document" URL="../LabVIEW Task Manager_LV2013.vipb"/>
 		</Item>
