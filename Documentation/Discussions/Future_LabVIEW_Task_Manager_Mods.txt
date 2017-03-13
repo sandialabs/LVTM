@@ -34,6 +34,13 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 * BUG: As of R6, item type filtering is applied early in the discovery process, causing items to not get properly filtered once the next two of three "find all clones" VIs are called (they are inserted back in again).  According to <http://lavag.org/topic/14921-labview-task-manager/page-2#entry89848>, the Find Clones VI was intended to "be inserted into the list of VIs after filtering".
 * BUG: Trap error when any operation (Open, Close, Hilite, Pause, etc.) is attempted on a library.  Possibly solved by "Do not allow selection of parent libraries"?
 * BUG: Trap error when certain operations are attempted on non-runnable VIs (example: double-click on a .ctl).
+* Add ability to quickly access LV native debugging tools & common windows
+** Probe Watch Window
+** Breakpoint Manager
+** Project Explorer
+** VI Hierarchy
+** Class Hierarchy
+** Bookmark Manager
 * Prevent multiple instances of LVTM in memory.
 * Improvments to grouping: 
 ** Indicate how many child nodes exist below each parent node.
