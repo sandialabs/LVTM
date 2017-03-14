@@ -1,5 +1,8 @@
-The following code libraries, utility applications, and icon sets have been used in the development of LabVIEW Task Manager:  
+### The following code libraries and utility applications have been used in the development of *LabVIEW Task Manager*:  
   
+
+---
+
 **GPower Error & Warning**  
 
 > LicenseTextGoesHere
