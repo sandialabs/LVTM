@@ -1,16 +1,17 @@
 #LabVIEW Task Manager v2013.1.10.0  
   
 ##Authors: Ravi Beniwal, Tim Vargo
-  LAVA Names: Ravi Beniwal, TimVargo  
-  Contact Info:	Contact via PM on [lavag.org] (http://lavag.org)  
+> LAVA Names: Ravi Beniwal, TimVargo  
+> Contact Info:	Contact via PM on [lavag.org] (http://lavag.org)  
   
 ##LabVIEW Versions Supported:  
-  LV2013 and up  
+> LV2013 and up  
   
 ##LabVIEW Versions Tested on:  
-  LV2013  
+> LV2013  
   
 ##Dependencies:  
+
 + GPower Error & Warning = 1.2.0.14
 + lava_lib_tree_control_api >= 1.0.1
 + OpenG Application Control Library >= 4.1.0.7
@@ -20,6 +21,7 @@
 
 ##Description:  
 LabVIEW Task Manager is a debugging tool for use during LabVIEW code development.  An expandable/collapsible tree diagram displays detailed information (both static and dynamic) on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and includes the following major features:  
+
 + A Look & Feel similar to Windows Task Manager
 + Selection of project/target
 + Lists all VIs in memory, grouped by class/library
@@ -45,6 +47,7 @@ package file (.vip).  VIPM 2014 or higher is required, which is available
 for free from [jki.net] (http://jki.net/vipm).  
   
 ##Known Issues:  
+
 + Cannot abort SubVIs launched from remote VI Server or local Asynch Call By Ref
 + Some filtered items are not properly filtered out
 + Refresh temporarily shows intermediate results

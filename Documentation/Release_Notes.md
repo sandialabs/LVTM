@@ -1,4 +1,5 @@
 **v2013.1.9.1 TimVargo on 07/25/2016 (LabVIEW 2013)**
+
 * Many performance optimizations (including 'dependencies cache' per Neil Pate)
 * Do not create new template instances, and suppress loading dialogs (per xceric)
 * Persist the column sorting between refreshes
@@ -6,6 +7,7 @@
 * Persist the selected item between refreshes, if it still exists
 
 **v1.8.0 TimVargo on 07/16/2015 (LabVIEW 2010)**
+
 * Items not belonging to a parent library are now grouped under tree node "<no parent library>"
 * Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items)
 * Rechecking for new app instances upon mouse over "App Instance" control
@@ -16,6 +18,7 @@
 * Relocated the LVTM "Regression Tests" VIs such that they are no longer excluded from view in LVTM by default
 
 **v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)**
+
 * Inserted "Generate Clone Name", as supplied by Aristos Queue, to fix incompatibility w/ LV2013 clone enumeration.  See <https://decibel.ni.com/content/message/58984#58984>
 * Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements.
 * Fixed bug where custom probes would cause errors in "Compare Two Paths" VI.
@@ -30,20 +33,24 @@
 * This tool can now be invoked from LV's main "Tools" menu
 
 **R6 Ohiofudu Israel on 04/09/2012 (LabVIEW 2010)**
+
 * Error handling improvements
 * Modified file hierarchy and naming
 * Backported to LabVIEW 2010
 
 **R5 Ravi Beniwal, Darren Natinger on 09/26/2011**
+
 * Added grouping by class/library
 * Added a Close FP button and improved the numeric sorting of the data tree.
 
 **R4 Ravi Beniwal, James Powell on 09/23/2011**
+
 * Added Find Clones.vi for searching statically referenced clones.
 No longer need to include the Clone VIs FG.vi in the reentrant VIs that are statically referenced.
 But if you put this FG into a reentrant VI that is called asynchronously, it will make sure all clones are found. 
 
 **R3 Ravi Beniwal on 09/21/2011**
+
 * Clone VIs FG.vi added. Just drop this VI in any reentrant VI. When the clone is created and run, it will add its name to this FG. The Task Manager will now display "All VIs in Memory" AND the ones in this FG. This solves the "how to find all clones" issue. Slightly inconvenient, as you have to drop this VI in the reentrant VI, but will certainly work in all situations. Also, leaving it in even when deploying the application will not effect the performance as it is just an array of a few strings.
 * Pause.vi added. This addresses AQ's original need of initiating a pause from within any VI on some condition. Just drop this VI in a case structure after your custom probe condition evaluation. It will only work if the task manager is open. If the pause request is generated from a clone of a reentrant VI, it will pause all clones of that VI.
 * Pause and Resume buttons instead of just one (Un)Pause button, because the earlier implementation would have always toggled the state of a VI. So if you if one VI in a selection was already paused and you clicked (Un)Pause to pause all VIs in the selection, that one VI will now resume instead of staying Paused.
@@ -55,6 +62,7 @@ But if you put this FG into a reentrant VI that is called asynchronously, it wil
 * When new VIs are launched, they don't automatically get added to the Task Manager. Hit F5 or select Refresh Now menu item to read all VIs from memory and add them to the tree. The update in the timeout case only updates the current state of all VIs in the tree.
 
 **R2 AQ on 09/21/2011**
+
 * Tracking of execution highlight and ability toggle it on all selected VIs
 * Tracking of paused VIs and ability to toggle pause on all selected VIs
 * Selection of project/target
@@ -65,6 +73,7 @@ But if you put this FG into a reentrant VI that is called asynchronously, it wil
 * Compressed the column text for some entries so more columns fit on the screen
 
 **R1 Ravi Beniwal on 09/19/2011 (LabVIEW 2009)**
+
 * Lists all VIs in memory
 * Displays basic information like VI state, path, data size, code size, FP Behavior, Reentrant? Reentrance Type, etc.
 * Let's you select multiple VIs and open FP or BD

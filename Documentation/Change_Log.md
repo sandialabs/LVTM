@@ -1,7 +1,9 @@
 ##Version History:  
-(see Release Notes for the FULL version history)  
-(starting with v2013.1.10.0, the first four digits denote the version year 
- of LabVIEW that the version of this software is "saved for".)  
+######(see Release Notes for the FULL version history)  
+
+Starting with v2013.1.10.0, the first four digits denote the version year 
+ of LabVIEW that the version of this software is "saved for".  
+
 + v2013.1.10.0 Tim Vargo & Ravi Beniwal (LabVIEW 2013) on ??-May-2017
 + v1.9.1 TimVargo on 07/25/2016 (LabVIEW 2013){never made public}
 + v1.8.0 TimVargo on 07/14/2015 (LabVIEW 2010){never made public}

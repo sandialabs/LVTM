@@ -8,14 +8,87 @@
   <style type="text/css">code{white-space: pre;}</style>
 </head>
 <body>
-<p><strong>v2013.1.9.1 TimVargo on 07/25/2016 (LabVIEW 2013)</strong> * Many performance optimizations (including 'dependencies cache' per Neil Pate) * Do not create new template instances, and suppress loading dialogs (per xceric) * Persist the column sorting between refreshes * Persist the collapsed/expanded state of each library node in the tree, between refreshes * Persist the selected item between refreshes, if it still exists</p>
-<p><strong>v1.8.0 TimVargo on 07/16/2015 (LabVIEW 2010)</strong> * Items not belonging to a parent library are now grouped under tree node &quot;<no parent library>&quot; * Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items) * Rechecking for new app instances upon mouse over &quot;App Instance&quot; control * Do not limit multisection to siblings only * Do not allow selection of parent libraries * For &quot;Clone VIs FG&quot; made the &quot;Add Calling VI&quot; case the default case * Marked &quot;Pause.vi&quot; User Event terminals as Connection Optional, and added text to the VI description warning to NOT wire these terminals. * Relocated the LVTM &quot;Regression Tests&quot; VIs such that they are no longer excluded from view in LVTM by default</p>
-<p><strong>v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)</strong> * Inserted &quot;Generate Clone Name&quot;, as supplied by Aristos Queue, to fix incompatibility w/ LV2013 clone enumeration. See <a href="https://decibel.ni.com/content/message/58984#58984" class="uri">https://decibel.ni.com/content/message/58984#58984</a> * Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements. * Fixed bug where custom probes would cause errors in &quot;Compare Two Paths&quot; VI. * Refreshing now includes a re-check for new app instances * Optimized &quot;Get Properties&quot; to optionally retrieve only the properties that might have changed; yields better performance. * Added some linefeed chars to the error dialog messages * In project, converted self-populating folders to virtual folders, and shortened their names. * In folder hierarchy, shortened some folder names, and moved some files back out to project root, instead of in &quot;Main Task_Manager&quot; and &quot;Project_Task Manager&quot;; due to some problems encountered with LV Save for Previous Version, and the VSI TSVN toolkit. * Added a test case to &quot;Parallel VIs Launcher&quot; * Added several comments to several VIs * Built a VIP package for tool installation -- to be accomplished using VIPM * This tool can now be invoked from LV's main &quot;Tools&quot; menu</p>
-<p><strong>R6 Ohiofudu Israel on 04/09/2012 (LabVIEW 2010)</strong> * Error handling improvements * Modified file hierarchy and naming * Backported to LabVIEW 2010</p>
-<p><strong>R5 Ravi Beniwal, Darren Natinger on 09/26/2011</strong> * Added grouping by class/library * Added a Close FP button and improved the numeric sorting of the data tree.</p>
-<p><strong>R4 Ravi Beniwal, James Powell on 09/23/2011</strong> * Added Find Clones.vi for searching statically referenced clones. No longer need to include the Clone VIs FG.vi in the reentrant VIs that are statically referenced. But if you put this FG into a reentrant VI that is called asynchronously, it will make sure all clones are found.</p>
-<p><strong>R3 Ravi Beniwal on 09/21/2011</strong> * Clone VIs FG.vi added. Just drop this VI in any reentrant VI. When the clone is created and run, it will add its name to this FG. The Task Manager will now display &quot;All VIs in Memory&quot; AND the ones in this FG. This solves the &quot;how to find all clones&quot; issue. Slightly inconvenient, as you have to drop this VI in the reentrant VI, but will certainly work in all situations. Also, leaving it in even when deploying the application will not effect the performance as it is just an array of a few strings. * Pause.vi added. This addresses AQ's original need of initiating a pause from within any VI on some condition. Just drop this VI in a case structure after your custom probe condition evaluation. It will only work if the task manager is open. If the pause request is generated from a clone of a reentrant VI, it will pause all clones of that VI. * Pause and Resume buttons instead of just one (Un)Pause button, because the earlier implementation would have always toggled the state of a VI. So if you if one VI in a selection was already paused and you clicked (Un)Pause to pause all VIs in the selection, that one VI will now resume instead of staying Paused. * Close BD button added. This will help to close block diagrams of all selected VIs. This should make life easier after you have paused all the zillion clones of a VI, which would have opened that many block diagram windows. * Double Clicking on a VI in the task manager will bring the BD to front if already open, otherwise it will bring the FP to front if already open. Bringing BD to front works only for non-reentrant VIs. * Tree symbols added to mark paused VIs. Also, if a clone initiates a pause, a different pause symbol is used for that clone to show which of the clones initiated the pause. * UI has been rearranged (filters on top, action buttons on the bottom) for clarity and to make more room (for feature creep) * Windows Task Manager style menu with Update Speed and Refresh Now items added. * When new VIs are launched, they don't automatically get added to the Task Manager. Hit F5 or select Refresh Now menu item to read all VIs from memory and add them to the tree. The update in the timeout case only updates the current state of all VIs in the tree.</p>
-<p><strong>R2 AQ on 09/21/2011</strong> * Tracking of execution highlight and ability toggle it on all selected VIs * Tracking of paused VIs and ability to toggle pause on all selected VIs * Selection of project/target * Filtering of vi.lib * Filtering of global VIs * Filtering of control templates (.ctt) * Sorting by library name * Compressed the column text for some entries so more columns fit on the screen</p>
-<p><strong>R1 Ravi Beniwal on 09/19/2011 (LabVIEW 2009)</strong> * Lists all VIs in memory * Displays basic information like VI state, path, data size, code size, FP Behavior, Reentrant? Reentrance Type, etc. * Let's you select multiple VIs and open FP or BD * Let's you select multiple VIs and Abort * let's you select a refresh rate and updates the lsit * sort by any column * let's you filter file types like vi, vit, and ctl</p>
+<p><strong>v2013.1.9.1 TimVargo on 07/25/2016 (LabVIEW 2013)</strong></p>
+<ul>
+<li>Many performance optimizations (including 'dependencies cache' per Neil Pate)</li>
+<li>Do not create new template instances, and suppress loading dialogs (per xceric)</li>
+<li>Persist the column sorting between refreshes</li>
+<li>Persist the collapsed/expanded state of each library node in the tree, between refreshes</li>
+<li>Persist the selected item between refreshes, if it still exists</li>
+</ul>
+<p><strong>v1.8.0 TimVargo on 07/16/2015 (LabVIEW 2010)</strong></p>
+<ul>
+<li>Items not belonging to a parent library are now grouped under tree node &quot;<no parent library>&quot;</li>
+<li>Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items)</li>
+<li>Rechecking for new app instances upon mouse over &quot;App Instance&quot; control</li>
+<li>Do not limit multisection to siblings only</li>
+<li>Do not allow selection of parent libraries</li>
+<li>For &quot;Clone VIs FG&quot; made the &quot;Add Calling VI&quot; case the default case</li>
+<li>Marked &quot;Pause.vi&quot; User Event terminals as Connection Optional, and added text to the VI description warning to NOT wire these terminals.</li>
+<li>Relocated the LVTM &quot;Regression Tests&quot; VIs such that they are no longer excluded from view in LVTM by default</li>
+</ul>
+<p><strong>v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)</strong></p>
+<ul>
+<li>Inserted &quot;Generate Clone Name&quot;, as supplied by Aristos Queue, to fix incompatibility w/ LV2013 clone enumeration. See <a href="https://decibel.ni.com/content/message/58984#58984" class="uri">https://decibel.ni.com/content/message/58984#58984</a></li>
+<li>Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements.</li>
+<li>Fixed bug where custom probes would cause errors in &quot;Compare Two Paths&quot; VI.</li>
+<li>Refreshing now includes a re-check for new app instances</li>
+<li>Optimized &quot;Get Properties&quot; to optionally retrieve only the properties that might have changed; yields better performance.</li>
+<li>Added some linefeed chars to the error dialog messages</li>
+<li>In project, converted self-populating folders to virtual folders, and shortened their names.</li>
+<li>In folder hierarchy, shortened some folder names, and moved some files back out to project root, instead of in &quot;Main Task_Manager&quot; and &quot;Project_Task Manager&quot;; due to some problems encountered with LV Save for Previous Version, and the VSI TSVN toolkit.</li>
+<li>Added a test case to &quot;Parallel VIs Launcher&quot;</li>
+<li>Added several comments to several VIs</li>
+<li>Built a VIP package for tool installation -- to be accomplished using VIPM</li>
+<li>This tool can now be invoked from LV's main &quot;Tools&quot; menu</li>
+</ul>
+<p><strong>R6 Ohiofudu Israel on 04/09/2012 (LabVIEW 2010)</strong></p>
+<ul>
+<li>Error handling improvements</li>
+<li>Modified file hierarchy and naming</li>
+<li>Backported to LabVIEW 2010</li>
+</ul>
+<p><strong>R5 Ravi Beniwal, Darren Natinger on 09/26/2011</strong></p>
+<ul>
+<li>Added grouping by class/library</li>
+<li>Added a Close FP button and improved the numeric sorting of the data tree.</li>
+</ul>
+<p><strong>R4 Ravi Beniwal, James Powell on 09/23/2011</strong></p>
+<ul>
+<li>Added Find Clones.vi for searching statically referenced clones. No longer need to include the Clone VIs FG.vi in the reentrant VIs that are statically referenced. But if you put this FG into a reentrant VI that is called asynchronously, it will make sure all clones are found.</li>
+</ul>
+<p><strong>R3 Ravi Beniwal on 09/21/2011</strong></p>
+<ul>
+<li>Clone VIs FG.vi added. Just drop this VI in any reentrant VI. When the clone is created and run, it will add its name to this FG. The Task Manager will now display &quot;All VIs in Memory&quot; AND the ones in this FG. This solves the &quot;how to find all clones&quot; issue. Slightly inconvenient, as you have to drop this VI in the reentrant VI, but will certainly work in all situations. Also, leaving it in even when deploying the application will not effect the performance as it is just an array of a few strings.</li>
+<li>Pause.vi added. This addresses AQ's original need of initiating a pause from within any VI on some condition. Just drop this VI in a case structure after your custom probe condition evaluation. It will only work if the task manager is open. If the pause request is generated from a clone of a reentrant VI, it will pause all clones of that VI.</li>
+<li>Pause and Resume buttons instead of just one (Un)Pause button, because the earlier implementation would have always toggled the state of a VI. So if you if one VI in a selection was already paused and you clicked (Un)Pause to pause all VIs in the selection, that one VI will now resume instead of staying Paused.</li>
+<li>Close BD button added. This will help to close block diagrams of all selected VIs. This should make life easier after you have paused all the zillion clones of a VI, which would have opened that many block diagram windows.</li>
+<li>Double Clicking on a VI in the task manager will bring the BD to front if already open, otherwise it will bring the FP to front if already open. Bringing BD to front works only for non-reentrant VIs.</li>
+<li>Tree symbols added to mark paused VIs. Also, if a clone initiates a pause, a different pause symbol is used for that clone to show which of the clones initiated the pause.</li>
+<li>UI has been rearranged (filters on top, action buttons on the bottom) for clarity and to make more room (for feature creep)</li>
+<li>Windows Task Manager style menu with Update Speed and Refresh Now items added.</li>
+<li>When new VIs are launched, they don't automatically get added to the Task Manager. Hit F5 or select Refresh Now menu item to read all VIs from memory and add them to the tree. The update in the timeout case only updates the current state of all VIs in the tree.</li>
+</ul>
+<p><strong>R2 AQ on 09/21/2011</strong></p>
+<ul>
+<li>Tracking of execution highlight and ability toggle it on all selected VIs</li>
+<li>Tracking of paused VIs and ability to toggle pause on all selected VIs</li>
+<li>Selection of project/target</li>
+<li>Filtering of vi.lib</li>
+<li>Filtering of global VIs</li>
+<li>Filtering of control templates (.ctt)</li>
+<li>Sorting by library name</li>
+<li>Compressed the column text for some entries so more columns fit on the screen</li>
+</ul>
+<p><strong>R1 Ravi Beniwal on 09/19/2011 (LabVIEW 2009)</strong></p>
+<ul>
+<li>Lists all VIs in memory</li>
+<li>Displays basic information like VI state, path, data size, code size, FP Behavior, Reentrant? Reentrance Type, etc.</li>
+<li>Let's you select multiple VIs and open FP or BD</li>
+<li>Let's you select multiple VIs and Abort</li>
+<li>let's you select a refresh rate and updates the lsit</li>
+<li>sort by any column</li>
+<li>let's you filter file types like vi, vit, and ctl</li>
+</ul>
 </body>
 </html>
