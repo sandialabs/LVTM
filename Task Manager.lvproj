@@ -111,6 +111,7 @@
 				<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Documentation/Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
 				<Item Name="GenerateCloneName_Discussion.url" Type="Document" URL="../Documentation/Discussions/GenerateCloneName_Discussion.url"/>
 				<Item Name="LabVIEW Task Manager_Discussion.URL" Type="Document" URL="../Documentation/Discussions/LabVIEW Task Manager_Discussion.URL"/>
+				<Item Name="Use Cases for Debugging with LVTM.txt" Type="Document" URL="../Documentation/Discussions/Use Cases for Debugging with LVTM.txt"/>
 			</Item>
 			<Item Name="3rd_Party_Licenses.html" Type="Document" URL="../Documentation/3rd_Party_Licenses.html"/>
 			<Item Name="3rd_Party_Licenses.md" Type="Document" URL="../Documentation/3rd_Party_Licenses.md"/>
@@ -129,6 +130,7 @@
 			<Item Name="readme.md" Type="Document" URL="../Documentation/readme.md"/>
 			<Item Name="Support.html" Type="Document" URL="../Documentation/Support.html"/>
 			<Item Name="Support.md" Type="Document" URL="../Documentation/Support.md"/>
+			<Item Name="RecreateAllFromMarkdown.cmd" Type="Document" URL="/C/Users/tdvargo/LocalDocuments.S1005811/SWdev/LVTM/WrkDirs/LVTM_find-filter/Documentation/RecreateAllFromMarkdown.cmd"/>
 		</Item>
 		<Item Name="Error_LVTM" Type="Folder">
 			<Item Name="Error Task_Manager Class" Type="Folder"/>
@@ -142,8 +144,6 @@
 			</Item>
 			<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
 			<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
-			<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/_Safe Tick Count poly/U64 Millisecond Tick Count.vi"/>
-			<Item Name="Wait For LACK OF Front Panel Activity (event driven).vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/Wait For LACK OF Front Panel Activity (event driven).vi"/>
 		</Item>
 		<Item Name="TestVIs_LVTM" Type="Folder">
 			<Item Name="TestVIs.lvlib" Type="Library" URL="../Test VIs_LVTM/TestVIs.lvlib"/>
@@ -515,6 +515,8 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Wait For LACK OF Front Panel Activity (event driven).vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/Wait For LACK OF Front Panel Activity (event driven).vi"/>
+			<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/_Safe Tick Count poly/U64 Millisecond Tick Count.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">
