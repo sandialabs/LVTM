@@ -72,9 +72,6 @@
 			<Item Name="Task Manager Menu.rtm" Type="Document" URL="../Task Manager Menu.rtm"/>
 		</Item>
 		<Item Name="VIs_LVTM" Type="Folder">
-			<Item Name="FindName Task_Manager Library" Type="Folder">
-				<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
-			</Item>
 			<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Pause Symbols to Tree.vi"/>
 			<Item Name="Add VIs and their Protperties to Tree.vi" Type="VI" URL="../VIs_LVTM/Add VIs and their Protperties to Tree.vi"/>
 			<Item Name="Clone VIs FG Enum.ctl" Type="VI" URL="../VIs_LVTM/Clone VIs FG Enum.ctl"/>
@@ -108,10 +105,10 @@
 			<Item Name="Discussions" Type="Folder">
 				<Item Name="Debugging dynamically opened reentrant VIs - LabVIEW General - LAVA.URL" Type="Document" URL="../Documentation/Discussions/Debugging dynamically opened reentrant VIs - LabVIEW General - LAVA.URL"/>
 				<Item Name="Debugging Reentrant VIs_Discussion.URL" Type="Document" URL="../Documentation/Discussions/Debugging Reentrant VIs_Discussion.URL"/>
-				<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Documentation/Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
 				<Item Name="GenerateCloneName_Discussion.url" Type="Document" URL="../Documentation/Discussions/GenerateCloneName_Discussion.url"/>
 				<Item Name="LabVIEW Task Manager_Discussion.URL" Type="Document" URL="../Documentation/Discussions/LabVIEW Task Manager_Discussion.URL"/>
 				<Item Name="Use Cases for Debugging with LVTM.txt" Type="Document" URL="../Documentation/Discussions/Use Cases for Debugging with LVTM.txt"/>
+				<Item Name="Future_LVTM_Mods_base.txt" Type="Document" URL="../Documentation/Discussions/Future_LVTM_Mods_base.txt"/>
 			</Item>
 			<Item Name="3rd_Party_Licenses.html" Type="Document" URL="../Documentation/3rd_Party_Licenses.html"/>
 			<Item Name="3rd_Party_Licenses.md" Type="Document" URL="../Documentation/3rd_Party_Licenses.md"/>
@@ -130,7 +127,7 @@
 			<Item Name="readme.md" Type="Document" URL="../Documentation/readme.md"/>
 			<Item Name="Support.html" Type="Document" URL="../Documentation/Support.html"/>
 			<Item Name="Support.md" Type="Document" URL="../Documentation/Support.md"/>
-			<Item Name="RecreateAllFromMarkdown.cmd" Type="Document" URL="/C/Users/tdvargo/LocalDocuments.S1005811/SWdev/LVTM/WrkDirs/LVTM_find-filter/Documentation/RecreateAllFromMarkdown.cmd"/>
+			<Item Name="RecreateAllFromMarkdown.cmd" Type="Document" URL="../Documentation/RecreateAllFromMarkdown.cmd"/>
 		</Item>
 		<Item Name="Error_LVTM" Type="Folder">
 			<Item Name="Error Task_Manager Class" Type="Folder"/>
@@ -139,9 +136,6 @@
 			</Item>
 		</Item>
 		<Item Name="Utils_LVTM" Type="Folder">
-			<Item Name="DiscoverCommonTypeDefCallers Library" Type="Folder">
-				<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
-			</Item>
 			<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
 			<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
 		</Item>
@@ -517,6 +511,8 @@
 			</Item>
 			<Item Name="Wait For LACK OF Front Panel Activity (event driven).vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/Wait For LACK OF Front Panel Activity (event driven).vi"/>
 			<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/_Safe Tick Count poly/U64 Millisecond Tick Count.vi"/>
+			<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
+			<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">

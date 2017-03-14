@@ -5,43 +5,43 @@
     <Name>DocOrder</Name>
     <Dimsize>10</Dimsize>
     <String>
-      <Name></Name>
+      <Name>Tab0.0</Name>
       <Val>Quick_Reference.pdf</Val>
     </String>
     <String>
-      <Name></Name>
+      <Name>Tab0.1</Name>
       <Val>Product_Tour.pdf</Val>
     </String>
     <String>
-      <Name></Name>
+      <Name>Tab0.2</Name>
       <Val>Support.html</Val>
     </String>
     <String>
-      <Name></Name>
+      <Name>Tab1.0</Name>
       <Val>About.html</Val>
     </String>
     <String>
-      <Name></Name>
+      <Name>Tab1.1</Name>
       <Val>Readme.html</Val>
     </String>
     <String>
-      <Name></Name>
+      <Name>Tab1.2</Name>
       <Val>Release_Notes.html</Val>
     </String>
     <String>
-      <Name></Name>
+      <Name>Tab1.3</Name>
       <Val>Acknowledgments.html</Val>
     </String>
     <String>
-      <Name></Name>
+      <Name>Tab1.4</Name>
       <Val>Change_Log.html</Val>
     </String>
     <String>
-      <Name></Name>
+      <Name>Tab2.0</Name>
       <Val>License.txt</Val>
     </String>
     <String>
-      <Name></Name>
+      <Name>Tab2.1</Name>
       <Val>3rd_Party_Licenses.html</Val>
     </String>
   </Array>

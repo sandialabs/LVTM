@@ -117,29 +117,6 @@ BUG: If a VI is paused/unpaused from the VI's own toolbar, pause symbol in LVTM 
 * A similar tool exists on the LabVIEW Tools Network, called "Project Filter and Edit" <http://www.abcdef.biz/FilterAndEdit.htm>.  That tool however seems to focus on batch editing of VI properties, while LVTM focuses on runtime debugging & troubleshooting.
 ######
 
-### FUTURE FEATURES FOR A "PREMIUM FEATURES" ADDON FOR LVTM ###
-* Add a bottom "Status Bar".  Include the following: 
-** A count of all items in tree, observing the file type filters.
-** A count of currently selected tree items
-** Indication of progress during a manual refresh operation.  Consider a bar, circle, or simple text (e.g. 117 of 283 items loaded).
-** Error messages, such as when an attempt is made to Abort a non-abortable VI.
-* New submenu on Right-click menu, Show>
-** This VI in VI Hierarchy
-** This VI in Project
-** This VI's Reentrant Items
-** This VI's Class Hierarchy?
-* Further improvements to grouping: 
-** User defined grouping.
-*** Hilight two or more items, raise right-click menu, select "Group", and a parent node gets created.
-*** A right-click on the new parent node provides an option to "Ungroup".
-* Right-click options as alternate ways to perform current button functions.  Needs to work with multiple selections as well as single.
-* Add an "All" option to the "Application Instance" dropdown selector.  This will help with use cases where multiple projects are related to each other, such as server/clients that run in individual app instances.
-* Automate the refresh function, so that F5 (optionally) need not be pressed.  Spawn an independent background task that continuously loops the "refresh" code in its own thread, at a lower priority than the UI thread, continuously determining "All VIs in Memory".  Compare that list with a cached list of the previous results, and update the tree ONLY IF a change is detected.  A new user setting will provide for "Automatic" or "Manual (F5)" refresh operation.
-* Get ACTUAL VI Execution State (running vs reserved); inspired by this post: <https://lavag.org/topic/16660-how-to-get-actual-vi-execution-state/>.  This solution looks at all VIs in memory, and then attempts to save the Run-Time Menu of the VI to a temporary file.  According to the help on this method: "This method works only when the VI is running".  So this only works on VIs running, and not reserved to be ran.
-* Finish the find & filter functions.
-* Display "CPU Load" for individual VIs.  Particularly useful when the tree is sorted by this column.
-######
-
 ### THOUGHTS ###
 O Will it (or can it be made to) work while remote debugging?  If Debug Server is being used to debug VIs on a remote machine, and the local development environment has LVTM installed, will it work seamlessly?
 O IF POSSIBLE -- Allow this tool to run as a built executable.  This would likely focus around replacing the Read Property node: "App.AllVIs" with "App.ExportedVIs"
@@ -149,6 +126,6 @@ O IF POSSIBLE -- Allow this tool to run as a built executable.  This would likel
         # This property is similar to the Exported VIs list option in the Exported VIs section on the VI Server page of the Options dialog box.
     * The article at <http://www.mooregoodideas.com/vi-server-in-built-executables/> suggests that this IS indeed possible!
     * It may be that this tool CANNOT be run as a separate process.  VI Analyzer indicates several functions as "not compatible with executable".  There are lots of VI Scripting functions used, but this should not be a problem as long as a full IDE is installed.
-    * What about building an executable to include as much functionality as possible, which optionally calls a separate library (.lvlib?, .llb?, .plvlib?) of functions which can only be used when a full IDE is detected?  The executable portion could still provide a subset of functionality within a Runtime Engine environment.
+    * What about building an executable to include as much functionality as possible, which optionally calls a separate library (.lvlib?, .llb?, .plvlib?) of functions which can only be used when a full IDE is detected?  The executable portion could still provide a subset of functionality within a Runtime Engine environment.  One big advantatage to a standalone executable, is that it would remain unaffected if the LV development environment crashes.
 O Consider if "New In-Place Struct border nodes for Variant Attribute access" <https://lavag.org/topic/19722-lv2016-new-in-place-struct-border-nodes-for-variant-attribute-access/?page=1> could increase performance of LVTM, in the section of code (by Neil Pate) that caches VI Depencencies.
 ######
