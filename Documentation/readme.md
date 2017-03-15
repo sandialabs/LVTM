@@ -2,7 +2,7 @@
   
 ### Authors: Ravi Beniwal, Tim Vargo
 > LAVA Names: Ravi Beniwal, TimVargo  
-> Contact Info:	Contact via PM on [lavag.org](http://lavag.org)  
+> Contact Info:	Contact via PM at the LAVA site (http://lavag.org)  
   
 ### LabVIEW Versions Supported:  
 > LV2013 and up  
@@ -42,7 +42,7 @@ LabVIEW Task Manager is a debugging tool for use during LabVIEW code development
 + Select multiple top-level VIs and Abort them
   
 ### Installation and instructions:  
-> Install this tool by using the *VI Package Manager* to install its associated package file (.vip).  **VIPM 2014** or higher is required, which is available for free from [jki.net](http://jki.net/vipm).  
+> Install this tool by using the *VI Package Manager* to install its associated package file (.vip).  **VIPM 2014** or higher is required, which is available for free from jki.net (http://jki.net/vipm).  
   
 ### Known Issues:  
 

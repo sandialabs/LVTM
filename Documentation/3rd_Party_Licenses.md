@@ -31,7 +31,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 > This license file covers the GPower Error v1.2 LabVIEW toolset by Steen Schmidt.
 
-> \#\#\# BSD License [http://www.opensource.org/licenses/bsd-license.php](http://www.opensource.org/licenses/bsd-license.php){:target="_blank"} Begin \#\#\#
+> \#\#\# BSD License (http://www.opensource.org/licenses/bsd-license.php) Begin \#\#\#
 
 > Copyright (c) 2012, Steen Schmidt (sscmeister@gmail.com)  
 > All rights reserved.
@@ -102,10 +102,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ---
 
-**Pandoc home page & License:**  
+**Pandoc**  
 
-> <http://pandoc.org>{:target="_blank"}  
-> <http://www.gnu.org/copyleft/gpl.html>{:target="_blank"}  
+> Home page (http://pandoc.org)  
+> License (http://www.gnu.org/copyleft/gpl.html)  
 
 ---
 

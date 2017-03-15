@@ -13,7 +13,7 @@ The *LabVIEW Task Manager* application was originally authored by Ravi Beniwal, 
 
 Some icons courtesy of:  
 
-> <http://www.visualpharm.com>  
+> VisualPharm (http://www.visualpharm.com)  
 
 ---
 

@@ -19,7 +19,7 @@
 
 **v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)**
 
-* Inserted "Generate Clone Name", as supplied by Aristos Queue, to fix incompatibility w/ LV2013 clone enumeration.  See <https://decibel.ni.com/content/message/58984#58984>
+* Inserted "Generate Clone Name", as supplied by Aristos Queue, to fix incompatibility w/ LV2013 clone enumeration.  See (https://decibel.ni.com/content/message/58984#58984)
 * Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements.
 * Fixed bug where custom probes would cause errors in "Compare Two Paths" VI.
 * Refreshing now includes a re-check for new app instances
