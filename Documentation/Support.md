@@ -1,6 +1,10 @@
 ## Support:
-> If you have any problems with this code or want to suggest features, please go to [lavag.org](http://lavag.org), Navigate to LAVA > Resources > Code Repository (Certified), and search for the "*LabVIEW Task Manager*" support page.  
+> If you have any problems with this code, or want to discuss new features, please see the [LVTM support page](http://lavag.org/topic/18322-cr-labview-task-manager) on the LAVAg site.
   
   
-## Distribution:
-> This code was downloaded from the **LAVA Code Repository** found at [lavag.org](http://lavag.org)  
+## Tool Distribution:
+> A VIPM installer package for this tool can be downloaded from the **LAVA Code Repository**, on the [LVTM home page](https://lavag.org/files/file/245-labview-task-manager)  
+  
+  
+## Source Code:
+> This code is open-source, and free!  Source code is available from the [LVTM Bitbucket Repository](https://bitbucket.org/lavag/labview-task-manager), as is the same VIPM installer package mentioned above.

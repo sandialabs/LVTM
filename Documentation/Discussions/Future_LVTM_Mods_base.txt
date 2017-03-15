@@ -1,10 +1,8 @@
 ### Tasks to resolve BEFORE the next public release (may be redundantly listed both here and elsewhere) ###
-* Display of version info in upper-right corner
-** Need to strip off suffix from VI name (after and including double underscore).
-** No code yet exists to populate the registry with this info.
 * Pause.vi used to work, now does not.
 * Enable/Disable tool from executing
 ######
+
 
 ### COMPLETED FEATURES ###
 X Add tip strips in appropriate places, including the control for "Search Clones Up To".  This needs to explain what kinds of clones won't and will be searched for.
@@ -25,12 +23,17 @@ X The collapsed/expanded state of each library node in the tree should persist a
 X Optimizations per Neil Pate: <http://lavag.org/topic/14921-labview-task-manager/?p=109249>
 X Fixes/Enhancements per xceric: <http://lavag.org/topic/14921-labview-task-manager/?p=108665>
 X When an attempt to abort a non-abortable VI is made, an "error" message currently appears in the "Library Name" column.  This should be changed to appear in the "State" column.
+X Until Help>About is implemented, display the tool's version number on the FP.
+X Add a "Help" menu item (see Ton Plomp's Code Capture Tool for a very nice implementation of a multi-tabbed Help window).
+XX Add a Help>About menu item (or in a separate tab).
+XX To fully comply with the BSD license terms, include copyright info (or tab).
+XX Add a Help>Support menu item (or tab), directing users to the LAVAcr page for LVTM Support <http://lavag.org/topic/18322-cr-labview-task-manager>.
 ######
+
 
 ### FUTURE BASE FEATURES ###
 * When sorted DESCENDING on the "State" column, the tree is also (incorrectly) sorted descending by top node name (library/class name).
 ** Also, re-sort on each Refresh operation
-* Until Help>About is implemented, display the tool's version number on the FP.
 * BUG: As of R6, item type filtering is applied early in the discovery process, causing items to not get properly filtered once the next two of three "find all clones" VIs are called (they are inserted back in again).  According to <http://lavag.org/topic/14921-labview-task-manager/page-2#entry89848>, the Find Clones VI was intended to "be inserted into the list of VIs after filtering".
 * BUG: Trap error when any operation (Open, Close, Hilite, Pause, etc.) is attempted on a library.  Possibly solved by "Do not allow selection of parent libraries"?
 * BUG: Trap error when certain operations are attempted on non-runnable VIs (example: double-click on a .ctl).
@@ -53,10 +56,6 @@ X When an attempt to abort a non-abortable VI is made, an "error" message curren
 * Add to the readme file "What use cases would this tool help me with?"
 * Add logging to error file.
 * Prevent ability to attempt abort on a subVI (these cannot be aborted).  Gray out?
-* Add a "Help" menu item (see Ton Plomp's Code Capture Tool for a very nice implementation of a multi-tabbed Help window).
-** Add a Help>About menu item (or in a separate tab).
-** To fully comply with the BSD license terms, include copyright info (or tab).
-** Add a Help>Support menu item (or tab), directing users to the LAVAcr page for LVTM Support <http://lavag.org/topic/18322-cr-labview-task-manager>.
 * Add functionality to "Retain Wire Values" on all selected VIs.  <https://lavag.org/topic/16491-how-to-retail-wire-values-for-entire-vi-hierarchy/>
 * Add functionality to "Suspend when Called" on all selected VIs.
 * Merge columns "Reentrant" and "Reentrancy Type" into one column with three possible modes: NotReentrant, Preallocated, Shared.
@@ -116,6 +115,7 @@ BUG: If a VI is paused/unpaused from the VI's own toolbar, pause symbol in LVTM 
   (what does ":Instance" mean?)  Notice that it is a parent library
 * A similar tool exists on the LabVIEW Tools Network, called "Project Filter and Edit" <http://www.abcdef.biz/FilterAndEdit.htm>.  That tool however seems to focus on batch editing of VI properties, while LVTM focuses on runtime debugging & troubleshooting.
 ######
+
 
 ### THOUGHTS ###
 O Will it (or can it be made to) work while remote debugging?  If Debug Server is being used to debug VIs on a remote machine, and the local development environment has LVTM installed, will it work seamlessly?
