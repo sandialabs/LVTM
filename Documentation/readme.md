@@ -13,10 +13,15 @@
 ### Dependencies:  
 
 + GPower Error & Warning = 1.2.0.14
-+ lava_lib_tree_control_api >= 1.0.1
++ lava_lib_tree_control_api >= 1.0.1-1
++ NI SmartBalloon = 2.0.0.2
 + OpenG Application Control Library >= 4.1.0.7
 + OpenG Comparison Library >= 4.0.0.3
-+ NI SmartBalloon = 2.0.0.2
++ OpenG Array Library-4.1.1.14
++ OpenG Error Library-4.2.0.23
++ OpenG File Library-4.0.1.22
++ OpenG LabVIEW Data Library-4.2.0.21
++ OpenG String Library-4.1.0.12
 + LAVA Palette >= 1.0.0.1
 
 ### Description:  

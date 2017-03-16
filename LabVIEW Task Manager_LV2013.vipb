@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-16 12:39:05" Creator="Timothy D. Vargo" Comments="" ID="871f4aca901fd332c9a2a1e215deb797">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-16 14:01:42" Creator="Timothy D. Vargo" Comments="" ID="21a72b9dcd1ffc5b0d8d5c6f69f99580">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
     <Library_Version>1.9.2.47</Library_Version>
@@ -20,13 +20,17 @@
       <External_Dependencies>gpower_lib_error &gt;= 1.2.0.14</External_Dependencies>
       <External_Dependencies>lava_lib_tree_control_api &gt;= 1.0.1</External_Dependencies>
       <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
+      <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_comparison &gt;= 4.0.0.3</External_Dependencies>
+      <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
       <External_Dependencies>smartballoon &gt;= 2.0.0.2</External_Dependencies>
       <Additional_External_Dependencies>lava_rsc_lava_palette &gt;=1.0.0.1</Additional_External_Dependencies>
       <Direct_Dependencies>gpower_lib_error-1.2.0.14</Direct_Dependencies>
       <Direct_Dependencies>lava_lib_tree_control_api-1.0.1-1</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
+      <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_comparison-4.0.0.3</Direct_Dependencies>
+      <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
       <Direct_Dependencies>smartballoon-2.0.0.2</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -65,20 +69,8 @@
       <Packager>Ravi Beniwal &amp; Tim Vargo</Packager>
       <URL>https://bitbucket.org/lavag/labview-task-manager</URL>
       <Release_Notes>16-Mar-2017 -- v2013.1.9.2
-* New Help/About/Info dialog
-* License is now modified MIT
-* New icon
-(This build requires LV2013+ to run, and VIPM 2014 to install)
+(This build requires LV2013+ to run, and VIPM 2014+ to install)
 
-10-May-2016 -- v2013.1.9.1
-* Many performance optimizations (including 'dependencies cache' per Neil Pate)
-* Do not create new template instances, and suppress loading dialogs (per xceric)
-* Persist the column sorting between refreshes
-* Persist the collapsed/expanded state of each library node in the tree, between refreshes
-* Persist the selected item between refreshes, if it still exists
-(This build requires LV2013+ to run, and VIPM 2014 to install)
-
-02-Jul-2015 -- v1.8.0.29
 * Rechecking for new app instances upon mouse over "App Instance" control
 * Do not limit multisection to siblings only
 * Do not allow selection of parent libraries
@@ -87,6 +79,14 @@
 * Items not belonging to a parent library are now grouped in tree under "&lt;no parent library&gt;"
 * Marked "Pause.vi" User Event terminals as Connection Optional, and added text to the VI description warning to NOT wire these terminals.
 * Relocated the LVTM "Regression Tests" VIs such that they are no longer excluded from view in LVTM by default
+* Many performance optimizations (including 'dependencies cache' per Neil Pate)
+* Do not create new template instances, and suppress loading dialogs (per xceric)
+* Persist the column sorting between refreshes
+* Persist the collapsed/expanded state of each library node in the tree, between refreshes
+* Persist the selected item between refreshes, if it still exists
+* New Help/About/Info dialog
+* License is now modified MIT
+* New icon
 </Release_Notes>
     </Description>
     <Destinations>
@@ -354,7 +354,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA671712E0FB3158D43EFA4946734FE0</GUID>
+      <GUID>DC31C7D4E20930CDAA0B818B661DCA9B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

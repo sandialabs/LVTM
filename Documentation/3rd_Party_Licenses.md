@@ -4,14 +4,28 @@
 
 ---
 
-**OpenG Application Control Library  
-& OpenG Comparison Library**  
+**OpenG Librarys:**  
 
-> OpenG Application Control Library
+> **OpenG Application Control Library**
 > Copyright (c) 2002 Cal-Bay Systems, Inc.; 2002 Jean-Pierre Drolet; 2002-2006 Jim Kring; 2003 Paul F. Sullivan; 2008 T. Plomp; 2010-2011 Jonathon Green
 
-> OpenG Comparison Library
+> **OpenG Comparison Library**
 > Copyright (c) 2002 Jim Kring, Cal-Bay Systems, Inc.; 2010-2011 Jonathon Green
+
+> **OpenG Array Library**
+> Copyright (c) 2002-2007 Cal-Bay Systems, Inc., Jim Kring; 2006-2007 MKS Instruments, Inc.; 2010-2011 Jonathon Green
+
+> **OpenG File Library**
+> Copyright (c) 2002-2010 Jim Kring, Rolf Kalbermatter; 2002 2003 Cal-Bay Systems, Inc.; 2010-2011 Jonathon Green
+
+> **OpenG Error Library**
+> Copyright (c) 2002 Jean-Pierre Drolet; Jim Kring; 2010-2011 Jonathon Green; 2011 Ed Dickens; 2011 JKI; 2011 Francois Normandin
+
+> **OpenG String Library**
+> 2002-2007 Jim Kring; 2002 Cal-Bay Systems; 2004 Paul Sullivan; 2004 Michael C. Ashe; 2005-2006 MKS Instruments, Inc. (author: Doug Femec); 2010-2011 Jonathon Green; 2011 Shaun Rumbell; 2011 Darin.K; 2011 Wouter Geelen; 2011 Fabiola De la Cueva; 2011 Phillip Brooks; 2011 Jonas Mellroth; 2011 Ed Dickens
+
+> **OpenG LabVIEW Data Library**
+> Copyright (c) 2002-2006 Jean-Pierre Drolet, Jim Kring; 2010-2012 Jonathon Green; 2012 James David Powell
 
 > All rights reserved.
 > Redistribution and use in source and binary forms, with or without
@@ -23,7 +37,7 @@
 
 > \* Neither the name of the <organization> nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.  
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ---
 
