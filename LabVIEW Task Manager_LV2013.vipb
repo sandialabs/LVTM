@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-16 12:11:50" Creator="Timothy D. Vargo" Comments="" ID="a2775ccbcae1f4341c20010c918c88ab">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-16 12:39:05" Creator="Timothy D. Vargo" Comments="" ID="871f4aca901fd332c9a2a1e215deb797">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.9.2.45</Library_Version>
+    <Library_Version>1.9.2.47</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\builds\LVTM\VIPackages</Library_Output_Folder>
@@ -221,6 +221,24 @@
       <Exclusions>
         <Path>VIs_LVTM/FindName Task_Manager Library</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>Documentation/SNL_Legal</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>HelpAbout_rha/Utilities</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Documentation/LVTM White Paper.docx</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Documentation/LVTM White Paper.pdf</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Documentation/LVTM WP_Abstract.docx</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>Documentation\License.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -336,7 +354,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23D0C3C9D48CF68AD9E92D149DF8DBCB</GUID>
+      <GUID>BA671712E0FB3158D43EFA4946734FE0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
