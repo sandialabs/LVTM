@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-16 16:09:25" Creator="Timothy D. Vargo" Comments="" ID="b53fa7646826098b9ed7b9c82363fea0">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-16 19:15:36" Creator="Timothy D. Vargo" Comments="" ID="a6a8faa72b3e8e3f2e63dd66bd58b31b">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.9.2.48</Library_Version>
+    <Library_Version>1.9.2.49</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\builds\LVTM\VIPackages</Library_Output_Folder>
@@ -25,6 +25,9 @@
       <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
       <External_Dependencies>smartballoon &gt;= 2.0.0.2</External_Dependencies>
       <Additional_External_Dependencies>lava_rsc_lava_palette &gt;=1.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_error &gt;=4.2.0.23</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_lvdata &gt;=4.2.0.21</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_string &gt;=4.1.0.12</Additional_External_Dependencies>
       <Direct_Dependencies>gpower_lib_error-1.2.0.14</Direct_Dependencies>
       <Direct_Dependencies>lava_lib_tree_control_api-1.0.1-1</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
@@ -70,7 +73,6 @@
       <URL>https://bitbucket.org/lavag/labview-task-manager</URL>
       <Release_Notes>16-Mar-2017 -- v2013.1.9.2
 (This build requires LV2013+ to run, and VIPM 2014+ to install)
-
 * Rechecking for new app instances upon mouse over "App Instance" control
 * Do not limit multisection to siblings only
 * Do not allow selection of parent libraries
@@ -239,6 +241,9 @@
       <Exclusions>
         <Path>Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>Documentation/Discussions/Future_LVTM_Mods_premium.txt</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>Documentation\License.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -354,7 +359,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EDD27489C97BC1245D1D8FAEE2728255</GUID>
+      <GUID>B380921D254A66E1EDBDD8F3A0AE381D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
