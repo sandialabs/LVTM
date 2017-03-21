@@ -5,10 +5,13 @@
 > Contact Info:	Contact via PM at the LAVA site (http://lavag.org)  
   
 ### LabVIEW Versions Supported:  
-> LV2013 and up  
+> LV20?? and up  
   
 ### LabVIEW Versions Tested on:  
+> {list LV2017 once tested}
+> {list any version tested between LV2014 & LV2016}
 > LV2013  
+> {if backported, list all other versions tested below LV2013}
   
 ### Dependencies:  
 

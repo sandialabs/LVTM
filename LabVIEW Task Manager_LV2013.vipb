@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-21 10:16:33" Creator="Timothy D. Vargo" Comments="" ID="3cde51a9ed3456f9e9f2a91a7295f74d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-21 13:24:13" Creator="Timothy D. Vargo" Comments="" ID="c2eff3d7efcdaede112623bb5247a81e">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.9.2.51</Library_Version>
+    <Library_Version>1.9.2.52</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\builds\LVTM\VIPackages</Library_Output_Folder>
@@ -259,6 +259,9 @@
       <Exclusions>
         <Path>MassCompileLog.txt</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>images_LVTM</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>Documentation\License.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -374,7 +377,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>357A4CA6EDA9D7E1A5DD65C032226CBB</GUID>
+      <GUID>E9F6C86A8F6EC9ABFB497E71564FED3D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
