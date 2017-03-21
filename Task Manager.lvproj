@@ -149,14 +149,15 @@
 			<Item Name="LabVIEW Task Manager_bpLV2010.vipb" Type="Document" URL="../LabVIEW Task Manager_bpLV2010.vipb"/>
 			<Item Name="LabVIEW Task Manager_LV2013.vipb" Type="Document" URL="../LabVIEW Task Manager_LV2013.vipb"/>
 		</Item>
+		<Item Name="images_LVTM" Type="Folder">
+			<Item Name="LVTM_Logo.png" Type="Document" URL="../images_LVTM/LVTM_Logo.png"/>
+			<Item Name="Microscope-48.png" Type="Document" URL="../images_LVTM/Microscope-48.png"/>
+		</Item>
 		<Item Name="VersionInfo" Type="Folder">
 			<Item Name="Access_VersionInfo.vi" Type="VI" URL="../VersionInfo/Access_VersionInfo.vi"/>
 			<Item Name="ProductVersion.ctl" Type="VI" URL="../VersionInfo/ProductVersion.ctl"/>
 		</Item>
 		<Item Name="HelpAbout_rha" Type="Folder">
-			<Item Name="Documents" Type="Folder" URL="../HelpAbout_rha/Documents">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
 			<Item Name="RHA.lvlib" Type="Library" URL="../HelpAbout_rha/RHA.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">

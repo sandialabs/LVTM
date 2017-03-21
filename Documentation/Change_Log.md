@@ -1,4 +1,4 @@
-## Version History:  
+## Version History Summary:  
 ##### (see Release Notes for the FULL change log)  
 
 #### Starting with v2013.1.9.1, the first four digits denote the version year of LabVIEW that the version of this software is "saved for".  
