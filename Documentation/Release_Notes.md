@@ -1,8 +1,11 @@
 **v20??.1.10.0 TimVargo{, Ravi Beniwal?} on 05/??/2017 (LabVIEW 20??)**
 
+* First release to the LabVIEW Tools Network
+
+**v2013.1.9.2 TimVargo on 03/20/2017 (LabVIEW 2013)**
+
 * New Help/About/Info dialog
 * License is now modified MIT
-* ??????
 * New icon
 
 **v2013.1.9.1 TimVargo on 07/25/2016 (LabVIEW 2013)**
