@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-21 13:24:13" Creator="Timothy D. Vargo" Comments="" ID="c2eff3d7efcdaede112623bb5247a81e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-24 13:41:07" Creator="Timothy D. Vargo" Comments="" ID="ad2ecf698ed3d8f3e2122ef243464718">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
     <Library_Version>1.9.2.52</Library_Version>
@@ -17,13 +17,13 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>gpower_lib_error &gt;= 1.2.0.14</External_Dependencies>
+      <External_Dependencies>gpower_lib_error = 1.2.0.14</External_Dependencies>
       <External_Dependencies>lava_lib_tree_control_api &gt;= 1.0.1</External_Dependencies>
       <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
       <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_comparison &gt;= 4.0.0.3</External_Dependencies>
       <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
-      <External_Dependencies>smartballoon &gt;= 2.0.0.2</External_Dependencies>
+      <External_Dependencies>smartballoon = 2.0.0.2</External_Dependencies>
       <Additional_External_Dependencies>lava_rsc_lava_palette &gt;=1.0.0.1</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_error &gt;=4.2.0.23</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_lvdata &gt;=4.2.0.21</Additional_External_Dependencies>
@@ -145,6 +145,11 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -224,9 +229,6 @@
         <Path>VIs_LVTM/FindName Task_Manager Library</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/SNL_Legal</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>HelpAbout_rha/Utilities</Path>
       </Exclusions>
       <Exclusions>
@@ -242,22 +244,13 @@
         <Path>Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/Discussions/Future_LVTM_Mods_premium.txt</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>LabVIEW Task Manager_LV2013.vipb.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW Task Manager_LV2013.vipc.orig</Path>
       </Exclusions>
       <Exclusions>
         <Path>Documentation/Discussions</Path>
       </Exclusions>
       <Exclusions>
         <Path>Documentation/RecreateAllFromMarkdown.cmd</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>MassCompileLog.txt</Path>
       </Exclusions>
       <Exclusions>
         <Path>images_LVTM</Path>
@@ -377,7 +370,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9F6C86A8F6EC9ABFB497E71564FED3D</GUID>
+      <GUID>BCE8945249A4F818BF20FAD584A03310</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
