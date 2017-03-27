@@ -20,11 +20,11 @@
 + NI SmartBalloon = 2.0.0.2
 + OpenG Application Control Library >= 4.1.0.7
 + OpenG Comparison Library >= 4.0.0.3
-+ OpenG Array Library-4.1.1.14
-+ OpenG Error Library-4.2.0.23
-+ OpenG File Library-4.0.1.22
-+ OpenG LabVIEW Data Library-4.2.0.21
-+ OpenG String Library-4.1.0.12
++ OpenG Array Library >= 4.1.1.14
++ OpenG Error Library >= 4.2.0.23
++ OpenG File Library >= 4.0.1.22
++ OpenG LabVIEW Data Library >= 4.2.0.21
++ OpenG String Library >= 4.1.0.12
 + LAVA Palette >= 1.0.0.1
 
 ### Description:  

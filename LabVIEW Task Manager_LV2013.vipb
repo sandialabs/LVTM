@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-24 13:41:07" Creator="Timothy D. Vargo" Comments="" ID="ad2ecf698ed3d8f3e2122ef243464718">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-24 20:12:08" Creator="Timothy D. Vargo" Comments="" ID="cabb696e2deaf68672873af19b20708a">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
     <Library_Version>1.9.2.52</Library_Version>
@@ -179,6 +179,11 @@
         <Path>.</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>__LAVA_lib_LVTM</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>Test VIs_LVTM</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
         <Path>.hgtags</Path>
@@ -370,7 +375,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BCE8945249A4F818BF20FAD584A03310</GUID>
+      <GUID>94A6CECDD482BE729F6087731892461D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
