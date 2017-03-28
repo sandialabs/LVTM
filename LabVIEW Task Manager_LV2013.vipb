@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-21 13:24:13" Creator="Timothy D. Vargo" Comments="" ID="c2eff3d7efcdaede112623bb5247a81e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-03-27 16:39:58" Creator="Timothy D. Vargo" Comments="" ID="357ade0c377e663044a6617f97d9c5cf">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
     <Library_Version>1.9.2.52</Library_Version>
@@ -17,13 +17,13 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>gpower_lib_error &gt;= 1.2.0.14</External_Dependencies>
+      <External_Dependencies>gpower_lib_error = 1.2.0.14</External_Dependencies>
       <External_Dependencies>lava_lib_tree_control_api &gt;= 1.0.1</External_Dependencies>
       <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
       <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_comparison &gt;= 4.0.0.3</External_Dependencies>
       <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
-      <External_Dependencies>smartballoon &gt;= 2.0.0.2</External_Dependencies>
+      <External_Dependencies>smartballoon = 2.0.0.2</External_Dependencies>
       <Additional_External_Dependencies>lava_rsc_lava_palette &gt;=1.0.0.1</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_error &gt;=4.2.0.23</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_lvdata &gt;=4.2.0.21</Additional_External_Dependencies>
@@ -48,7 +48,6 @@
     <Description>
       <One_Line_Description_Summary>A debugging tool for LabVIEW; lists all VIs in memory, with several abilities to monitor and interact with them.</One_Line_Description_Summary>
       <Description>&lt;b&gt;&lt;color=0000FF&gt;&lt;size=14&gt;LabVIEW Task Manager&lt;color=000000&gt;&lt;/size&gt; is a debugging tool for use during development.  A tree diagram displays detailed information on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and has the following features: &lt;/b&gt;
-    * Look &amp; Feel similar to Windows® Task Manager
     * Selection of project/target
     * Lists all VIs in memory, grouped by class/library
     * Searches for and enumerates clones in memory
@@ -145,6 +144,11 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -174,6 +178,11 @@
         <Path>.</Path>
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>__LAVA_lib_LVTM</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>Test VIs_LVTM</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
         <Path>.hgtags</Path>
@@ -224,9 +233,6 @@
         <Path>VIs_LVTM/FindName Task_Manager Library</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/SNL_Legal</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>HelpAbout_rha/Utilities</Path>
       </Exclusions>
       <Exclusions>
@@ -242,13 +248,7 @@
         <Path>Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/Discussions/Future_LVTM_Mods_premium.txt</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>LabVIEW Task Manager_LV2013.vipb.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW Task Manager_LV2013.vipc.orig</Path>
       </Exclusions>
       <Exclusions>
         <Path>Documentation/Discussions</Path>
@@ -257,10 +257,10 @@
         <Path>Documentation/RecreateAllFromMarkdown.cmd</Path>
       </Exclusions>
       <Exclusions>
-        <Path>MassCompileLog.txt</Path>
+        <Path>images_LVTM</Path>
       </Exclusions>
       <Exclusions>
-        <Path>images_LVTM</Path>
+        <Path>HelpAbout_rha/Documents</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>Documentation\License.txt</License_Agreement_Filepath>
@@ -377,7 +377,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9F6C86A8F6EC9ABFB497E71564FED3D</GUID>
+      <GUID>0BCA9CD823BA11C06BA448D3DB057801</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

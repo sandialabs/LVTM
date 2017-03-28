@@ -1,0 +1,16 @@
+* Rechecking for new app instances upon mouse over "App Instance" control
+* Do not limit multisection to siblings only
+* Do not allow selection of parent libraries
+* For "Clone VIs FG" made the "Add Calling VI" case the default case
+* Tree right-click menu now allows for Expand_All/Collapse_All library nodes
+* Items not belonging to a parent library are now grouped in tree under "<no parent library>"
+* Marked "Pause.vi" User Event terminals as Connection Optional, and added text to the VI description warning to NOT wire these terminals.
+* Relocated the LVTM "Regression Tests" VIs such that they are no longer excluded from view in LVTM by default
+* Many performance optimizations (including 'dependencies cache' per Neil Pate)
+* Do not create new template instances, and suppress loading dialogs (per xceric)
+* Persist the column sorting between refreshes
+* Persist the collapsed/expanded state of each library node in the tree, between refreshes
+* Persist the selected item between refreshes, if it still exists
+* New Help/About/Info dialog
+* License is now modified MIT
+* New icon

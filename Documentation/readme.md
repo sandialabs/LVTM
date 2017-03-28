@@ -1,11 +1,13 @@
-# LabVIEW Task Manager v20??.1.10.0  
+# LabVIEW Task Manager v20{??}.1.10.0  
+  
+### This code is **Open-Source**, and free of charge  
   
 ### Authors: Ravi Beniwal, Tim Vargo
 > LAVA Names: Ravi Beniwal, TimVargo  
 > Contact Info:	Contact via PM at the LAVA site (http://lavag.org)  
   
 ### LabVIEW Versions Supported:  
-> LV20?? and up  
+> LV20{??} and up  
   
 ### LabVIEW Versions Tested on:  
 > {list LV2017 once tested}
@@ -20,17 +22,16 @@
 + NI SmartBalloon = 2.0.0.2
 + OpenG Application Control Library >= 4.1.0.7
 + OpenG Comparison Library >= 4.0.0.3
-+ OpenG Array Library-4.1.1.14
-+ OpenG Error Library-4.2.0.23
-+ OpenG File Library-4.0.1.22
-+ OpenG LabVIEW Data Library-4.2.0.21
-+ OpenG String Library-4.1.0.12
++ OpenG Array Library >= 4.1.1.14
++ OpenG Error Library >= 4.2.0.23
++ OpenG File Library >= 4.0.1.22
++ OpenG LabVIEW Data Library >= 4.2.0.21
++ OpenG String Library >= 4.1.0.12
 + LAVA Palette >= 1.0.0.1
 
 ### Description:  
 LabVIEW Task Manager is a debugging tool for use during LabVIEW code development.  An expandable/collapsible tree diagram displays detailed information (both static and dynamic) on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and includes the following major features:  
 
-+ A Look & Feel similar to Windows Task Manager
 + Selection of project/target
 + Lists all VIs in memory, grouped by class/library
 + Searches for and enumerates clones in memory
@@ -50,7 +51,7 @@ LabVIEW Task Manager is a debugging tool for use during LabVIEW code development
 + Select multiple top-level VIs and Abort them
   
 ### Installation and instructions:  
-> Install this tool by using the *VI Package Manager* to install its associated package file (.vip).  **VIPM 2014** or higher is required, which is available for free from jki.net (http://jki.net/vipm).  
+> Install this tool by using the *VI Package Manager* to install its associated package file (.vip).  Installation requires **VIPM 2014 or higher**, which is available for free from jki.net (http://jki.net/vipm).  
   
 ### Known Issues:  
 
