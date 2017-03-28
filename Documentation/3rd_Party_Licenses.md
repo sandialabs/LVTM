@@ -1,6 +1,12 @@
-### The following code libraries and utility applications have been used in the development of *LabVIEW Task Manager*:  
+### The following applications, code libraries, and utility applications have been used in the development of *LabVIEW Task Manager*:  
   
   
+
+---
+
+**National Instruments LabVIEW(R)**  
+
+> Copyright (c) 2014 National Instruments Corporation. All Rights Reserved.
 
 ---
 
