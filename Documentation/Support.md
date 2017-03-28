@@ -7,4 +7,4 @@
   
   
 ## Source Code:
-> This code is open-source, and free!  The source code is available from the LVTM Bitbucket Repository (https://bitbucket.org/lavag/labview-task-manager), as is the same VIPM installer package mentioned above.
+> This code is open-source, and free of charge!  The source code is available from the LVTM Bitbucket Repository (https://bitbucket.org/lavag/labview-task-manager), as is the same VIPM installer package mentioned above.
