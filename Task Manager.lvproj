@@ -71,6 +71,7 @@
 			<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../LabVIEW Task Manager.vi"/>
 			<Item Name="Task Manager Menu.rtm" Type="Document" URL="../Task Manager Menu.rtm"/>
 			<Item Name="Tree Control SCmenu.rtm" Type="Document" URL="../Tree Control SCmenu.rtm"/>
+			<Item Name="LabVIEW Task Manager_punch.vi" Type="VI" URL="../LabVIEW Task Manager_punch.vi"/>
 		</Item>
 		<Item Name="VIs_LVTM" Type="Folder">
 			<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Pause Symbols to Tree.vi"/>
