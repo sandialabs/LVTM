@@ -98,6 +98,7 @@
 				<Item Name="Find Collapsed Nodes.vi" Type="VI" URL="../VIs_LVTM/Find Collapsed Nodes.vi"/>
 				<Item Name="Version_Info.vi" Type="VI" URL="../VIs_LVTM/Version_Info.vi"/>
 				<Item Name="Request Events FG.vi" Type="VI" URL="../VIs_LVTM/Request Events FG.vi"/>
+				<Item Name="Report Error.vi" Type="VI" URL="../VIs_LVTM/Report Error.vi"/>
 			</Item>
 			<Item Name="Controls" Type="Folder">
 				<Item Name="LVTM_Config_Info.ctl" Type="VI" URL="../Controls_LVTM/LVTM_Config_Info.ctl"/>
@@ -165,7 +166,6 @@
 		<Item Name="HelpAbout_rha" Type="Folder">
 			<Item Name="RHA.lvlib" Type="Library" URL="../HelpAbout_rha/RHA.lvlib"/>
 		</Item>
-		<Item Name="Report Error.vi" Type="VI" URL="../VIs_LVTM/Report Error.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
