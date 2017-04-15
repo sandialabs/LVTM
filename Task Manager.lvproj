@@ -99,6 +99,9 @@
 				<Item Name="Version_Info.vi" Type="VI" URL="../VIs_LVTM/Version_Info.vi"/>
 				<Item Name="Request Events FG.vi" Type="VI" URL="../VIs_LVTM/Request Events FG.vi"/>
 				<Item Name="Report Error.vi" Type="VI" URL="../VIs_LVTM/Report Error.vi"/>
+				<Item Name="Update Tree Items.vi" Type="VI" URL="../VIs_LVTM/Update Tree Items.vi"/>
+				<Item Name="Add Folder Path to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Folder Path to Tree.vi"/>
+				<Item Name="Update Filters Menu.vi" Type="VI" URL="../VIs_LVTM/Update Filters Menu.vi"/>
 			</Item>
 			<Item Name="Controls" Type="Folder">
 				<Item Name="LVTM_Config_Info.ctl" Type="VI" URL="../Controls_LVTM/LVTM_Config_Info.ctl"/>
@@ -110,9 +113,6 @@
 			<Item Name="Utils" Type="Folder">
 				<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
 				<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
-			</Item>
-			<Item Name="Public API" Type="Folder">
-				<Item Name="Pause.vi" Type="VI" URL="../VIs_LVTM/Pause.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
@@ -159,6 +159,9 @@
 			<Item Name="LVTM_Logo.png" Type="Document" URL="../images_LVTM/LVTM_Logo.png"/>
 			<Item Name="Microscope-48.png" Type="Document" URL="../images_LVTM/Microscope-48.png"/>
 		</Item>
+		<Item Name="Public API" Type="Folder">
+			<Item Name="Pause.vi" Type="VI" URL="../VIs_LVTM/Pause.vi"/>
+		</Item>
 		<Item Name="VersionInfo" Type="Folder">
 			<Item Name="Access_VersionInfo.vi" Type="VI" URL="../VersionInfo/Access_VersionInfo.vi"/>
 			<Item Name="ProductVersion.ctl" Type="VI" URL="../VersionInfo/ProductVersion.ctl"/>
@@ -166,7 +169,6 @@
 		<Item Name="HelpAbout_rha" Type="Folder">
 			<Item Name="RHA.lvlib" Type="Library" URL="../HelpAbout_rha/RHA.lvlib"/>
 		</Item>
-		<Item Name="Update Tree Items.vi" Type="VI" URL="../VIs_LVTM/Update Tree Items.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
