@@ -102,6 +102,7 @@
 				<Item Name="Update Tree Items.vi" Type="VI" URL="../VIs_LVTM/Update Tree Items.vi"/>
 				<Item Name="Add Folder Path to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Folder Path to Tree.vi"/>
 				<Item Name="Update Filters Menu.vi" Type="VI" URL="../VIs_LVTM/Update Filters Menu.vi"/>
+				<Item Name="Delete All But Current Folder Hierarchy.vi" Type="VI" URL="../VIs_LVTM/Delete All But Current Folder Hierarchy.vi"/>
 			</Item>
 			<Item Name="Controls" Type="Folder">
 				<Item Name="LVTM_Config_Info.ctl" Type="VI" URL="../Controls_LVTM/LVTM_Config_Info.ctl"/>
