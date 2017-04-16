@@ -103,6 +103,8 @@
 				<Item Name="Add Folder Path to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Folder Path to Tree.vi"/>
 				<Item Name="Update Filters Menu.vi" Type="VI" URL="../VIs_LVTM/Update Filters Menu.vi"/>
 				<Item Name="Delete All But Current Folder Hierarchy.vi" Type="VI" URL="../VIs_LVTM/Delete All But Current Folder Hierarchy.vi"/>
+				<Item Name="Request_Update Items.vi" Type="VI" URL="../VIs_LVTM/Request_Update Items.vi"/>
+				<Item Name="Get Changed VIs.vi" Type="VI" URL="../VIs_LVTM/Get Changed VIs.vi"/>
 			</Item>
 			<Item Name="Controls" Type="Folder">
 				<Item Name="LVTM_Config_Info.ctl" Type="VI" URL="../Controls_LVTM/LVTM_Config_Info.ctl"/>
@@ -110,6 +112,8 @@
 				<Item Name="UserEventDataPause.ctl" Type="VI" URL="../Controls_LVTM/UserEventDataPause.ctl"/>
 				<Item Name="RequestEvents.ctl" Type="VI" URL="../Controls_LVTM/RequestEvents.ctl"/>
 				<Item Name="FileVersionInfo+.ctl" Type="VI" URL="../Controls_LVTM/FileVersionInfo+.ctl"/>
+				<Item Name="UserEventUpdateTreeItems.ctl" Type="VI" URL="../Controls_LVTM/UserEventUpdateTreeItems.ctl"/>
+				<Item Name="SharedDataDVR.ctl" Type="VI" URL="../Controls_LVTM/SharedDataDVR.ctl"/>
 			</Item>
 			<Item Name="Utils" Type="Folder">
 				<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
