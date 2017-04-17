@@ -1,6 +1,5 @@
 ### Tasks to resolve BEFORE the next public release (may be redundantly listed both here and elsewhere) ###
 * Pause.vi used to work, now does not.
-* Enable/Disable tool from executing
 ######
 
 
@@ -55,7 +54,7 @@ XX Add a Help>Support menu item (or tab), directing users to the LAVAcr page for
 * Currently "Open BD" works as expected.  Improve this to also minimize the FP, but only if the FP was not already open.
 * Add to the readme file "What use cases would this tool help me with?"
 * Add logging to error file.
-* Prevent ability to attempt abort on a subVI (these cannot be aborted).  Gray out?
+* Prevent ability to attempt abort on a subVI (these cannot be aborted).  Grey out?
 * Add functionality to "Retain Wire Values" on all selected VIs.  <https://lavag.org/topic/16491-how-to-retail-wire-values-for-entire-vi-hierarchy/>
 * Add functionality to "Suspend when Called" on all selected VIs.
 * Merge columns "Reentrant" and "Reentrancy Type" into one column with three possible modes: NotReentrant, Preallocated, Shared.
