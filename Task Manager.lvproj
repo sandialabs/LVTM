@@ -177,6 +177,7 @@
 		<Item Name="HelpAbout_rha" Type="Folder">
 			<Item Name="RHA.lvlib" Type="Library" URL="../HelpAbout_rha/RHA.lvlib"/>
 		</Item>
+		<Item Name="View.ctl" Type="VI" URL="../Controls_LVTM/View.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
