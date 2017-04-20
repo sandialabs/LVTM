@@ -66,4 +66,6 @@
 	</Item>
 	<Item Name="LabVIEW Task Manager_punch.vi" Type="VI" URL="../LabVIEW Task Manager_punch.vi"/>
 	<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../LabVIEW Task Manager.vi"/>
+	<Item Name="Interrupt Notifier.vi" Type="VI" URL="../VIs_LVTM/Interrupt Notifier.vi"/>
+	<Item Name="Request Processing Loop to Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Request Processing Loop to Refresh Tree.vi"/>
 </Library>
