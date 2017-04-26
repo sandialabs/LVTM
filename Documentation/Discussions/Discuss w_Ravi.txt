@@ -12,3 +12,6 @@
 9.  Objections if I move 'Dialog.vi' & DialogTestApp.vi' into existing library 'TestVIs.lvlib'?
 10. Objections if I move 'Clone VIs FG.vi' from 'Private' into 'Public API'?
 11. Right-click in empty area of tree now produces an error, didn't use to.
+
+26-Apr-2017
+12. Attempting to Abort a VI that cannot be aborted (non-Top Level) displays "error" in the State column, which is by design.  This "error" state used to revert back to "Running" (or whatever is the correct state) after a few seconds, but now it remains "error".
