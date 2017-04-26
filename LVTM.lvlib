@@ -14,6 +14,7 @@
 		<Item Name="FileVersionInfo+.ctl" Type="VI" URL="../Controls_LVTM/FileVersionInfo+.ctl"/>
 		<Item Name="UserEventUpdateTreeItems.ctl" Type="VI" URL="../Controls_LVTM/UserEventUpdateTreeItems.ctl"/>
 		<Item Name="SharedDataDVR.ctl" Type="VI" URL="../Controls_LVTM/SharedDataDVR.ctl"/>
+		<Item Name="Status.ctl" Type="VI" URL="../Controls_LVTM/Status.ctl"/>
 	</Item>
 	<Item Name="Menu" Type="Folder">
 		<Item Name="Task Manager Menu.rtm" Type="Document" URL="../Task Manager Menu.rtm"/>
@@ -24,6 +25,11 @@
 		<Item Name="VersionInfo" Type="Folder">
 			<Item Name="Access_VersionInfo.vi" Type="VI" URL="../VersionInfo/Access_VersionInfo.vi"/>
 			<Item Name="ProductVersion.ctl" Type="VI" URL="../VersionInfo/ProductVersion.ctl"/>
+		</Item>
+		<Item Name="Progress" Type="Folder">
+			<Item Name="Progress Notifier.vi" Type="VI" URL="../VIs_LVTM/Progress Notifier.vi"/>
+			<Item Name="Update Progress.vi" Type="VI" URL="../VIs_LVTM/Update Progress.vi"/>
+			<Item Name="Clear Progress.vi" Type="VI" URL="../VIs_LVTM/Clear Progress.vi"/>
 		</Item>
 		<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Pause Symbols to Tree.vi"/>
 		<Item Name="Add VIs and their Protperties to Tree.vi" Type="VI" URL="../VIs_LVTM/Add VIs and their Protperties to Tree.vi"/>
