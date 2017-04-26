@@ -29,6 +29,8 @@
 		<Item Name="Progress" Type="Folder">
 			<Item Name="Progress Notifier.vi" Type="VI" URL="../VIs_LVTM/Progress Notifier.vi"/>
 			<Item Name="Update Progress.vi" Type="VI" URL="../VIs_LVTM/Update Progress.vi"/>
+			<Item Name="Progress Indicator.vi" Type="VI" URL="../VIs_LVTM/Progress Indicator.vi"/>
+			<Item Name="Shutdown Progress Indicator.vi" Type="VI" URL="../VIs_LVTM/Shutdown Progress Indicator.vi"/>
 			<Item Name="Clear Progress.vi" Type="VI" URL="../VIs_LVTM/Clear Progress.vi"/>
 		</Item>
 		<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Pause Symbols to Tree.vi"/>
