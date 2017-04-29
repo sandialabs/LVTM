@@ -56,14 +56,12 @@
 		<Item Name="Find Collapsed Nodes.vi" Type="VI" URL="../VIs_LVTM/Find Collapsed Nodes.vi"/>
 		<Item Name="Version_Info.vi" Type="VI" URL="../VIs_LVTM/Version_Info.vi"/>
 		<Item Name="Request Events FG.vi" Type="VI" URL="../VIs_LVTM/Request Events FG.vi"/>
-		<Item Name="Report Error.vi" Type="VI" URL="../VIs_LVTM/Report Error.vi"/>
 		<Item Name="Update Tree Items.vi" Type="VI" URL="../VIs_LVTM/Update Tree Items.vi"/>
 		<Item Name="Add Folder Path to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Folder Path to Tree.vi"/>
 		<Item Name="Update Filters Menu.vi" Type="VI" URL="../VIs_LVTM/Update Filters Menu.vi"/>
 		<Item Name="Delete All But Current Folder Hierarchy.vi" Type="VI" URL="../VIs_LVTM/Delete All But Current Folder Hierarchy.vi"/>
 		<Item Name="Request_Update Items.vi" Type="VI" URL="../VIs_LVTM/Request_Update Items.vi"/>
 		<Item Name="Get Changed VIs.vi" Type="VI" URL="../VIs_LVTM/Get Changed VIs.vi"/>
-		<Item Name="Get Application Instances.vi" Type="VI" URL="../VIs_LVTM/Get Application Instances.vi"/>
 		<Item Name="Interrupt Notifier.vi" Type="VI" URL="../VIs_LVTM/Interrupt Notifier.vi"/>
 		<Item Name="Request Processing Loop to Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Request Processing Loop to Refresh Tree.vi"/>
 		<Item Name="Config File Path.vi" Type="VI" URL="../VIs_LVTM/Config File Path.vi"/>
@@ -72,10 +70,12 @@
 	</Item>
 	<Item Name="Utils" Type="Folder">
 		<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
+		<Item Name="Get Application Instances.vi" Type="VI" URL="../VIs_LVTM/Get Application Instances.vi"/>
 		<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Item Name="Pause.vi" Type="VI" URL="../VIs_LVTM/Pause.vi"/>
+		<Item Name="Report Error.vi" Type="VI" URL="../VIs_LVTM/Report Error.vi"/>
 	</Item>
 	<Item Name="LabVIEW Task Manager_punch.vi" Type="VI" URL="../LabVIEW Task Manager_punch.vi"/>
 	<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../LabVIEW Task Manager.vi"/>

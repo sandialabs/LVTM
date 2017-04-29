@@ -111,6 +111,10 @@
 		<Item Name="HelpAbout_rha" Type="Folder">
 			<Item Name="RHA.lvlib" Type="Library" URL="../HelpAbout_rha/RHA.lvlib"/>
 		</Item>
+		<Item Name="Plugins" Type="Folder">
+			<Item Name="LVTM_Plugin.lvclass" Type="LVClass" URL="../Plugin/LVTM_Plugin.lvclass"/>
+			<Item Name="TCP_Server.lvclass" Type="LVClass" URL="../TCP_Server/TCP_Server.lvclass"/>
+		</Item>
 		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
