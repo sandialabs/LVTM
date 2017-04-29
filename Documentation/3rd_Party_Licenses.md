@@ -57,10 +57,3 @@
 
 ---
 
-**Pandoc**  
-
-> Home page (http://pandoc.org)  
-> License (http://www.gnu.org/copyleft/gpl.html)  
-
----
-
