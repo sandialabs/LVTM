@@ -4,9 +4,10 @@
 
 ---
 
-**National Instruments LabVIEW(R)**  
+**National Instruments LabVIEW(TM)**  
 
 > Copyright (c) 2014 National Instruments Corporation. All Rights Reserved.
+> LabVIEW is a trademark of National Instruments. Neither Beniwal & Vargo, nor any software programs or other goods or services offered by Beniwal & Vargo, are affiliated with, endorsed by, or sponsored by National Instruments.
 
 ---
 

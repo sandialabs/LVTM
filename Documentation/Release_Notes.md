@@ -1,6 +1,15 @@
-**v20??.1.10.0 TimVargo{, Ravi Beniwal?} on 05/??/2017 (LabVIEW 20??)**
+**v20??.1.10.0 TimVargo, Ravi Beniwal on 05/??/2017 (LabVIEW 20??)**
 
-* First release to the LabVIEW Tools Network
+* Several UI improvements
+* View can now be grouped by Library or Folder, or display a Flat List
+* Added an ability to filter out items from being displayed, per folder paths.  Helps the user to de-clutter the view, and improves performance.
+* Added several right-click menu functions
+* Added a progress bar for refresh
+* Persist some configuration settings
+* Other performance improvements
+* Newer icon
+* Added a basic plugin architecture
+* Added a TCP Server plugin, enabling an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
 
 **v2013.1.9.2 TimVargo on 03/20/2017 (LabVIEW 2013)**
 
