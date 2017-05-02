@@ -3,7 +3,7 @@
   
   
 ## Tool Distribution:
-> A VIPM installer package for this tool can be downloaded from the **LAVA Code Repository**, on the LVTM home page (https://lavag.org/files/file/245-labview-task-manager).  
+> A VIPM installer package for the most recently released version of this tool can be downloaded from the **LAVA Code Repository**, on the LVTM home page (https://lavag.org/files/file/245-labview-task-manager).  
   
   
 ## Source Code:
