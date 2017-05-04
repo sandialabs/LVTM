@@ -42,18 +42,19 @@ Contact Info: Contact via PM at the LAVA site (http://lavag.org)</p>
 <p>LabVIEW Task Manager is a debugging tool for use during LabVIEW code development. An expandable/collapsible tree diagram displays detailed information (both static and dynamic) on all VIs in memory, belonging to a selected project/target. It allows for interacting with single or multiple selected VIs at a time, and includes the following major features:</p>
 <ul>
 <li>Selection of project/target</li>
-<li>Lists all VIs in memory, grouped by class/library</li>
+<li>Lists all VIs in memory, grouped by class/library or disk folder, or a flat list</li>
 <li>Searches for and enumerates clones in memory</li>
 <li>DropIn VI for including dynamically referenced clones (Clone Beacon)</li>
 <li>'Refresh Now' (F5) re-reads all VIs in memory and adds new ones to the tree</li>
 <li>Displays VI name, owning class/library, state, path, data size &amp; code size</li>
 <li>Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? &amp; Highlight?</li>
-<li>Sort by any column, including by library name</li>
-<li>Filter by item types vi, ctl, and vit/ctt</li>
+<li>Sort by any column, ascending or descending</li>
+<li>Filter out items from being displayed, by folder paths</li>
+<li>Filter out item types vi, ctl, and vit/ctt</li>
 <li>Filter out vi.lib and global VIs</li>
 <li>Tracking of, and ability to toggle, execution highlighting on multiple selected VIs</li>
 <li>Tracking of paused VIs with ability to Pause/Resume/TogglePause multiple selected VIs</li>
-<li>DropIn VI for pausing on a condition</li>
+<li>DropIn VI for pausing only while debugging</li>
 <li>If a clone initiates a pause, a different pause symbol is used for all clones of that same reentrant original VI</li>
 <li>Select multiple VIs and open or close their FPs or BDs</li>
 <li>Double Click a VI from the tree to bring the BD (first choice) or FP to front, if already open</li>

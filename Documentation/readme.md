@@ -33,18 +33,19 @@
 LabVIEW Task Manager is a debugging tool for use during LabVIEW code development.  An expandable/collapsible tree diagram displays detailed information (both static and dynamic) on all VIs in memory, belonging to a selected project/target.  It allows for interacting with single or multiple selected VIs at a time, and includes the following major features:  
 
 + Selection of project/target
-+ Lists all VIs in memory, grouped by class/library
++ Lists all VIs in memory, grouped by class/library or disk folder, or a flat list
 + Searches for and enumerates clones in memory
 + DropIn VI for including dynamically referenced clones (Clone Beacon)
 + 'Refresh Now' (F5) re-reads all VIs in memory and adds new ones to the tree
 + Displays VI name, owning class/library, state, path, data size & code size
 + Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? & Highlight?
-+ Sort by any column, including by library name
-+ Filter by item types vi, ctl, and vit/ctt
++ Sort by any column, ascending or descending
++ Filter out items from being displayed, by folder paths
++ Filter out item types vi, ctl, and vit/ctt
 + Filter out vi.lib and global VIs
 + Tracking of, and ability to toggle, execution highlighting on multiple selected VIs
 + Tracking of paused VIs with ability to Pause/Resume/TogglePause multiple selected VIs
-+ DropIn VI for pausing on a condition
++ DropIn VI for pausing only while debugging
 + If a clone initiates a pause, a different pause symbol is used for all clones of that same reentrant original VI
 + Select multiple VIs and open or close their FPs or BDs
 + Double Click a VI from the tree to bring the BD (first choice) or FP to front, if already open

@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-05-03 21:42:40" Creator="Timothy D. Vargo" Comments="" ID="007f5bafe2a4d9b923945f44501047d2">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-05-04 09:38:52" Creator="Timothy D. Vargo" Comments="" ID="86ed4bf1d5dfc36b96e50e7b57af44b0">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.9.3.54</Library_Version>
+    <Library_Version>1.9.3.60</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..\..\..\..\builds\LVTM\VIPackages</Library_Output_Folder>
+    <Library_Output_Folder>..\..\_builds\VIPackages</Library_Output_Folder>
     <Company_Name>LAVA</Company_Name>
     <Library_Summary/>
     <Library_License>Modified MIT</Library_License>
@@ -61,7 +61,7 @@
     * Filter out vi.lib and global VIs
     * Tracking of, and ability to toggle, execution highlighting on multiple selected VIs
     * Tracking of paused VIs with ability to Pause/Resume/TogglePause multiple selected VIs
-    * DropIn VI for pausing on a condition
+    * DropIn VI for pausing only while debugging
     * If a clone initiates a pause, a different pause symbol is used for all clones of that same reentrant original VI
     * Select multiple VIs and open or close their FPs or BDs
     * Double Click a VI from the tree to bring the BD (first choice) or FP to front, if already open
@@ -103,7 +103,7 @@
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
-        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;vi.lib&gt;\LAVA\LVTM</Path>
       </Toolkit_VIs>
       <Examples>
@@ -154,11 +154,22 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
       <Additional_Destination>
         <Name>Tests</Name>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;user.lib&gt;\_LAVA\LVTM_Tests</Path>
+      </Additional_Destination>
+      <Additional_Destination>
+        <Name>Documentation</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path>&lt;vi.lib&gt;\LAVA\LVTM</Path>
       </Additional_Destination>
     </Destinations>
     <Source_Files>
@@ -230,16 +241,10 @@
         <Path>Utils_LVTM/LabVIEW Mods-Bitset Mappings.xlsx</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Utils_LVTM/MsgBox_LV.vi</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Utils_LVTM/Controls/DependendentTypeDefwParents.ctl</Path>
       </Exclusions>
       <Exclusions>
         <Path>VIs_LVTM/FindName Task_Manager Library</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/SNL_Legal</Path>
       </Exclusions>
       <Exclusions>
         <Path>HelpAbout_rha/Utilities</Path>
@@ -257,34 +262,16 @@
         <Path>Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/Discussions/Future_LVTM_Mods_premium.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW Task Manager_LV2013.vipb.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW Task Manager_LV2013.vipc.orig</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Documentation/Discussions</Path>
       </Exclusions>
       <Exclusions>
         <Path>Documentation/RecreateAllFromMarkdown.cmd</Path>
       </Exclusions>
       <Exclusions>
-        <Path>MassCompileLog.txt</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>images_LVTM</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Utils_LVTM/MsgBox_Win.vi</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Utils_LVTM/SelectAppInstance.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/Close_If_Valid.vi</Path>
       </Exclusions>
       <Exclusions>
         <Path>Utils_LVTM/Controls/CtrlVITypeCounts.ctl</Path>
@@ -299,10 +286,10 @@
         <Path>Test VIs_LVTM/DialogTestApp.vi</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Plugin/Launch.vi</Path>
+        <Path>Documentation/LVTM_NIWeek_2017.pptx</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Plugin/Shutdown.vi</Path>
+        <Path>Documentation/RecreateAboutFromMarkdown.cmd</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>Documentation\License.txt</License_Agreement_Filepath>
@@ -419,7 +406,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A01DD296CA49B288F5FF2C5B9F8A99EC</GUID>
+      <GUID>9002838DC1339AB6DE27B8DD72B69D27</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
