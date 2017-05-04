@@ -76,10 +76,13 @@
 				<Item Name="Use Cases for Debugging with LVTM.txt" Type="Document" URL="../Documentation/Discussions/Use Cases for Debugging with LVTM.txt"/>
 				<Item Name="Future_LVTM_Mods_base.txt" Type="Document" URL="../Documentation/Discussions/Future_LVTM_Mods_base.txt"/>
 			</Item>
+			<Item Name="About.html" Type="Document" URL="../Documentation/About.html"/>
+			<Item Name="About.md" Type="Document" URL="../Documentation/About.md"/>
 			<Item Name="3rd_Party_Licenses.html" Type="Document" URL="../Documentation/3rd_Party_Licenses.html"/>
 			<Item Name="3rd_Party_Licenses.md" Type="Document" URL="../Documentation/3rd_Party_Licenses.md"/>
 			<Item Name="Acknowledgments.html" Type="Document" URL="../Documentation/Acknowledgments.html"/>
 			<Item Name="Acknowledgments.md" Type="Document" URL="../Documentation/Acknowledgments.md"/>
+			<Item Name="blank.htm" Type="Document" URL="../Documentation/blank.htm"/>
 			<Item Name="Change_Log.html" Type="Document" URL="../Documentation/Change_Log.html"/>
 			<Item Name="Change_Log.md" Type="Document" URL="../Documentation/Change_Log.md"/>
 			<Item Name="License.txt" Type="Document" URL="../Documentation/License.txt"/>
@@ -87,18 +90,20 @@
 			<Item Name="LVTM White Paper.pdf" Type="Document" URL="../Documentation/LVTM White Paper.pdf"/>
 			<Item Name="LVTM WP_Abstract.docx" Type="Document" URL="../Documentation/LVTM WP_Abstract.docx"/>
 			<Item Name="LVTM_NIWeek2017_Abstract_Submittal.pdf" Type="Document" URL="../Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf"/>
-			<Item Name="Product_Tour.pdf" Type="Document" URL="../Documentation/Product_Tour.pdf"/>
-			<Item Name="Quick_Reference.pdf" Type="Document" URL="../Documentation/Quick_Reference.pdf"/>
 			<Item Name="readme.html" Type="Document" URL="../Documentation/readme.html"/>
 			<Item Name="readme.md" Type="Document" URL="../Documentation/readme.md"/>
+			<Item Name="Release_Notes.html" Type="Document" URL="../Documentation/Release_Notes.html"/>
+			<Item Name="Release_Notes.md" Type="Document" URL="../Documentation/Release_Notes.md"/>
 			<Item Name="Support.html" Type="Document" URL="../Documentation/Support.html"/>
 			<Item Name="Support.md" Type="Document" URL="../Documentation/Support.md"/>
+			<Item Name="LVTM_Quick_Reference.pdf" Type="Document" URL="../Documentation/LVTM_Quick_Reference.pdf"/>
+			<Item Name="What&apos;s New in LVTM v1.10.txt" Type="Document" URL="../Documentation/What&apos;s New in LVTM v1.10.txt"/>
+			<Item Name="Manual.docx" Type="Document" URL="../Documentation/Manual.docx"/>
 			<Item Name="RecreateAllFromMarkdown.cmd" Type="Document" URL="../Documentation/RecreateAllFromMarkdown.cmd"/>
+			<Item Name="DocPlacement.xml" Type="Document" URL="../Documentation/DocPlacement.xml"/>
 		</Item>
 		<Item Name="TestVIs_LVTM" Type="Folder">
 			<Item Name="TestVIs.lvlib" Type="Library" URL="../Test VIs_LVTM/TestVIs.lvlib"/>
-			<Item Name="Dialog.vi" Type="VI" URL="../Test VIs_LVTM/Dialog.vi"/>
-			<Item Name="DialogTestApp.vi" Type="VI" URL="../Test VIs_LVTM/DialogTestApp.vi"/>
 		</Item>
 		<Item Name="Project_LVTM" Type="Folder">
 			<Item Name="LabVIEW Task Manager_bpLV2010.vipb" Type="Document" URL="../LabVIEW Task Manager_bpLV2010.vipb"/>
@@ -506,8 +511,6 @@
 			</Item>
 			<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
 			<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
-			<Item Name="Wait For LACK OF Front Panel Activity (event driven).vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/Wait For LACK OF Front Panel Activity (event driven).vi"/>
-			<Item Name="Highlight Execution.vi" Type="VI" URL="../VIs_LVTM/Highlight Execution.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">
@@ -541,7 +544,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{962BFC30-CD1D-4254-A2C3-BDF962CBD40D}</Property>
 				<Property Name="Bld_removeVIObj" Type="Bool">true</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/builds/LVTM/SourceDistribution/Task Manager_LVTM Source Distribution_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">9</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>

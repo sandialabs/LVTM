@@ -44,6 +44,7 @@
 		<Item Name="Get All VIs in Memory Including statically-referenced Reentrant Clones.vi" Type="VI" URL="../VIs_LVTM/Get All VIs in Memory Including statically-referenced Reentrant Clones.vi"/>
 		<Item Name="Get Properties.vi" Type="VI" URL="../VIs_LVTM/Get Properties.vi"/>
 		<Item Name="Get Tags of All Child Items.vi" Type="VI" URL="../VIs_LVTM/Get Tags of All Child Items.vi"/>
+		<Item Name="Highlight Execution.vi" Type="VI" URL="../VIs_LVTM/Highlight Execution.vi"/>
 		<Item Name="NonVILib Qualified Name Array To Single String.vi" Type="VI" URL="../VIs_LVTM/NonVILib Qualified Name Array To Single String.vi"/>
 		<Item Name="NonVILib Single String To Qualified Name Array.vi" Type="VI" URL="../VIs_LVTM/NonVILib Single String To Qualified Name Array.vi"/>
 		<Item Name="Pause VI.vi" Type="VI" URL="../VIs_LVTM/Pause VI.vi"/>

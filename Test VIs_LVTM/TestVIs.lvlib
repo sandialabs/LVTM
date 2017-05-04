@@ -7,6 +7,8 @@
 	<Item Name="Test Class" Type="Folder">
 		<Item Name="Test Class.lvclass" Type="LVClass" URL="../Test Class/Test Class.lvclass"/>
 	</Item>
+	<Item Name="Dialog.vi" Type="VI" URL="../Dialog.vi"/>
+	<Item Name="DialogTestApp.vi" Type="VI" URL="../DialogTestApp.vi"/>
 	<Item Name="FindAltName_wPostfix.vi" Type="VI" URL="../FindAltName_wPostfix.vi"/>
 	<Item Name="Normal VI.vi" Type="VI" URL="../Normal VI.vi"/>
 	<Item Name="Parallel VIs Launcher.vi" Type="VI" URL="../Parallel VIs Launcher.vi"/>
