@@ -3,7 +3,7 @@
   <Version>13.0.1f2</Version>
   <Array>
     <Name>DocOrder</Name>
-    <Dimsize>10</Dimsize>
+    <Dimsize>9</Dimsize>
     <String>
       <Name>Tab0.0</Name>
       <Val>About.html</Val>
@@ -26,14 +26,10 @@
     </String>
     <String>
       <Name>Tab1.0</Name>
-      <Val>Quick_Reference.pdf</Val>
+      <Val>LVTM_Quick_Reference.pdf</Val>
     </String>
     <String>
       <Name>Tab1.1</Name>
-      <Val>Product_Tour.pdf</Val>
-    </String>
-    <String>
-      <Name>Tab1.2</Name>
       <Val>Support.html</Val>
     </String>
     <String>
