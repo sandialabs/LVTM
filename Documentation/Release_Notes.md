@@ -8,8 +8,7 @@
 * Persist some configuration settings
 * Other performance improvements
 * Newer icon
-* Added a basic plugin architecture
-* Added a TCP Server plugin, enabling an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
+* Added a TCP Server, enabling an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
 
 **v2013.1.9.2 TimVargo on 03/20/2017 (LabVIEW 2013)**
 

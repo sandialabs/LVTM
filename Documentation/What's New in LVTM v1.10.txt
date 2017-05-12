@@ -22,5 +22,4 @@ What's New in LVTM v1.10.0 since v1.7.0
 * Added a progress bar for refresh
 * Persist some configuration settings between sessions
 * Other performance improvements
-* Added a basic plugin architecture
-* Added a TCP Server plugin, enabling an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
+* Added a TCP Server, enabling an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
