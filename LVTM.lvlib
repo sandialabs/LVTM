@@ -69,6 +69,7 @@
 		<Item Name="Write Configuration to File.vi" Type="VI" URL="../VIs_LVTM/Write Configuration to File.vi"/>
 		<Item Name="Read Configuration from File.vi" Type="VI" URL="../VIs_LVTM/Read Configuration from File.vi"/>
 		<Item Name="Update Active Filters.vi" Type="VI" URL="../VIs_LVTM/Update Active Filters.vi"/>
+		<Item Name="Check for changed Items and update tree.vi" Type="VI" URL="../VIs_LVTM/Check for changed Items and update tree.vi"/>
 	</Item>
 	<Item Name="Utils" Type="Folder">
 		<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
