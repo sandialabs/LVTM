@@ -8,7 +8,7 @@
   <style type="text/css">code{white-space: pre;}</style>
 </head>
 <body>
-<h1 id="labview-task-manager-v20.1.10.0">LabVIEW Task Manager v20{??}.1.10.0</h1>
+<h1 id="labview-task-manager-v2013.1.10.0">LabVIEW Task Manager v2013.1.10.0</h1>
 <h3 id="this-code-is-open-source-and-free-of-charge">This code is <strong>Open-Source</strong>, and free of charge</h3>
 <h3 id="authors-ravi-beniwal-tim-vargo">Authors: Ravi Beniwal, Tim Vargo</h3>
 <blockquote>
@@ -17,12 +17,13 @@ Contact Info: Contact via PM at the LAVA site (http://lavag.org)</p>
 </blockquote>
 <h3 id="labview-versions-supported">LabVIEW Versions Supported:</h3>
 <blockquote>
-<p>LV20{??} and up</p>
+<p>LV2013 and up</p>
 </blockquote>
 <h3 id="labview-versions-tested-on">LabVIEW Versions Tested on:</h3>
 <blockquote>
-<p>{list LV2017 once tested} {list any version tested between LV2014 &amp; LV2016} LV2013<br />
-{if backported, list all other versions tested below LV2013}</p>
+<p>LV2017<br />
+LV2016<br />
+LV2013</p>
 </blockquote>
 <h3 id="dependencies">Dependencies:</h3>
 <ul>
@@ -48,10 +49,12 @@ Contact Info: Contact via PM at the LAVA site (http://lavag.org)</p>
 <li>'Refresh Now' (F5) re-reads all VIs in memory and adds new ones to the tree</li>
 <li>Displays VI name, owning class/library, state, path, data size &amp; code size</li>
 <li>Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? &amp; Highlight?</li>
+<li>Group by Library or Folder, or display a Flat List</li>
 <li>Sort by any column, ascending or descending</li>
 <li>Filter out items from being displayed, by folder paths</li>
 <li>Filter out item types vi, ctl, and vit/ctt</li>
 <li>Filter out vi.lib and global VIs</li>
+<li>Filter out items from being displayed, per folder paths.</li>
 <li>Tracking of, and ability to toggle, execution highlighting on multiple selected VIs</li>
 <li>Tracking of paused VIs with ability to Pause/Resume/TogglePause multiple selected VIs</li>
 <li>DropIn VI for pausing only while debugging</li>
@@ -59,6 +62,7 @@ Contact Info: Contact via PM at the LAVA site (http://lavag.org)</p>
 <li>Select multiple VIs and open or close their FPs or BDs</li>
 <li>Double Click a VI from the tree to bring the BD (first choice) or FP to front, if already open</li>
 <li>Select multiple top-level VIs and Abort them</li>
+<li>Remotely close any VI's Front Panel</li>
 </ul>
 <h3 id="installation-and-instructions">Installation and instructions:</h3>
 <blockquote>
@@ -67,8 +71,6 @@ Contact Info: Contact via PM at the LAVA site (http://lavag.org)</p>
 <h3 id="known-issues">Known Issues:</h3>
 <ul>
 <li>Cannot abort SubVIs launched from remote VI Server or local Asynch Call By Ref</li>
-<li>Some filtered items are not properly filtered out</li>
-<li>Refresh temporarily shows intermediate results</li>
 </ul>
 </body>
 </html>
