@@ -110,8 +110,9 @@
 			<Item Name="LabVIEW Task Manager_LV2013.vipb" Type="Document" URL="../LabVIEW Task Manager_LV2013.vipb"/>
 		</Item>
 		<Item Name="images_LVTM" Type="Folder">
-			<Item Name="LVTM_Logo.png" Type="Document" URL="../images_LVTM/LVTM_Logo.png"/>
-			<Item Name="Microscope-48.png" Type="Document" URL="../images_LVTM/Microscope-48.png"/>
+			<Item Name="LVTM Icon-32x32.png" Type="Document" URL="../images_LVTM/LVTM Icon-32x32.png"/>
+			<Item Name="LVTM Icon-300x300.png" Type="Document" URL="../images_LVTM/LVTM Icon-300x300.png"/>
+			<Item Name="LVTM_Logo_with_Text_noTM.png" Type="Document" URL="../images_LVTM/LVTM_Logo_with_Text_noTM.png"/>
 		</Item>
 		<Item Name="HelpAbout_rha" Type="Folder">
 			<Item Name="RHA.lvlib" Type="Library" URL="../HelpAbout_rha/RHA.lvlib"/>
@@ -546,7 +547,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{962BFC30-CD1D-4254-A2C3-BDF962CBD40D}</Property>
 				<Property Name="Bld_removeVIObj" Type="Bool">true</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/builds/LVTM/SourceDistribution/Task Manager_LVTM Source Distribution_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">9</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>

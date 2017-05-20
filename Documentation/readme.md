@@ -1,4 +1,4 @@
-# LabVIEW Task Manager v20{??}.1.10.0  
+# LabVIEW Task Manager v2013.1.10.0  
   
 ### This code is **Open-Source**, and free of charge  
   
@@ -7,13 +7,12 @@
 > Contact Info:	Contact via PM at the LAVA site (http://lavag.org)  
   
 ### LabVIEW Versions Supported:  
-> LV20{??} and up  
+> LV2013 and up  
   
 ### LabVIEW Versions Tested on:  
-> {list LV2017 once tested}
-> {list any version tested between LV2014 & LV2016}
+> LV2017  
+> LV2016  
 > LV2013  
-> {if backported, list all other versions tested below LV2013}
   
 ### Dependencies:  
 
@@ -39,10 +38,11 @@ LabVIEW Task Manager is a debugging tool for use during LabVIEW code development
 + 'Refresh Now' (F5) re-reads all VIs in memory and adds new ones to the tree
 + Displays VI name, owning class/library, state, path, data size & code size
 + Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? & Highlight?
++ Group by Class/Library or Folder, or display a Flat List
 + Sort by any column, ascending or descending
-+ Filter out items from being displayed, by folder paths
 + Filter out item types vi, ctl, and vit/ctt
 + Filter out vi.lib and global VIs
++ Filter out items from being displayed, per folder paths.
 + Tracking of, and ability to toggle, execution highlighting on multiple selected VIs
 + Tracking of paused VIs with ability to Pause/Resume/TogglePause multiple selected VIs
 + DropIn VI for pausing only while debugging
@@ -50,6 +50,7 @@ LabVIEW Task Manager is a debugging tool for use during LabVIEW code development
 + Select multiple VIs and open or close their FPs or BDs
 + Double Click a VI from the tree to bring the BD (first choice) or FP to front, if already open
 + Select multiple top-level VIs and Abort them
++ Remotely close any VI's Front Panel
   
 ### Installation and instructions:  
 > Install this tool by using the *VI Package Manager* to install its associated package file (.vip).  Installation requires **VIPM 2014 or higher**, which is available for free from jki.net (http://jki.net/vipm).  
@@ -57,5 +58,4 @@ LabVIEW Task Manager is a debugging tool for use during LabVIEW code development
 ### Known Issues:  
 
 + Cannot abort SubVIs launched from remote VI Server or local Asynch Call By Ref
-+ Some filtered items are not properly filtered out
-+ Refresh temporarily shows intermediate results
+

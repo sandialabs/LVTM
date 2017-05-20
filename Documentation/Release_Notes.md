@@ -1,4 +1,4 @@
-**v20??.1.10.0 TimVargo, Ravi Beniwal on 05/??/2017 (LabVIEW 20??)**
+**v2013.1.10.0 TimVargo, Ravi Beniwal on 05/19/2017 (LabVIEW 2013)**
 
 * Several UI improvements
 * View can now be grouped by Library or Folder, or display a Flat List

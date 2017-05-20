@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-05-04 18:06:07" Creator="Timothy D. Vargo" Comments="" ID="ee2a3f0f920117fcbee954cc702ac859">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-05-19 21:42:18" Creator="Timothy D. Vargo" Comments="" ID="18f2881e2fa60aa78f7a6c798abf6440">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.9.3.64</Library_Version>
+    <Library_Version>1.10.0.66</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\builds\LVTM\VIPackages</Library_Output_Folder>
@@ -55,10 +55,11 @@
     * 'Refresh Now' (F5) re-reads all VIs in memory and adds new ones to the tree
     * Displays VI name, owning class/library, state, path, data size &amp; code size
     * Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? &amp; Highlight?
+    * Group by Class/Library or Folder, or display a Flat List
     * Sort by any column, ascending or descending
-    * Filter out items from being displayed, by folder paths
     * Filter out item types vi, ctl, and vit/ctt
     * Filter out vi.lib and global VIs
+    * Filter out items from being displayed, per folder paths.
     * Tracking of, and ability to toggle, execution highlighting on multiple selected VIs
     * Tracking of paused VIs with ability to Pause/Resume/TogglePause multiple selected VIs
     * DropIn VI for pausing only while debugging
@@ -66,20 +67,20 @@
     * Select multiple VIs and open or close their FPs or BDs
     * Double Click a VI from the tree to bring the BD (first choice) or FP to front, if already open
     * Select multiple top-level VIs and Abort them
+    * Remotely close any VI's Front Panel
 
 &lt;size=12&gt;This application was originally authored by Ravi Beniwal, and now includes code contributions from Aristos Queue, James Powell, Darren Nattinger, ohiofudu, Neil Pate, and TimVargo.&lt;/size&gt;</Description>
       <Copyright>Copyright (c) 2011-2017, Ravi Beniwal &amp; Sandia National Laboratories</Copyright>
       <Packager>Ravi Beniwal &amp; Tim Vargo</Packager>
       <URL>https://lavag.org/files/file/245-labview-task-manager</URL>
-      <Release_Notes>03-May-2017 -- v2013.1.9.3 (changes since v1.7.0)
+      <Release_Notes>19-May-2017 -- v2013.1.10.0 (changes since v1.7.0)
 (This build requires LV2013+ to run, and VIPM 2014+ to install)
 * Rechecking for new app instances upon mouse over "App Instance" control
 * Do not limit multisection to siblings only
 * Do not allow selection of parent libraries
 * For "Clone VIs FG" made the "Add Calling VI" case the default case
-* Tree right-click menu now allows for Expand All / Collapse All (called Open All Items / Close All Items)
+* Tree shortcut menu (right-click menu) several functions
 * Items not belonging to a parent library are now grouped in tree under "&lt;no parent library&gt;"
-* Marked "Pause.vi" User Event terminals as Connection Optional, and added text to the VI description warning to NOT wire these terminals.
 * Relocated the LVTM "Regression Tests" VIs such that they are no longer excluded from view in LVTM by default
 * Many performance optimizations (including 'dependencies cache' per Neil Pate)
 * Do not create new template instances, and suppress loading dialogs (per xceric)
@@ -92,12 +93,10 @@
 * Several UI improvements
 * View can now be grouped by Class/Library or Folder, or display a Flat List
 * Added an ability to filter out items from being displayed, per folder paths.  Helps the user to de-clutter the view, and improves performance.
-* Added several right-click menu functions
 * Added a progress bar for refresh
 * Persist some configuration settings between sessions
-* Other performance improvements
-* Added a basic plugin architecture
-* Added a TCP Server plugin, enabling an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
+* Several performance improvements
+* Added an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
 </Release_Notes>
     </Description>
     <Destinations>
@@ -230,16 +229,10 @@
         <Path>Utils_LVTM/LabVIEW Mods-Bitset Mappings.xlsx</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Utils_LVTM/MsgBox_LV.vi</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Utils_LVTM/Controls/DependendentTypeDefwParents.ctl</Path>
       </Exclusions>
       <Exclusions>
         <Path>VIs_LVTM/FindName Task_Manager Library</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/SNL_Legal</Path>
       </Exclusions>
       <Exclusions>
         <Path>HelpAbout_rha/Utilities</Path>
@@ -257,13 +250,7 @@
         <Path>Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/Discussions/Future_LVTM_Mods_premium.txt</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>LabVIEW Task Manager_LV2013.vipb.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW Task Manager_LV2013.vipc.orig</Path>
       </Exclusions>
       <Exclusions>
         <Path>Documentation/Discussions</Path>
@@ -272,19 +259,10 @@
         <Path>Documentation/RecreateAllFromMarkdown.cmd</Path>
       </Exclusions>
       <Exclusions>
-        <Path>MassCompileLog.txt</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>images_LVTM</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Utils_LVTM/MsgBox_Win.vi</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Utils_LVTM/SelectAppInstance.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/Close_If_Valid.vi</Path>
       </Exclusions>
       <Exclusions>
         <Path>Utils_LVTM/Controls/CtrlVITypeCounts.ctl</Path>
@@ -299,7 +277,10 @@
         <Path>Documentation/RecreateAboutFromMarkdown.cmd</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/NIWeek_2017_PPT_Session_Template_for_Speakers.pptx</Path>
+        <Path>LabVIEW Task Manager.vipb.orig</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>_builds</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>Documentation\License.txt</License_Agreement_Filepath>
@@ -416,7 +397,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65385753A531AF6708B39DDE8F7E0B20</GUID>
+      <GUID>926C3442023941EB0092AA6109F9D125</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
