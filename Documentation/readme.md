@@ -38,9 +38,8 @@ LabVIEW Task Manager is a debugging tool for use during LabVIEW code development
 + 'Refresh Now' (F5) re-reads all VIs in memory and adds new ones to the tree
 + Displays VI name, owning class/library, state, path, data size & code size
 + Displays VI FP Behavior, Reentrant?, Reentrancy Type, Paused? & Highlight?
-+ Group by Library or Folder, or display a Flat List
++ Group by Class/Library or Folder, or display a Flat List
 + Sort by any column, ascending or descending
-+ Filter out items from being displayed, by folder paths
 + Filter out item types vi, ctl, and vit/ctt
 + Filter out vi.lib and global VIs
 + Filter out items from being displayed, per folder paths.
