@@ -36,7 +36,6 @@
 		<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Pause Symbols to Tree.vi"/>
 		<Item Name="Add VIs and their Protperties to Tree.vi" Type="VI" URL="../VIs_LVTM/Add VIs and their Protperties to Tree.vi"/>
 		<Item Name="Clone VIs FG Enum.ctl" Type="VI" URL="../VIs_LVTM/Clone VIs FG Enum.ctl"/>
-		<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs_LVTM/Clone VIs FG.vi"/>
 		<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
 		<Item Name="FilterOutProbes.vi" Type="VI" URL="../VIs_LVTM/FilterOutProbes.vi"/>
 		<Item Name="Find Clones.vi" Type="VI" URL="../VIs_LVTM/Find Clones.vi"/>
@@ -80,6 +79,9 @@
 		<Item Name="Get Modal VIs.vi" Type="VI" URL="../Utils_LVTM/Get Modal VIs.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
+		<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs_LVTM/Clone VIs FG.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Pause.vi" Type="VI" URL="../VIs_LVTM/Pause.vi"/>
 		<Item Name="Report Error.vi" Type="VI" URL="../VIs_LVTM/Report Error.vi"/>
 	</Item>
