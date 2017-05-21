@@ -118,8 +118,11 @@
 			<Item Name="RHA.lvlib" Type="Library" URL="../HelpAbout_rha/RHA.lvlib"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
+			<Item Name="TCP Server" Type="Folder">
+				<Item Name="TCP_Server.lvclass" Type="LVClass" URL="../TCP_Server/TCP_Server.lvclass"/>
+				<Item Name="TCP Control App.vi" Type="VI" URL="../TCP_Server/TCP Control App.vi"/>
+			</Item>
 			<Item Name="LVTM_Plugin.lvclass" Type="LVClass" URL="../Plugin/LVTM_Plugin.lvclass"/>
-			<Item Name="TCP_Server.lvclass" Type="LVClass" URL="../TCP_Server/TCP_Server.lvclass"/>
 		</Item>
 		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -602,6 +605,46 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
+			</Item>
+			<Item Name="LVTM Control App" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{62E85628-2A20-4C36-AEA7-2CFDF9E63B12}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{9D73097D-517E-4042-8200-4A5D1CDCBEEB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D2A4817E-30C0-45BC-87F1-D6D56453CCBD}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LVTM Control App</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{86172450-2888-4569-924B-1967266758F1}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">LVTM Control App.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App/LVTM Control App.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FA5C7079-E08C-4D6D-AE97-1B0D72E1FD72}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Plugins/TCP Server/TCP Control App.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Binary Palette</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LVTM Control App</Property>
+				<Property Name="TgtF_internalName" Type="Str">LVTM Control App</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Binary Palette</Property>
+				<Property Name="TgtF_productName" Type="Str">LVTM Control App</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{056327EC-24E1-48E3-BAD7-A922B648098E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LVTM Control App.exe</Property>
 			</Item>
 		</Item>
 	</Item>
