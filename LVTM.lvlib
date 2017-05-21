@@ -77,6 +77,7 @@
 		<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
 		<Item Name="Get Application Instances.vi" Type="VI" URL="../VIs_LVTM/Get Application Instances.vi"/>
 		<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
+		<Item Name="Get Modal VIs.vi" Type="VI" URL="../Utils_LVTM/Get Modal VIs.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Item Name="Pause.vi" Type="VI" URL="../VIs_LVTM/Pause.vi"/>
