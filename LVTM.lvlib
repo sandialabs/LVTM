@@ -22,57 +22,58 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Progress" Type="Folder">
+			<Item Name="Clear Progress.vi" Type="VI" URL="../VIs_LVTM/Clear Progress.vi"/>
+			<Item Name="Progress Indicator.vi" Type="VI" URL="../VIs_LVTM/Progress Indicator.vi"/>
+			<Item Name="Progress Notifier.vi" Type="VI" URL="../VIs_LVTM/Progress Notifier.vi"/>
+			<Item Name="Shutdown Progress Indicator.vi" Type="VI" URL="../VIs_LVTM/Shutdown Progress Indicator.vi"/>
+			<Item Name="Update Progress.vi" Type="VI" URL="../VIs_LVTM/Update Progress.vi"/>
+		</Item>
 		<Item Name="VersionInfo" Type="Folder">
 			<Item Name="Access_VersionInfo.vi" Type="VI" URL="../VersionInfo/Access_VersionInfo.vi"/>
 			<Item Name="ProductVersion.ctl" Type="VI" URL="../VersionInfo/ProductVersion.ctl"/>
 		</Item>
-		<Item Name="Progress" Type="Folder">
-			<Item Name="Progress Notifier.vi" Type="VI" URL="../VIs_LVTM/Progress Notifier.vi"/>
-			<Item Name="Update Progress.vi" Type="VI" URL="../VIs_LVTM/Update Progress.vi"/>
-			<Item Name="Progress Indicator.vi" Type="VI" URL="../VIs_LVTM/Progress Indicator.vi"/>
-			<Item Name="Shutdown Progress Indicator.vi" Type="VI" URL="../VIs_LVTM/Shutdown Progress Indicator.vi"/>
-			<Item Name="Clear Progress.vi" Type="VI" URL="../VIs_LVTM/Clear Progress.vi"/>
-		</Item>
+		<Item Name="Add Folder Path to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Folder Path to Tree.vi"/>
 		<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Pause Symbols to Tree.vi"/>
 		<Item Name="Add VIs and their Protperties to Tree.vi" Type="VI" URL="../VIs_LVTM/Add VIs and their Protperties to Tree.vi"/>
+		<Item Name="Build Tree Struct wProperties.vi" Type="VI" URL="../VIs_LVTM/Build Tree Struct wProperties.vi"/>
+		<Item Name="Check for changed Items and update tree.vi" Type="VI" URL="../VIs_LVTM/Check for changed Items and update tree.vi"/>
 		<Item Name="Clone VIs FG Enum.ctl" Type="VI" URL="../VIs_LVTM/Clone VIs FG Enum.ctl"/>
+		<Item Name="Config File Path.vi" Type="VI" URL="../VIs_LVTM/Config File Path.vi"/>
+		<Item Name="Delete All But Current Folder Hierarchy.vi" Type="VI" URL="../VIs_LVTM/Delete All But Current Folder Hierarchy.vi"/>
 		<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
+		<Item Name="Discover ALL VIs in Memory.vi" Type="VI" URL="../VIs_LVTM/Discover ALL VIs in Memory.vi"/>
 		<Item Name="FilterOutProbes.vi" Type="VI" URL="../VIs_LVTM/FilterOutProbes.vi"/>
 		<Item Name="Find Clones.vi" Type="VI" URL="../VIs_LVTM/Find Clones.vi"/>
+		<Item Name="Find Collapsed Nodes.vi" Type="VI" URL="../VIs_LVTM/Find Collapsed Nodes.vi"/>
 		<Item Name="Generate Clone Name.vi" Type="VI" URL="../VIs_LVTM/Generate Clone Name.vi"/>
 		<Item Name="Get All VIs in Memory Including statically-referenced Reentrant Clones.vi" Type="VI" URL="../VIs_LVTM/Get All VIs in Memory Including statically-referenced Reentrant Clones.vi"/>
+		<Item Name="Get Changed VIs.vi" Type="VI" URL="../VIs_LVTM/Get Changed VIs.vi"/>
 		<Item Name="Get Properties.vi" Type="VI" URL="../VIs_LVTM/Get Properties.vi"/>
 		<Item Name="Get Tags of All Child Items.vi" Type="VI" URL="../VIs_LVTM/Get Tags of All Child Items.vi"/>
+		<Item Name="Get Visible Items.vi" Type="VI" URL="../VIs_LVTM/Get Visible Items.vi"/>
 		<Item Name="Highlight Execution.vi" Type="VI" URL="../VIs_LVTM/Highlight Execution.vi"/>
+		<Item Name="Interrupt Notifier.vi" Type="VI" URL="../VIs_LVTM/Interrupt Notifier.vi"/>
 		<Item Name="NonVILib Qualified Name Array To Single String.vi" Type="VI" URL="../VIs_LVTM/NonVILib Qualified Name Array To Single String.vi"/>
 		<Item Name="NonVILib Single String To Qualified Name Array.vi" Type="VI" URL="../VIs_LVTM/NonVILib Single String To Qualified Name Array.vi"/>
 		<Item Name="Pause VI.vi" Type="VI" URL="../VIs_LVTM/Pause VI.vi"/>
-		<Item Name="Resume VI.vi" Type="VI" URL="../VIs_LVTM/Resume VI.vi"/>
-		<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs_LVTM/Sort Tree Items by Numerical order.vi"/>
-		<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
-		<Item Name="Discover ALL VIs in Memory.vi" Type="VI" URL="../VIs_LVTM/Discover ALL VIs in Memory.vi"/>
-		<Item Name="Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Refresh Tree.vi"/>
-		<Item Name="Build Tree Struct wProperties.vi" Type="VI" URL="../VIs_LVTM/Build Tree Struct wProperties.vi"/>
-		<Item Name="Find Collapsed Nodes.vi" Type="VI" URL="../VIs_LVTM/Find Collapsed Nodes.vi"/>
-		<Item Name="Version_Info.vi" Type="VI" URL="../VIs_LVTM/Version_Info.vi"/>
-		<Item Name="Request Events FG.vi" Type="VI" URL="../VIs_LVTM/Request Events FG.vi"/>
-		<Item Name="Update Tree Items.vi" Type="VI" URL="../VIs_LVTM/Update Tree Items.vi"/>
-		<Item Name="Add Folder Path to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Folder Path to Tree.vi"/>
-		<Item Name="Update Filters Menu.vi" Type="VI" URL="../VIs_LVTM/Update Filters Menu.vi"/>
-		<Item Name="Delete All But Current Folder Hierarchy.vi" Type="VI" URL="../VIs_LVTM/Delete All But Current Folder Hierarchy.vi"/>
-		<Item Name="Request_Update Items.vi" Type="VI" URL="../VIs_LVTM/Request_Update Items.vi"/>
-		<Item Name="Get Changed VIs.vi" Type="VI" URL="../VIs_LVTM/Get Changed VIs.vi"/>
-		<Item Name="Interrupt Notifier.vi" Type="VI" URL="../VIs_LVTM/Interrupt Notifier.vi"/>
-		<Item Name="Request Processing Loop to Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Request Processing Loop to Refresh Tree.vi"/>
-		<Item Name="Config File Path.vi" Type="VI" URL="../VIs_LVTM/Config File Path.vi"/>
-		<Item Name="Write Configuration to File.vi" Type="VI" URL="../VIs_LVTM/Write Configuration to File.vi"/>
 		<Item Name="Read Configuration from File.vi" Type="VI" URL="../VIs_LVTM/Read Configuration from File.vi"/>
-		<Item Name="Update Active Filters.vi" Type="VI" URL="../VIs_LVTM/Update Active Filters.vi"/>
-		<Item Name="Check for changed Items and update tree.vi" Type="VI" URL="../VIs_LVTM/Check for changed Items and update tree.vi"/>
-		<Item Name="Set VI Reentrancy.vi" Type="VI" URL="../VIs_LVTM/Set VI Reentrancy.vi"/>
+		<Item Name="Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Refresh Tree.vi"/>
+		<Item Name="Request Events FG.vi" Type="VI" URL="../VIs_LVTM/Request Events FG.vi"/>
+		<Item Name="Request Processing Loop to Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Request Processing Loop to Refresh Tree.vi"/>
+		<Item Name="Request_Update Items.vi" Type="VI" URL="../VIs_LVTM/Request_Update Items.vi"/>
+		<Item Name="Resume VI.vi" Type="VI" URL="../VIs_LVTM/Resume VI.vi"/>
 		<Item Name="Send Updated UI State to Processing Loop.vi" Type="VI" URL="../VIs_LVTM/Send Updated UI State to Processing Loop.vi"/>
-		<Item Name="Get Visible Items.vi" Type="VI" URL="../VIs_LVTM/Get Visible Items.vi"/>
+		<Item Name="Set VI Reentrancy.vi" Type="VI" URL="../VIs_LVTM/Set VI Reentrancy.vi"/>
 		<Item Name="Show Items.vi" Type="VI" URL="../VIs_LVTM/Show Items.vi"/>
+		<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs_LVTM/Sort Tree Items by Numerical order.vi"/>
+		<Item Name="Update Active Filters.vi" Type="VI" URL="../VIs_LVTM/Update Active Filters.vi"/>
+		<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
+		<Item Name="Update Filters Menu.vi" Type="VI" URL="../VIs_LVTM/Update Filters Menu.vi"/>
+		<Item Name="Update Tree Items.vi" Type="VI" URL="../VIs_LVTM/Update Tree Items.vi"/>
+		<Item Name="Version_Info.vi" Type="VI" URL="../VIs_LVTM/Version_Info.vi"/>
+		<Item Name="Write Configuration to File.vi" Type="VI" URL="../VIs_LVTM/Write Configuration to File.vi"/>
 	</Item>
 	<Item Name="Utils" Type="Folder">
 		<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
