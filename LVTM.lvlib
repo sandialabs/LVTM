@@ -82,9 +82,7 @@
 		<Item Name="Get Modal VIs.vi" Type="VI" URL="../Utils_LVTM/Get Modal VIs.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
-		<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs_LVTM/Clone VIs FG.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
+		<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs_LVTM/Clone VIs FG.vi"/>
 		<Item Name="Pause.vi" Type="VI" URL="../VIs_LVTM/Pause.vi"/>
 		<Item Name="Report Error.vi" Type="VI" URL="../VIs_LVTM/Report Error.vi"/>
 	</Item>
