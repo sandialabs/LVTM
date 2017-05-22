@@ -551,10 +551,9 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{962BFC30-CD1D-4254-A2C3-BDF962CBD40D}</Property>
 				<Property Name="Bld_removeVIObj" Type="Bool">true</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/builds/LVTM/SourceDistribution/Task Manager_LVTM Source Distribution_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">9</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">10</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/builds/LVTM/SourceDistribution</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -563,49 +562,44 @@
 				<Property Name="Destination[1].path" Type="Path">/C/builds/LVTM/SourceDistribution/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FB95FA25-1BC4-4D26-BC78-A2CEEE6874AB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{78293CA1-5AF5-4434-9F26-6D1E15372CE2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVTM.lvlib/Private</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVTM.lvlib/Private</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TestVIs_LVTM</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TestVIs_LVTM</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVTM.lvlib/Controls</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVTM.lvlib/Controls</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVTM.lvlib/Utils</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LVTM.lvlib/Utils</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LVTM.lvlib/Menu</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LVTM.lvlib/Menu</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Project_LVTM</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Project_LVTM</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/LVTM.lvlib/Private/VersionInfo</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/LVTM.lvlib/Private/VersionInfo</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="LVTM Control App" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -621,7 +615,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86172450-2888-4569-924B-1967266758F1}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LVTM Control App.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App/LVTM Control App.exe</Property>
@@ -632,7 +626,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FA5C7079-E08C-4D6D-AE97-1B0D72E1FD72}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{78293CA1-5AF5-4434-9F26-6D1E15372CE2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Plugins/TCP Server/TCP Control App.vi</Property>
