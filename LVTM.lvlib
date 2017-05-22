@@ -71,6 +71,8 @@
 		<Item Name="Check for changed Items and update tree.vi" Type="VI" URL="../VIs_LVTM/Check for changed Items and update tree.vi"/>
 		<Item Name="Set VI Reentrancy.vi" Type="VI" URL="../VIs_LVTM/Set VI Reentrancy.vi"/>
 		<Item Name="Send Updated UI State to Processing Loop.vi" Type="VI" URL="../VIs_LVTM/Send Updated UI State to Processing Loop.vi"/>
+		<Item Name="Get Visible Items.vi" Type="VI" URL="../VIs_LVTM/Get Visible Items.vi"/>
+		<Item Name="Show Items.vi" Type="VI" URL="../VIs_LVTM/Show Items.vi"/>
 	</Item>
 	<Item Name="Utils" Type="Folder">
 		<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
