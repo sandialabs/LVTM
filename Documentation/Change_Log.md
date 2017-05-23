@@ -3,7 +3,7 @@
 
 #### Starting with v2013.1.9.1, the first four digits denote the version year of LabVIEW that the version of this software is "saved for".  
 
-+ v2013.1.10.0 Tim Vargo & Ravi Beniwal on 19-May-2017 (LabVIEW 2013)
++ v2013.1.10.0 Tim Vargo & Ravi Beniwal on 24-May-2017 (LabVIEW 2013)
 + v2013.1.9.2 Tim Vargo on 20-Mar-2017 (LabVIEW 2013) {never made public}
 + v2013.1.9.1 TimVargo on 07/25/2016 (LabVIEW 2013) {never made public}
 + v1.8.0 TimVargo on 07/14/2015 (LabVIEW 2010) {never made public}

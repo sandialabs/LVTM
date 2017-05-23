@@ -1,4 +1,4 @@
-**v2013.1.10.0 TimVargo, Ravi Beniwal on 05/19/2017 (LabVIEW 2013)**
+**v2013.1.10.0 TimVargo, Ravi Beniwal on 24-May-2017 (LabVIEW 2013)**
 
 * Several UI improvements
 * View can now be grouped by Library or Folder, or display a Flat List
@@ -8,7 +8,7 @@
 * Persist some configuration settings
 * Other performance improvements
 * Newer icon
-* Added a TCP Server, enabling an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
+* Added an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
 
 **v2013.1.9.2 TimVargo on 03/20/2017 (LabVIEW 2013)**
 
