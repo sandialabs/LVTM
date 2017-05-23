@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-05-21 14:28:05" Creator="Timothy D. Vargo" Comments="" ID="640f4aed683f0e8c86e0ab45796f296a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-05-23 16:55:48" Creator="Timothy D. Vargo" Comments="" ID="84a3eabb409e295693fe8fafc1e4c4a3">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
     <Library_Version>1.10.0.68</Library_Version>
@@ -40,7 +40,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>Utils_LVTM\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -73,7 +73,7 @@
       <Copyright>Copyright (c) 2011-2017, Ravi Beniwal &amp; Sandia National Laboratories</Copyright>
       <Packager>Ravi Beniwal &amp; Tim Vargo</Packager>
       <URL>https://lavag.org/files/file/245-labview-task-manager</URL>
-      <Release_Notes>19-May-2017 -- v2013.1.10.0 (changes since v1.7.0)
+      <Release_Notes>24-May-2017 -- v2013.1.10.0 (changes since v1.7.0)
 (This build requires LV2013+ to run, and VIPM 2014+ to install)
 * Rechecking for new app instances upon mouse over "App Instance" control
 * Do not limit multisection to siblings only
@@ -280,25 +280,19 @@
         <Path>LabVIEW Task Manager.vipb.orig</Path>
       </Exclusions>
       <Exclusions>
-        <Path>_builds</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Documentation/~$Manual.docx</Path>
       </Exclusions>
       <Exclusions>
         <Path>Documentation/What's New in LVTM v1.10.txt.bak</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/Release_Notes.md.bak</Path>
+        <Path>_builds/tdvargo_builds_LVTM - Shortcut.lnk</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/readme.md.bak</Path>
+        <Path>_builds/LVTM_ControlApp/LVTM Control App.exe</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Documentation/Change_Log.md.bak</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/About.md.bak</Path>
+        <Path>_builds/LVTM_ControlApp/LVTM Control App.ini</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>Documentation\License.txt</License_Agreement_Filepath>
@@ -415,7 +409,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F985879A760191EB8FDC2A383E385348</GUID>
+      <GUID>A48FAE11168FF58C3EA192F7AF1D8D7C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
