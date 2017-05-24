@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-05-23 16:55:48" Creator="Timothy D. Vargo" Comments="" ID="84a3eabb409e295693fe8fafc1e4c4a3">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-05-28 18:43:42" Modified_Date="2017-05-24 14:54:30" Creator="Timothy D. Vargo" Comments="" ID="8ee8c0452ec7051258d9f792cce37449">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.10.0.68</Library_Version>
+    <Library_Version>1.10.0.71</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\builds\LVTM\VIPackages</Library_Output_Folder>
@@ -40,7 +40,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI>Utils_LVTM\Post-Install Custom Action.vi</Post-Install_VI>
+      <Post-Install_VI/>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -250,9 +250,6 @@
         <Path>Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf</Path>
       </Exclusions>
       <Exclusions>
-        <Path>LabVIEW Task Manager_LV2013.vipb.orig</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Documentation/Discussions</Path>
       </Exclusions>
       <Exclusions>
@@ -275,24 +272,6 @@
       </Exclusions>
       <Exclusions>
         <Path>Documentation/RecreateAboutFromMarkdown.cmd</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW Task Manager.vipb.orig</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/~$Manual.docx</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Documentation/What's New in LVTM v1.10.txt.bak</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>_builds/tdvargo_builds_LVTM - Shortcut.lnk</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>_builds/LVTM_ControlApp/LVTM Control App.exe</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>_builds/LVTM_ControlApp/LVTM Control App.ini</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>Documentation\License.txt</License_Agreement_Filepath>
@@ -409,7 +388,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A48FAE11168FF58C3EA192F7AF1D8D7C</GUID>
+      <GUID>0F13BDE92CEDC2191EBDDD5D025E082E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
