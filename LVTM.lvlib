@@ -43,6 +43,7 @@
 		<Item Name="Config File Path.vi" Type="VI" URL="../VIs_LVTM/Config File Path.vi"/>
 		<Item Name="Delete All But Current Folder Hierarchy.vi" Type="VI" URL="../VIs_LVTM/Delete All But Current Folder Hierarchy.vi"/>
 		<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
+		<Item Name="Delete Tree Items.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Items.vi"/>
 		<Item Name="Discover ALL VIs in Memory.vi" Type="VI" URL="../VIs_LVTM/Discover ALL VIs in Memory.vi"/>
 		<Item Name="FilterOutProbes.vi" Type="VI" URL="../VIs_LVTM/FilterOutProbes.vi"/>
 		<Item Name="Find Clones.vi" Type="VI" URL="../VIs_LVTM/Find Clones.vi"/>
@@ -70,6 +71,7 @@
 		<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs_LVTM/Sort Tree Items by Numerical order.vi"/>
 		<Item Name="Update Active Filters.vi" Type="VI" URL="../VIs_LVTM/Update Active Filters.vi"/>
 		<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
+		<Item Name="Update Cell Values.vi" Type="VI" URL="../VIs_LVTM/Update Cell Values.vi"/>
 		<Item Name="Update Filters Menu.vi" Type="VI" URL="../VIs_LVTM/Update Filters Menu.vi"/>
 		<Item Name="Update Tree Items.vi" Type="VI" URL="../VIs_LVTM/Update Tree Items.vi"/>
 		<Item Name="Version_Info.vi" Type="VI" URL="../VIs_LVTM/Version_Info.vi"/>
