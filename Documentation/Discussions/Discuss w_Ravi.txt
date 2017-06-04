@@ -15,3 +15,8 @@
 
 26-Apr-2017
 12. Attempting to Abort a VI that cannot be aborted (non-Top Level) displays "error" in the State column, which is by design.  This "error" state used to revert back to "Running" (or whatever is the correct state) after a few seconds, but now it remains "error".
+
+04-Jun-2017
+13. BUG: Changing the view (Group/Flat) using the FP control works fine, but trying the same from Menu >> View does not
+14. LVTM Control App: is there a good reason this window is not allowed to be minimized?  If no, I would prefer to allow it.
+15. LVTM Control App: would it be useful to include a button to "Open FP" as well?  Obviously these FPs are already open, but if they are minimized or otherwise hidden (like behind another window), then it may be desirable to bring that FP to the top, so we know for certain exactly what FP we are about to close.
