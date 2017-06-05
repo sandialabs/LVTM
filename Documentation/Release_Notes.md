@@ -1,3 +1,21 @@
+**v2013.1.10.0 TimVargo, Ravi Beniwal on 24-May-2017 (LabVIEW 2013)**
+
+* Several UI improvements
+* View can now be grouped by Library or Folder, or display a Flat List
+* Added an ability to filter out items from being displayed, per folder paths.  Helps the user to de-clutter the view, and improves performance.
+* Added several right-click menu functions
+* Added a progress bar for refresh
+* Persist some configuration settings
+* Other performance improvements
+* Newer icon
+* Added an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
+
+**v2013.1.9.2 TimVargo on 03/20/2017 (LabVIEW 2013)**
+
+* New Help/About/Info dialog
+* License is now modified MIT
+* New icon
+
 **v2013.1.9.1 TimVargo on 07/25/2016 (LabVIEW 2013)**
 
 * Many performance optimizations (including 'dependencies cache' per Neil Pate)
@@ -19,7 +37,7 @@
 
 **v1.7.0 TimVargo on 07/01/2014 (LabVIEW 2010)**
 
-* Inserted "Generate Clone Name", as supplied by Aristos Queue, to fix incompatibility w/ LV2013 clone enumeration.  See <https://decibel.ni.com/content/message/58984#58984>
+* Inserted "Generate Clone Name", as supplied by Aristos Queue, to fix incompatibility w/ LV2013 clone enumeration.  See (https://decibel.ni.com/content/message/58984#58984)
 * Added VI descriptions to all UI front panels, and tip-strips to UI front panel elements.
 * Fixed bug where custom probes would cause errors in "Compare Two Paths" VI.
 * Refreshing now includes a re-check for new app instances

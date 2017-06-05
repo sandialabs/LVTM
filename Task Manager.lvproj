@@ -67,56 +67,25 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Main_LVTM" Type="Folder">
-			<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../LabVIEW Task Manager.vi"/>
-			<Item Name="Task Manager Menu.rtm" Type="Document" URL="../Task Manager Menu.rtm"/>
-		</Item>
-		<Item Name="VIs_LVTM" Type="Folder">
-			<Item Name="FindName Task_Manager Library" Type="Folder">
-				<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
-			</Item>
-			<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Pause Symbols to Tree.vi"/>
-			<Item Name="Add VIs and their Protperties to Tree.vi" Type="VI" URL="../VIs_LVTM/Add VIs and their Protperties to Tree.vi"/>
-			<Item Name="Clone VIs FG Enum.ctl" Type="VI" URL="../VIs_LVTM/Clone VIs FG Enum.ctl"/>
-			<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs_LVTM/Clone VIs FG.vi"/>
-			<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
-			<Item Name="FilterOutProbes.vi" Type="VI" URL="../VIs_LVTM/FilterOutProbes.vi"/>
-			<Item Name="Find Clones.vi" Type="VI" URL="../VIs_LVTM/Find Clones.vi"/>
-			<Item Name="Generate Clone Name.vi" Type="VI" URL="../VIs_LVTM/Generate Clone Name.vi"/>
-			<Item Name="Get All VIs in Memory Including statically-referenced Reentrant Clones.vi" Type="VI" URL="../VIs_LVTM/Get All VIs in Memory Including statically-referenced Reentrant Clones.vi"/>
-			<Item Name="Get Properties.vi" Type="VI" URL="../VIs_LVTM/Get Properties.vi"/>
-			<Item Name="Get Tags of All Child Items.vi" Type="VI" URL="../VIs_LVTM/Get Tags of All Child Items.vi"/>
-			<Item Name="NonVILib Qualified Name Array To Single String.vi" Type="VI" URL="../VIs_LVTM/NonVILib Qualified Name Array To Single String.vi"/>
-			<Item Name="NonVILib Single String To Qualified Name Array.vi" Type="VI" URL="../VIs_LVTM/NonVILib Single String To Qualified Name Array.vi"/>
-			<Item Name="Pause VI.vi" Type="VI" URL="../VIs_LVTM/Pause VI.vi"/>
-			<Item Name="Pause.vi" Type="VI" URL="../VIs_LVTM/Pause.vi"/>
-			<Item Name="Resume VI.vi" Type="VI" URL="../VIs_LVTM/Resume VI.vi"/>
-			<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs_LVTM/Sort Tree Items by Numerical order.vi"/>
-			<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
-			<Item Name="Discover ALL VIs in Memory.vi" Type="VI" URL="../VIs_LVTM/Discover ALL VIs in Memory.vi"/>
-			<Item Name="Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Refresh Tree.vi"/>
-			<Item Name="Build Tree Struct wProperties.vi" Type="VI" URL="../VIs_LVTM/Build Tree Struct wProperties.vi"/>
-			<Item Name="Find Collapsed Nodes.vi" Type="VI" URL="../VIs_LVTM/Find Collapsed Nodes.vi"/>
-			<Item Name="Version_Info.vi" Type="VI" URL="../VIs_LVTM/Version_Info.vi"/>
-		</Item>
-		<Item Name="Controls_LVTM" Type="Folder">
-			<Item Name="LVTM_Config_Info.ctl" Type="VI" URL="../Controls_LVTM/LVTM_Config_Info.ctl"/>
-			<Item Name="ReentrancyKinds.ctl" Type="VI" URL="../Controls_LVTM/ReentrancyKinds.ctl"/>
-			<Item Name="FileVersionInfo+.ctl" Type="VI" URL="../Controls_LVTM/FileVersionInfo+.ctl"/>
+		<Item Name="Externals" Type="Folder">
+			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Utils_LVTM/Post-Install Custom Action.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
 			<Item Name="Discussions" Type="Folder">
 				<Item Name="Debugging dynamically opened reentrant VIs - LabVIEW General - LAVA.URL" Type="Document" URL="../Documentation/Discussions/Debugging dynamically opened reentrant VIs - LabVIEW General - LAVA.URL"/>
 				<Item Name="Debugging Reentrant VIs_Discussion.URL" Type="Document" URL="../Documentation/Discussions/Debugging Reentrant VIs_Discussion.URL"/>
-				<Item Name="Future_LabVIEW_Task_Manager_Mods.txt" Type="Document" URL="../Documentation/Discussions/Future_LabVIEW_Task_Manager_Mods.txt"/>
 				<Item Name="GenerateCloneName_Discussion.url" Type="Document" URL="../Documentation/Discussions/GenerateCloneName_Discussion.url"/>
 				<Item Name="LabVIEW Task Manager_Discussion.URL" Type="Document" URL="../Documentation/Discussions/LabVIEW Task Manager_Discussion.URL"/>
 				<Item Name="Use Cases for Debugging with LVTM.txt" Type="Document" URL="../Documentation/Discussions/Use Cases for Debugging with LVTM.txt"/>
+				<Item Name="Future_LVTM_Mods_base.txt" Type="Document" URL="../Documentation/Discussions/Future_LVTM_Mods_base.txt"/>
 			</Item>
+			<Item Name="About.html" Type="Document" URL="../Documentation/About.html"/>
+			<Item Name="About.md" Type="Document" URL="../Documentation/About.md"/>
 			<Item Name="3rd_Party_Licenses.html" Type="Document" URL="../Documentation/3rd_Party_Licenses.html"/>
 			<Item Name="3rd_Party_Licenses.md" Type="Document" URL="../Documentation/3rd_Party_Licenses.md"/>
 			<Item Name="Acknowledgments.html" Type="Document" URL="../Documentation/Acknowledgments.html"/>
 			<Item Name="Acknowledgments.md" Type="Document" URL="../Documentation/Acknowledgments.md"/>
+			<Item Name="blank.htm" Type="Document" URL="../Documentation/blank.htm"/>
 			<Item Name="Change_Log.html" Type="Document" URL="../Documentation/Change_Log.html"/>
 			<Item Name="Change_Log.md" Type="Document" URL="../Documentation/Change_Log.md"/>
 			<Item Name="License.txt" Type="Document" URL="../Documentation/License.txt"/>
@@ -124,47 +93,41 @@
 			<Item Name="LVTM White Paper.pdf" Type="Document" URL="../Documentation/LVTM White Paper.pdf"/>
 			<Item Name="LVTM WP_Abstract.docx" Type="Document" URL="../Documentation/LVTM WP_Abstract.docx"/>
 			<Item Name="LVTM_NIWeek2017_Abstract_Submittal.pdf" Type="Document" URL="../Documentation/LVTM_NIWeek2017_Abstract_Submittal.pdf"/>
-			<Item Name="Product_Tour.pdf" Type="Document" URL="../Documentation/Product_Tour.pdf"/>
-			<Item Name="Quick_Reference.pdf" Type="Document" URL="../Documentation/Quick_Reference.pdf"/>
 			<Item Name="readme.html" Type="Document" URL="../Documentation/readme.html"/>
 			<Item Name="readme.md" Type="Document" URL="../Documentation/readme.md"/>
+			<Item Name="Release_Notes.html" Type="Document" URL="../Documentation/Release_Notes.html"/>
+			<Item Name="Release_Notes.md" Type="Document" URL="../Documentation/Release_Notes.md"/>
 			<Item Name="Support.html" Type="Document" URL="../Documentation/Support.html"/>
 			<Item Name="Support.md" Type="Document" URL="../Documentation/Support.md"/>
-			<Item Name="RecreateAllFromMarkdown.cmd" Type="Document" URL="/C/Users/tdvargo/LocalDocuments.S1005811/SWdev/LVTM/WrkDirs/LVTM_find-filter/Documentation/RecreateAllFromMarkdown.cmd"/>
-		</Item>
-		<Item Name="Error_LVTM" Type="Folder">
-			<Item Name="Error Task_Manager Class" Type="Folder"/>
-			<Item Name="Error Task_Manager Library" Type="Folder">
-				<Item Name="Error Task Manager.lvlib" Type="Library" URL="../Error_LVTM/Error Task_Manager Library/Error Task Manager.lvlib"/>
-			</Item>
-		</Item>
-		<Item Name="Utils_LVTM" Type="Folder">
-			<Item Name="DiscoverCommonTypeDefCallers Library" Type="Folder">
-				<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
-			</Item>
-			<Item Name="MsgBalloon.vi" Type="VI" URL="../Utils_LVTM/MsgBalloon.vi"/>
-			<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
+			<Item Name="LVTM_Quick_Reference.pdf" Type="Document" URL="../Documentation/LVTM_Quick_Reference.pdf"/>
+			<Item Name="What&apos;s New in LVTM v1.10.txt" Type="Document" URL="../Documentation/What&apos;s New in LVTM v1.10.txt"/>
+			<Item Name="Manual.docx" Type="Document" URL="../Documentation/Manual.docx"/>
+			<Item Name="RecreateAllFromMarkdown.cmd" Type="Document" URL="../Documentation/RecreateAllFromMarkdown.cmd"/>
+			<Item Name="DocPlacement.xml" Type="Document" URL="../Documentation/DocPlacement.xml"/>
 		</Item>
 		<Item Name="TestVIs_LVTM" Type="Folder">
 			<Item Name="TestVIs.lvlib" Type="Library" URL="../Test VIs_LVTM/TestVIs.lvlib"/>
 		</Item>
 		<Item Name="Project_LVTM" Type="Folder">
-			<Item Name="Task Manager.aliases" Type="Document" URL="../Task Manager.aliases"/>
-			<Item Name="Task Manager.lvlps" Type="Document" URL="../Task Manager.lvlps"/>
-			<Item Name="LabVIEW Task Manager.vipb" Type="Document" URL="../LabVIEW Task Manager.vipb"/>
 			<Item Name="LabVIEW Task Manager_bpLV2010.vipb" Type="Document" URL="../LabVIEW Task Manager_bpLV2010.vipb"/>
 			<Item Name="LabVIEW Task Manager_LV2013.vipb" Type="Document" URL="../LabVIEW Task Manager_LV2013.vipb"/>
 		</Item>
-		<Item Name="VersionInfo" Type="Folder">
-			<Item Name="Access_VersionInfo.vi" Type="VI" URL="../VersionInfo/Access_VersionInfo.vi"/>
-			<Item Name="ProductVersion.ctl" Type="VI" URL="../VersionInfo/ProductVersion.ctl"/>
+		<Item Name="images_LVTM" Type="Folder">
+			<Item Name="LVTM Icon-32x32.png" Type="Document" URL="../images_LVTM/LVTM Icon-32x32.png"/>
+			<Item Name="LVTM Icon-300x300.png" Type="Document" URL="../images_LVTM/LVTM Icon-300x300.png"/>
+			<Item Name="LVTM_Logo_with_Text_noTM.png" Type="Document" URL="../images_LVTM/LVTM_Logo_with_Text_noTM.png"/>
 		</Item>
 		<Item Name="HelpAbout_rha" Type="Folder">
-			<Item Name="Documents" Type="Folder" URL="../HelpAbout_rha/Documents">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
 			<Item Name="RHA.lvlib" Type="Library" URL="../HelpAbout_rha/RHA.lvlib"/>
 		</Item>
+		<Item Name="Plugins" Type="Folder">
+			<Item Name="TCP Server" Type="Folder">
+				<Item Name="TCP_Server.lvclass" Type="LVClass" URL="../TCP_Server/TCP_Server.lvclass"/>
+				<Item Name="TCP Control App.vi" Type="VI" URL="../TCP_Server/TCP Control App.vi"/>
+			</Item>
+			<Item Name="LVTM_Plugin.lvclass" Type="LVClass" URL="../Plugin/LVTM_Plugin.lvclass"/>
+		</Item>
+		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -246,6 +209,47 @@
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
+				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
+				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
+				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
+				<Item Name="Open a Document on Disk.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open a Document on Disk.vi"/>
+				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Variant Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D Variant Array Changed__ogtk.vi"/>
@@ -502,6 +506,8 @@
 				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
 				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
+				<Item Name="VI Library__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/VI Library__ogtk.vi"/>
+				<Item Name="WinDebugLogging_ErrorClust.vi" Type="VI" URL="/&lt;userlib&gt;/sharedLV2013/TDV/WinDebugLogging_ErrorClust.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -515,8 +521,8 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Wait For LACK OF Front Panel Activity (event driven).vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/Wait For LACK OF Front Panel Activity (event driven).vi"/>
-			<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="//snl/home/tdvargo/Documents/LabVIEW Data/user.lib/TDV/_Safe Tick Count poly/U64 Millisecond Tick Count.vi"/>
+			<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
+			<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">
@@ -550,10 +556,9 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{962BFC30-CD1D-4254-A2C3-BDF962CBD40D}</Property>
 				<Property Name="Bld_removeVIObj" Type="Bool">true</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/builds/LVTM/SourceDistribution/Task Manager_LVTM Source Distribution_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">9</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">10</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/builds/LVTM/SourceDistribution</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -562,49 +567,163 @@
 				<Property Name="Destination[1].path" Type="Path">/C/builds/LVTM/SourceDistribution/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FB95FA25-1BC4-4D26-BC78-A2CEEE6874AB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{78293CA1-5AF5-4434-9F26-6D1E15372CE2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Error_LVTM</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVTM.lvlib/Private</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/VIs_LVTM</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TestVIs_LVTM</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TestVIs_LVTM</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVTM.lvlib/Controls</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Controls_LVTM</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVTM.lvlib/Utils</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Utils_LVTM</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LVTM.lvlib/Menu</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Main_LVTM</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Project_LVTM</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Project_LVTM</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/LVTM.lvlib/Private/VersionInfo</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/VersionInfo</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
+			</Item>
+			<Item Name="LVTM Control App" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{62E85628-2A20-4C36-AEA7-2CFDF9E63B12}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{9D73097D-517E-4042-8200-4A5D1CDCBEEB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D2A4817E-30C0-45BC-87F1-D6D56453CCBD}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LVTM Control App</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{86172450-2888-4569-924B-1967266758F1}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">LVTM Control App.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App/LVTM Control App.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{78293CA1-5AF5-4434-9F26-6D1E15372CE2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Plugins/TCP Server/TCP Control App.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Binary Palette</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LVTM Control App</Property>
+				<Property Name="TgtF_internalName" Type="Str">LVTM Control App</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Binary Palette</Property>
+				<Property Name="TgtF_productName" Type="Str">LVTM Control App</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{056327EC-24E1-48E3-BAD7-A922B648098E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LVTM Control App.exe</Property>
+			</Item>
+			<Item Name="ControlApp Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">LVTM_ControlApp</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{786A40D9-14E0-4D2D-9A46-AC571FEC7402}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{E7F44619-A12B-407C-A4AE-9E85280EF3AB}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2013 SP1 f6</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 SP1 Run-Time Engine Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI Error Reporting 2013</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">Sandia National Laboratories</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/builds/Task Manager/LVTM Control App/LVTM_ControlApp_Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">ControlApp Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{786A40D9-14E0-4D2D-9A46-AC571FEC7402}</Property>
+				<Property Name="INST_productName" Type="Str">LVTM Control App</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">13018020</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Binary Palette</Property>
+				<Property Name="MSI_arpContact" Type="Str">Ravi Beniwal</Property>
+				<Property Name="MSI_arpURL" Type="Str">binarypalette.com</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{4B579152-B2C1-4CA2-B1D4-2A8CEE560BB3}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{FD626A52-4DB7-41F5-A589-1AC41C19D194}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{786A40D9-14E0-4D2D-9A46-AC571FEC7402}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{786A40D9-14E0-4D2D-9A46-AC571FEC7402}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">LVTM Control App.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">LVTM Control App</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LabVIEW Task Manager</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{056327EC-24E1-48E3-BAD7-A922B648098E}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">LVTM Control App</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/LVTM Control App</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>

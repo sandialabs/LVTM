@@ -13,4 +13,6 @@
 	<Item Name="FindTagMatches.vi" Type="VI" URL="../FindTagMatches.vi"/>
 	<Item Name="Remove From Tree If Filtered.vi" Type="VI" URL="../Remove From Tree If Filtered.vi"/>
 	<Item Name="StopLooking.vi" Type="VI" URL="../StopLooking.vi"/>
+	<Item Name="U64 Millisecond Tick Count.vi" Type="VI" URL="../U64 Millisecond Tick Count.vi"/>
+	<Item Name="Wait For LACK OF Front Panel Activity (event driven).vi" Type="VI" URL="../Wait For LACK OF Front Panel Activity (event driven).vi"/>
 </Library>

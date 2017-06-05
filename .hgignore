@@ -10,3 +10,4 @@ _LVTM_2010/*
 .orig
 syntax: regexp
 .orig$
+.*\.vipc?( - Shortcut.lnk)
