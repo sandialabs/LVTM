@@ -1,0 +1,22 @@
+16-Apr-2017
+1. Filters -- Include/Exclude is confusing.
+2. New "Filters" menu item -- better to be under "View"?
+3. New "Folder View" checkbox -- better to be under "View"?
+4. After changing reentrancy, tree does not auto-update, probably due to dynamic mode optimization of "Get Properties.vi" (see "ColumnOffsets (Dyn)" constant).
+5. See LVTM_Config_Info.ctl for candidates to persist.
+6. What is the status of reorganizing into a library, and any other changesets where comment claimed "work in progress"?
+7. Is item type filtering being applied too early in the discovery process?
+8. Option to group by library or not (flat list).  A possible alternative would be to provide a new filter option for VI State, allowing to temporarily hide all VIs with a state of Idle or Running.  This is highly desired when wanting to quickly find all VIs that can be aborted, or to discover what VIs might be still running (unknowingly) in the background.  Another alternative would be to allow for a popup window that displays only VIs with RunTop state, but I want to resist popups if other alternatives exist.
+
+23-Apr-2017
+9.  Objections if I move 'Dialog.vi' & DialogTestApp.vi' into existing library 'TestVIs.lvlib'?
+10. Objections if I move 'Clone VIs FG.vi' from 'Private' into 'Public API'?
+11. Right-click in empty area of tree now produces an error, didn't use to.
+
+26-Apr-2017
+12. Attempting to Abort a VI that cannot be aborted (non-Top Level) displays "error" in the State column, which is by design.  This "error" state used to revert back to "Running" (or whatever is the correct state) after a few seconds, but now it remains "error".
+
+04-Jun-2017
+13. BUG: Changing the view (Group/Flat) using the FP control works fine, but trying the same from Menu >> View does not
+14. LVTM Control App: is there a good reason this window is not allowed to be minimized?  If no, I would prefer to allow it.
+15. LVTM Control App: would it be useful to include a button to "Open FP" as well?  Obviously these FPs are already open, but if they are minimized or otherwise hidden (like behind another window), then it may be desirable to bring that FP to the top, so we know for certain exactly what FP we are about to close.

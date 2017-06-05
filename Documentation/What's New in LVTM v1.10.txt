@@ -1,0 +1,24 @@
+What's New in LVTM v2013.1.10.0 since v1.7.0
+(Starting with v2013.1.9.1, the first four digits denote the version year of LabVIEW that the version of this software is "saved for")
+* Rechecking for new app instances upon mouse over "App Instance" control
+* Do not limit multisection to siblings only
+* Do not allow selection of parent libraries
+* For "Clone VIs FG" made the "Add Calling VI" case the default case
+* Tree shortcut menu (right-click menu) several functions
+* Items not belonging to a parent library are now grouped in tree under "<no parent library>"
+* Relocated the LVTM "Regression Tests" VIs such that they are no longer excluded from view in LVTM by default
+* Many performance optimizations (including 'dependencies cache' per Neil Pate)
+* Do not create new template instances, and suppress loading dialogs (per xceric)
+* Persist the column sorting between refreshes
+* Persist the collapsed/expanded state of each library node in the tree, between refreshes
+* Persist the selected item between refreshes, if it still exists
+* New Help/About/Info dialog
+* License is now modified MIT
+* New icon
+* Several UI improvements
+* View can now be grouped by Class/Library or Folder, or display a Flat List
+* Added an ability to filter out items from being displayed, per folder paths.  Helps the user to de-clutter the view, and improves performance.
+* Added a progress bar for refresh
+* Persist some configuration settings between sessions
+* Several performance improvements
+* Added an ability to remotely close any VI's Front Panel.  Useful when a modal dialog prevents interacting with LabVIEW, including the LVTM window.
