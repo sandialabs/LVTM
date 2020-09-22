@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2020-09-22 12:36:01" Creator="Timothy D. Vargo" Comments="" ID="4b5be6dc45dc131dbb55190ba09a8a6c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2020-09-22 15:45:20" Creator="Timothy D. Vargo" Comments="" ID="a185d4906ca966c7a2cb359d14f99ea3">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.10.0.74</Library_Version>
+    <Library_Version>1.10.0.75</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\LVTM_VIPackages</Library_Output_Folder>
@@ -376,7 +376,7 @@
         <Path>VIs_LVTM\Pause.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE619FA50AEAC53160CAA7F394A167AD</GUID>
+      <GUID>02F668C913A335E115D8F870BBC90060</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

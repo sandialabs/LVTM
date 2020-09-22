@@ -34,6 +34,7 @@
 			<Item Name="Access_VersionInfo.vi" Type="VI" URL="../VersionInfo/Access_VersionInfo.vi"/>
 			<Item Name="ProductVersion.ctl" Type="VI" URL="../VersionInfo/ProductVersion.ctl"/>
 		</Item>
+		<Item Name="Abort VIs.vi" Type="VI" URL="../VIs_LVTM/Abort VIs.vi"/>
 		<Item Name="Add Folder Path to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Folder Path to Tree.vi"/>
 		<Item Name="Add Pause Symbols to Tree.vi" Type="VI" URL="../VIs_LVTM/Add Pause Symbols to Tree.vi"/>
 		<Item Name="Add VIs and their Protperties to Tree.vi" Type="VI" URL="../VIs_LVTM/Add VIs and their Protperties to Tree.vi"/>
@@ -52,12 +53,16 @@
 		<Item Name="Get All VIs in Memory Including statically-referenced Reentrant Clones.vi" Type="VI" URL="../VIs_LVTM/Get All VIs in Memory Including statically-referenced Reentrant Clones.vi"/>
 		<Item Name="Get Changed VIs.vi" Type="VI" URL="../VIs_LVTM/Get Changed VIs.vi"/>
 		<Item Name="Get Properties.vi" Type="VI" URL="../VIs_LVTM/Get Properties.vi"/>
+		<Item Name="Get Selected Application Instance.vi" Type="VI" URL="../VIs_LVTM/Get Selected Application Instance.vi"/>
 		<Item Name="Get Tags of All Child Items.vi" Type="VI" URL="../VIs_LVTM/Get Tags of All Child Items.vi"/>
 		<Item Name="Get Visible Items.vi" Type="VI" URL="../VIs_LVTM/Get Visible Items.vi"/>
 		<Item Name="Highlight Execution.vi" Type="VI" URL="../VIs_LVTM/Highlight Execution.vi"/>
 		<Item Name="Interrupt Notifier.vi" Type="VI" URL="../VIs_LVTM/Interrupt Notifier.vi"/>
 		<Item Name="NonVILib Qualified Name Array To Single String.vi" Type="VI" URL="../VIs_LVTM/NonVILib Qualified Name Array To Single String.vi"/>
 		<Item Name="NonVILib Single String To Qualified Name Array.vi" Type="VI" URL="../VIs_LVTM/NonVILib Single String To Qualified Name Array.vi"/>
+		<Item Name="Open BD.vi" Type="VI" URL="../VIs_LVTM/Open BD.vi"/>
+		<Item Name="Open FP.vi" Type="VI" URL="../VIs_LVTM/Open FP.vi"/>
+		<Item Name="Pause or Resume VIs.vi" Type="VI" URL="../VIs_LVTM/Pause or Resume VIs.vi"/>
 		<Item Name="Pause VI.vi" Type="VI" URL="../VIs_LVTM/Pause VI.vi"/>
 		<Item Name="Read Configuration from File.vi" Type="VI" URL="../VIs_LVTM/Read Configuration from File.vi"/>
 		<Item Name="Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Refresh Tree.vi"/>
@@ -65,7 +70,9 @@
 		<Item Name="Request Processing Loop to Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Request Processing Loop to Refresh Tree.vi"/>
 		<Item Name="Request_Update Items.vi" Type="VI" URL="../VIs_LVTM/Request_Update Items.vi"/>
 		<Item Name="Resume VI.vi" Type="VI" URL="../VIs_LVTM/Resume VI.vi"/>
+		<Item Name="Retain Wire Values.vi" Type="VI" URL="../VIs_LVTM/Retain Wire Values.vi"/>
 		<Item Name="Send Updated UI State to Processing Loop.vi" Type="VI" URL="../VIs_LVTM/Send Updated UI State to Processing Loop.vi"/>
+		<Item Name="Set Reentrancy for Selected VIs.vi" Type="VI" URL="../VIs_LVTM/Set Reentrancy for Selected VIs.vi"/>
 		<Item Name="Set VI Reentrancy.vi" Type="VI" URL="../VIs_LVTM/Set VI Reentrancy.vi"/>
 		<Item Name="Show Items.vi" Type="VI" URL="../VIs_LVTM/Show Items.vi"/>
 		<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs_LVTM/Sort Tree Items by Numerical order.vi"/>
