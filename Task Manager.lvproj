@@ -145,10 +145,6 @@
 				<Item Name="Get Children__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get Children__v01.vi"/>
 				<Item Name="Get All__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get All__v01.vi"/>
 				<Item Name="Tree Empty__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Tree Empty__v01.vi"/>
-				<Item Name="Error_FilterCodes.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/Error_FilterCodes.vi"/>
-				<Item Name="Error_FilterSingle.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/SubVIs/Filter/Error_FilterSingle.vi"/>
-				<Item Name="Error_ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/Error_ClearError.vi"/>
-				<Item Name="Error_FilterMulti.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Error/SubVIs/Filter/Error_FilterMulti.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
 				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
@@ -250,6 +246,7 @@
 				<Item Name="Open a Document on Disk.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open a Document on Disk.vi"/>
 				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Variant Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D Variant Array Changed__ogtk.vi"/>

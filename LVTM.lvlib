@@ -45,6 +45,7 @@
 		<Item Name="Build Tree Struct wProperties.vi" Type="VI" URL="../VIs_LVTM/Build Tree Struct wProperties.vi"/>
 		<Item Name="Check for changed Items and update tree.vi" Type="VI" URL="../VIs_LVTM/Check for changed Items and update tree.vi"/>
 		<Item Name="Clone VIs FG Enum.ctl" Type="VI" URL="../VIs_LVTM/Clone VIs FG Enum.ctl"/>
+		<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs_LVTM/Clone VIs FG.vi"/>
 		<Item Name="Config File Path.vi" Type="VI" URL="../VIs_LVTM/Config File Path.vi"/>
 		<Item Name="Delete All But Current Folder Hierarchy.vi" Type="VI" URL="../VIs_LVTM/Delete All But Current Folder Hierarchy.vi"/>
 		<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
@@ -60,7 +61,13 @@
 		<Item Name="Get Selected Application Instance.vi" Type="VI" URL="../VIs_LVTM/Get Selected Application Instance.vi"/>
 		<Item Name="Get Tags of All Child Items.vi" Type="VI" URL="../VIs_LVTM/Get Tags of All Child Items.vi"/>
 		<Item Name="Get Visible Items.vi" Type="VI" URL="../VIs_LVTM/Get Visible Items.vi"/>
+		<Item Name="Handle Menu Activation.vi" Type="VI" URL="../VIs_LVTM/Handle Menu Activation.vi"/>
+		<Item Name="Handle Tree Menu Activation.vi" Type="VI" URL="../VIs_LVTM/Handle Tree Menu Activation.vi"/>
 		<Item Name="Highlight Execution.vi" Type="VI" URL="../VIs_LVTM/Highlight Execution.vi"/>
+		<Item Name="Ignore Error.vi" Type="VI" URL="../VIs_LVTM/Ignore Error.vi"/>
+		<Item Name="Initialize Communication References.vi" Type="VI" URL="../VIs_LVTM/Initialize Communication References.vi"/>
+		<Item Name="Initialize Tree.vi" Type="VI" URL="../VIs_LVTM/Initialize Tree.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../VIs_LVTM/Initialize.vi"/>
 		<Item Name="Interrupt Notifier.vi" Type="VI" URL="../VIs_LVTM/Interrupt Notifier.vi"/>
 		<Item Name="NonVILib Qualified Name Array To Single String.vi" Type="VI" URL="../VIs_LVTM/NonVILib Qualified Name Array To Single String.vi"/>
 		<Item Name="NonVILib Single String To Qualified Name Array.vi" Type="VI" URL="../VIs_LVTM/NonVILib Single String To Qualified Name Array.vi"/>
@@ -68,8 +75,11 @@
 		<Item Name="Open FP.vi" Type="VI" URL="../VIs_LVTM/Open FP.vi"/>
 		<Item Name="Pause or Resume VIs.vi" Type="VI" URL="../VIs_LVTM/Pause or Resume VIs.vi"/>
 		<Item Name="Pause VI.vi" Type="VI" URL="../VIs_LVTM/Pause VI.vi"/>
+		<Item Name="Pause VIs in Response to User Event.vi" Type="VI" URL="../VIs_LVTM/Pause VIs in Response to User Event.vi"/>
+		<Item Name="Processing Loop.vi" Type="VI" URL="../VIs_LVTM/Processing Loop.vi"/>
 		<Item Name="Read Configuration from File.vi" Type="VI" URL="../VIs_LVTM/Read Configuration from File.vi"/>
 		<Item Name="Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Refresh Tree.vi"/>
+		<Item Name="Refresh.vi" Type="VI" URL="../VIs_LVTM/Refresh.vi"/>
 		<Item Name="Request Events FG.vi" Type="VI" URL="../VIs_LVTM/Request Events FG.vi"/>
 		<Item Name="Request Processing Loop to Refresh Tree.vi" Type="VI" URL="../VIs_LVTM/Request Processing Loop to Refresh Tree.vi"/>
 		<Item Name="Request_Update Items.vi" Type="VI" URL="../VIs_LVTM/Request_Update Items.vi"/>
@@ -79,10 +89,12 @@
 		<Item Name="Set Reentrancy for Selected VIs.vi" Type="VI" URL="../VIs_LVTM/Set Reentrancy for Selected VIs.vi"/>
 		<Item Name="Set VI Reentrancy.vi" Type="VI" URL="../VIs_LVTM/Set VI Reentrancy.vi"/>
 		<Item Name="Show Items.vi" Type="VI" URL="../VIs_LVTM/Show Items.vi"/>
+		<Item Name="Shutdown Helper Loops.vi" Type="VI" URL="../VIs_LVTM/Shutdown Helper Loops.vi"/>
+		<Item Name="Sort Tree By Column.vi" Type="VI" URL="../VIs_LVTM/Sort Tree By Column.vi"/>
 		<Item Name="Sort Tree Items by Numerical order.vi" Type="VI" URL="../VIs_LVTM/Sort Tree Items by Numerical order.vi"/>
 		<Item Name="Toggle Paused State of VI.vi" Type="VI" URL="../VIs_LVTM/Toggle Paused State of VI.vi"/>
+		<Item Name="Tree Columns.vi" Type="VI" URL="../VIs_LVTM/Tree Columns.vi"/>
 		<Item Name="Update Active Filters.vi" Type="VI" URL="../VIs_LVTM/Update Active Filters.vi"/>
-		<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
 		<Item Name="Update Cell Values.vi" Type="VI" URL="../VIs_LVTM/Update Cell Values.vi"/>
 		<Item Name="Update Filters Menu.vi" Type="VI" URL="../VIs_LVTM/Update Filters Menu.vi"/>
 		<Item Name="Update Tree Items.vi" Type="VI" URL="../VIs_LVTM/Update Tree Items.vi"/>
@@ -94,9 +106,10 @@
 		<Item Name="Get Application Instances.vi" Type="VI" URL="../VIs_LVTM/Get Application Instances.vi"/>
 		<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
 		<Item Name="Get Modal VIs.vi" Type="VI" URL="../Utils_LVTM/Get Modal VIs.vi"/>
+		<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
-		<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs_LVTM/Clone VIs FG.vi"/>
+		<Item Name="Clone Beacon.vi" Type="VI" URL="../VIs_LVTM/Clone Beacon.vi"/>
 		<Item Name="Pause.vi" Type="VI" URL="../VIs_LVTM/Pause.vi"/>
 		<Item Name="Report Error.vi" Type="VI" URL="../VIs_LVTM/Report Error.vi"/>
 	</Item>
