@@ -85,6 +85,8 @@
 		<Item Name="Request_Update Items.vi" Type="VI" URL="../VIs_LVTM/Request_Update Items.vi"/>
 		<Item Name="Resume VI.vi" Type="VI" URL="../VIs_LVTM/Resume VI.vi"/>
 		<Item Name="Retain Wire Values.vi" Type="VI" URL="../VIs_LVTM/Retain Wire Values.vi"/>
+		<Item Name="Select Project if Launched From Menu.vi" Type="VI" URL="../VIs_LVTM/Select Project if Launched From Menu.vi"/>
+		<Item Name="Select Tree Item.vi" Type="VI" URL="../VIs_LVTM/Select Tree Item.vi"/>
 		<Item Name="Send Updated UI State to Processing Loop.vi" Type="VI" URL="../VIs_LVTM/Send Updated UI State to Processing Loop.vi"/>
 		<Item Name="Set Reentrancy for Selected VIs.vi" Type="VI" URL="../VIs_LVTM/Set Reentrancy for Selected VIs.vi"/>
 		<Item Name="Set VI Reentrancy.vi" Type="VI" URL="../VIs_LVTM/Set VI Reentrancy.vi"/>
@@ -95,6 +97,7 @@
 		<Item Name="Toggle Paused State of VI.vi" Type="VI" URL="../VIs_LVTM/Toggle Paused State of VI.vi"/>
 		<Item Name="Tree Columns.vi" Type="VI" URL="../VIs_LVTM/Tree Columns.vi"/>
 		<Item Name="Update Active Filters.vi" Type="VI" URL="../VIs_LVTM/Update Active Filters.vi"/>
+		<Item Name="Update AppInst Ring and Select Project.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring and Select Project.vi"/>
 		<Item Name="Update Cell Values.vi" Type="VI" URL="../VIs_LVTM/Update Cell Values.vi"/>
 		<Item Name="Update Filters Menu.vi" Type="VI" URL="../VIs_LVTM/Update Filters Menu.vi"/>
 		<Item Name="Update Tree Items.vi" Type="VI" URL="../VIs_LVTM/Update Tree Items.vi"/>
