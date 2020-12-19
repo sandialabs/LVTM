@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2020-10-29 17:38:17" Creator="Timothy D. Vargo" Comments="" ID="fd0016306abf46e2eef80388ff3c388c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2020-12-19 08:28:28" Creator="Timothy D. Vargo" Comments="" ID="a3241411c56a394d83a24c78955d46a7">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.10.0.90</Library_Version>
+    <Library_Version>1.10.0.91</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\LVTM_VIPackages</Library_Output_Folder>
@@ -389,7 +389,7 @@
         <Path>VIs_LVTM\Clone Beacon.vi</Path>
         <VI_Title>Clone Beacon</VI_Title>
       </Items_Data>
-      <GUID>00159B543D51BC983723C82DF28628CD</GUID>
+      <GUID>B7EBC8AB5CA3B9087A8CDD677892D1B4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
