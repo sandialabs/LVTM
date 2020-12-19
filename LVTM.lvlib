@@ -116,6 +116,5 @@
 		<Item Name="Pause.vi" Type="VI" URL="../VIs_LVTM/Pause.vi"/>
 		<Item Name="Report Error.vi" Type="VI" URL="../VIs_LVTM/Report Error.vi"/>
 	</Item>
-	<Item Name="LabVIEW Task Manager_punch.vi" Type="VI" URL="../LabVIEW Task Manager_punch.vi"/>
 	<Item Name="LabVIEW Task Manager.vi" Type="VI" URL="../LabVIEW Task Manager.vi"/>
 </Library>

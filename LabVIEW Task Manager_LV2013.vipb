@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2020-12-19 08:28:28" Creator="Timothy D. Vargo" Comments="" ID="a3241411c56a394d83a24c78955d46a7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2020-12-19 11:15:42" Creator="Timothy D. Vargo" Comments="" ID="e9062002b80360875a86375f2422b048">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.10.0.91</Library_Version>
+    <Library_Version>1.10.0.93</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\LVTM_VIPackages</Library_Output_Folder>
@@ -197,9 +197,6 @@
         <Path>DiscoverCommonTypeDefCallers.lvlib</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Task Manager.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Utils_LVTM/DiscoverCommonTypeDefCallers.dlog</Path>
       </Exclusions>
       <Exclusions>
@@ -389,7 +386,7 @@
         <Path>VIs_LVTM\Clone Beacon.vi</Path>
         <VI_Title>Clone Beacon</VI_Title>
       </Items_Data>
-      <GUID>B7EBC8AB5CA3B9087A8CDD677892D1B4</GUID>
+      <GUID>CF54EFAFB3C3BFAB60F459FD189D4CDF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
