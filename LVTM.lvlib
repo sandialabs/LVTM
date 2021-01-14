@@ -48,7 +48,6 @@
 		<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs_LVTM/Clone VIs FG.vi"/>
 		<Item Name="Config File Path.vi" Type="VI" URL="../VIs_LVTM/Config File Path.vi"/>
 		<Item Name="Delete All But Current Folder Hierarchy.vi" Type="VI" URL="../VIs_LVTM/Delete All But Current Folder Hierarchy.vi"/>
-		<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
 		<Item Name="Delete Tree Items.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Items.vi"/>
 		<Item Name="Discover ALL VIs in Memory.vi" Type="VI" URL="../VIs_LVTM/Discover ALL VIs in Memory.vi"/>
 		<Item Name="FilterOutProbes.vi" Type="VI" URL="../VIs_LVTM/FilterOutProbes.vi"/>
@@ -110,6 +109,7 @@
 		<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
 		<Item Name="Get Modal VIs.vi" Type="VI" URL="../Utils_LVTM/Get Modal VIs.vi"/>
 		<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
+		<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Item Name="Clone Beacon.vi" Type="VI" URL="../VIs_LVTM/Clone Beacon.vi"/>
