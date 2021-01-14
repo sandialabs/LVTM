@@ -69,6 +69,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Externals" Type="Folder">
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Utils_LVTM/Post-Install Custom Action.vi"/>
+			<Item Name="Get Build Spec Information.vi" Type="VI" URL="../Utils_LVTM/Get Build Spec Information.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
 			<Item Name="Discussions" Type="Folder">
@@ -128,6 +129,8 @@
 			<Item Name="LVTM_Plugin.lvclass" Type="LVClass" URL="../Plugin/LVTM_Plugin.lvclass"/>
 		</Item>
 		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
+		<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
+		<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -520,9 +523,6 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
-			<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
-			<Item Name="Get Build Spec Information.vi" Type="VI" URL="../Utils_LVTM/Get Build Spec Information.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">
