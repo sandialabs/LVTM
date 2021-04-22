@@ -149,10 +149,7 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
-				<Item Name="Get Current__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get Current__v01.vi"/>
 				<Item Name="Item Add__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Item Add__v01.vi"/>
-				<Item Name="Get Children__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get Children__v01.vi"/>
-				<Item Name="Get All__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get All__v01.vi"/>
 				<Item Name="Tree Empty__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Tree Empty__v01.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
@@ -188,15 +185,6 @@
 				<Item Name="Write Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple.vi"/>
 				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
-				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
-				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -257,267 +245,277 @@
 				<Item Name="GetTargetBuildSpecs (project reference).vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs (project reference).vi"/>
 				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
 				<Item Name="GetTargetBuildSpecs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs.vi"/>
-				<Item Name="Invoke BuildTarget.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Invoke BuildTarget.vi"/>
-				<Item Name="AB_Generate_Error_Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Generate_Error_Cluster.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Get All__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get All__v01.vi"/>
+				<Item Name="Get Children__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get Children__v01.vi"/>
+				<Item Name="Get Current__v01.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_LavaCR/Tree Control API/_lava_lib_tree_control_api.llb/Get Current__v01.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="2D Variant Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D Variant Array Changed__ogtk.vi"/>
-				<Item Name="1D Variant Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D Variant Array Changed__ogtk.vi"/>
-				<Item Name="2D U8 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D U8 Array Changed__ogtk.vi"/>
-				<Item Name="2D U32 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D U32 Array Changed__ogtk.vi"/>
-				<Item Name="2D U16 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D U16 Array Changed__ogtk.vi"/>
-				<Item Name="2D String Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D String Array Changed__ogtk.vi"/>
-				<Item Name="2D SGL Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D SGL Array Changed__ogtk.vi"/>
-				<Item Name="2D Path Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D Path Array Changed__ogtk.vi"/>
-				<Item Name="2D I8 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D I8 Array Changed__ogtk.vi"/>
-				<Item Name="2D I32 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D I32 Array Changed__ogtk.vi"/>
-				<Item Name="2D I16 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D I16 Array Changed__ogtk.vi"/>
-				<Item Name="2D EXT Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D EXT Array Changed__ogtk.vi"/>
-				<Item Name="2D DBL Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D DBL Array Changed__ogtk.vi"/>
-				<Item Name="2D CXT Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D CXT Array Changed__ogtk.vi"/>
-				<Item Name="2D CSG Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D CSG Array Changed__ogtk.vi"/>
-				<Item Name="2D CDB Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D CDB Array Changed__ogtk.vi"/>
-				<Item Name="2D Boolean Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/2D Boolean Array Changed__ogtk.vi"/>
-				<Item Name="1D U8 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D U8 Array Changed__ogtk.vi"/>
-				<Item Name="1D U32 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D U32 Array Changed__ogtk.vi"/>
-				<Item Name="1D U16 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D U16 Array Changed__ogtk.vi"/>
-				<Item Name="1D String Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D String Array Changed__ogtk.vi"/>
-				<Item Name="1D SGL Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D SGL Array Changed__ogtk.vi"/>
-				<Item Name="1D Path Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D Path Array Changed__ogtk.vi"/>
-				<Item Name="1D I8 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D I8 Array Changed__ogtk.vi"/>
-				<Item Name="1D I32 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D I32 Array Changed__ogtk.vi"/>
-				<Item Name="1D I16 Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D I16 Array Changed__ogtk.vi"/>
-				<Item Name="1D EXT Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D EXT Array Changed__ogtk.vi"/>
-				<Item Name="1D DBL Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D DBL Array Changed__ogtk.vi"/>
-				<Item Name="1D CXT Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D CXT Array Changed__ogtk.vi"/>
-				<Item Name="1D CSG Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D CSG Array Changed__ogtk.vi"/>
-				<Item Name="1D CDB Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D CDB Array Changed__ogtk.vi"/>
-				<Item Name="1D Boolean Array Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/1D Boolean Array Changed__ogtk.vi"/>
-				<Item Name="Variant Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/Variant Changed__ogtk.vi"/>
-				<Item Name="U8 Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/U8 Changed__ogtk.vi"/>
-				<Item Name="U32 Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/U32 Changed__ogtk.vi"/>
-				<Item Name="U16 Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/U16 Changed__ogtk.vi"/>
-				<Item Name="SGL Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/SGL Changed__ogtk.vi"/>
-				<Item Name="I8 Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/I8 Changed__ogtk.vi"/>
-				<Item Name="I32 Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/I32 Changed__ogtk.vi"/>
-				<Item Name="I16 Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/I16 Changed__ogtk.vi"/>
-				<Item Name="DBL Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/DBL Changed__ogtk.vi"/>
-				<Item Name="CXT Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/CXT Changed__ogtk.vi"/>
-				<Item Name="CSG Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/CSG Changed__ogtk.vi"/>
-				<Item Name="CDB Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/CDB Changed__ogtk.vi"/>
-				<Item Name="Boolean Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/Boolean Changed__ogtk.vi"/>
-				<Item Name="EXT Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/EXT Changed__ogtk.vi"/>
-				<Item Name="String Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/String Changed__ogtk.vi"/>
-				<Item Name="Data Changed__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/comparison/comparison.llb/Data Changed__ogtk.vi"/>
-				<Item Name="Balloon Engine.lvlib" Type="Library" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_SmartBalloon/Balloon Engine.lvlib"/>
-				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
-				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
-				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
-				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
-				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
-				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
-				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Path)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CSG)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CXT)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (DBL)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (EXT)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I16)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I32)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I8)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (SGL)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U16)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U32)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U8)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (Variant)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Variant)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Boolean)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I64)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
-				<Item Name="Delete Elements from Array__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from Array__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
-				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
-				<Item Name="Sort 1D Array (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (CDB)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array (CDB)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (CXT)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array (CXT)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (CSG)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array (CSG)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (DBL)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (EXT)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (I16)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (I32)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (I8)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (SGL)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (U16)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (U32)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (U8)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (CDB)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (CXT)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (CSG)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (DBL)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (EXT)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (I16)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (I32)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (I8)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (SGL)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (U16)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (U32)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (U8)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (Path)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (String)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (Path)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (String)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (I64)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 1D Array (U64)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (I64)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Sort 2D Array (U64)__ogtk.vi"/>
-				<Item Name="Reorder Array2__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder Array2__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (CDB)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (CXT)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (CSG)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (EXT)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I16)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I32)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I8)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (SGL)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U16)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U32)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U8)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (Boolean)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Boolean)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (String)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Path)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (Variant)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Variant)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (Boolean)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Boolean)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (CDB)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (CSG)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (CXT)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (DBL)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (EXT)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I8)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I16)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I32)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Path)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (SGL)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U8)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U16)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U32)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (Variant)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Variant)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I64)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U64)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I64)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U64)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (LVObject)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 1D Array2 (LVObject)__ogtk.vi"/>
-				<Item Name="Reorder 2D Array2 (LVObject)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Reorder 2D Array2 (LVObject)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CSG)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (DBL)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CXT)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (EXT)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I8)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I16)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I32)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Path)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (SGL)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (String)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U8)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U16)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U32)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (Variant)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Variant)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (Boolean)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Boolean)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (CDB)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (CSG)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (CXT)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (DBL)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (EXT)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I8)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I16)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I32)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Path)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (SGL)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (String)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U8)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U16)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U32)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (Variant)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Variant)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I64)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U64)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I64)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U64)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (LVObject)__ogtk.vi"/>
-				<Item Name="Delete Elements from 2D Array (LVObject)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (LVObject)__ogtk.vi"/>
-				<Item Name="Search Array__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search Array__ogtk.vi"/>
-				<Item Name="Search 1D Array (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (SGL)__ogtk.vi"/>
-				<Item Name="Search 1D Array (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (DBL)__ogtk.vi"/>
-				<Item Name="Search 1D Array (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (EXT)__ogtk.vi"/>
-				<Item Name="Search 1D Array (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (CSG)__ogtk.vi"/>
-				<Item Name="Search 1D Array (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (CDB)__ogtk.vi"/>
-				<Item Name="Search 1D Array (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (CXT)__ogtk.vi"/>
-				<Item Name="Search 1D Array (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (I8)__ogtk.vi"/>
-				<Item Name="Search 1D Array (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (I16)__ogtk.vi"/>
-				<Item Name="Search 1D Array (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (I32)__ogtk.vi"/>
-				<Item Name="Search 1D Array (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (U8)__ogtk.vi"/>
-				<Item Name="Search 1D Array (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (U16)__ogtk.vi"/>
-				<Item Name="Search 1D Array (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (U32)__ogtk.vi"/>
-				<Item Name="Search 1D Array (Boolean)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (Boolean)__ogtk.vi"/>
-				<Item Name="Search 1D Array (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (String)__ogtk.vi"/>
-				<Item Name="Search 1D Array (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (Path)__ogtk.vi"/>
-				<Item Name="Search 1D Array (Variant)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (Variant)__ogtk.vi"/>
-				<Item Name="Search 1D Array (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (U64)__ogtk.vi"/>
-				<Item Name="Search 1D Array (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (I64)__ogtk.vi"/>
-				<Item Name="Search 1D Array (LVObject)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (LVObject)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (U8)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (Path)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (U32)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (U16)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (I16)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (I32)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (I8)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (Variant)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (Variant)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (Boolean)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (Boolean)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (CXT)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (CDB)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (CSG)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (EXT)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (DBL)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (SGL)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (Boolean)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (Boolean)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (CDB)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (CDB)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (CSG)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (CSG)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (CXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (CXT)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (DBL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (DBL)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (EXT)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (EXT)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (I8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (I8)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (I16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (I16)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (I32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (I32)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (Path)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (Path)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (SGL)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (SGL)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (String)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (String)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (U8)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U8)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (U16)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U16)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (U32)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U32)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (Variant)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (Variant)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (I64)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (U64)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (I64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (I64)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (U64)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U64)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (LVObject)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array (LVObject)__ogtk.vi"/>
-				<Item Name="Filter 1D Array with Scalar (LVObject)__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (LVObject)__ogtk.vi"/>
-				<Item Name="Build Path__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
-				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
-				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
-				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
-				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
-				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
-				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
-				<Item Name="VI Library__ogtk.vi" Type="VI" URL="../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/file/file.llb/VI Library__ogtk.vi"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Data Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/Data Changed__ogtk.vi"/>
+				<Item Name="String Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/String Changed__ogtk.vi"/>
+				<Item Name="EXT Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/EXT Changed__ogtk.vi"/>
+				<Item Name="Boolean Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/Boolean Changed__ogtk.vi"/>
+				<Item Name="CDB Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/CDB Changed__ogtk.vi"/>
+				<Item Name="CSG Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/CSG Changed__ogtk.vi"/>
+				<Item Name="CXT Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/CXT Changed__ogtk.vi"/>
+				<Item Name="DBL Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/DBL Changed__ogtk.vi"/>
+				<Item Name="I16 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/I16 Changed__ogtk.vi"/>
+				<Item Name="I32 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/I32 Changed__ogtk.vi"/>
+				<Item Name="I8 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/I8 Changed__ogtk.vi"/>
+				<Item Name="SGL Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/SGL Changed__ogtk.vi"/>
+				<Item Name="U16 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/U16 Changed__ogtk.vi"/>
+				<Item Name="U32 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/U32 Changed__ogtk.vi"/>
+				<Item Name="U8 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/U8 Changed__ogtk.vi"/>
+				<Item Name="Variant Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/Variant Changed__ogtk.vi"/>
+				<Item Name="1D Boolean Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D Boolean Array Changed__ogtk.vi"/>
+				<Item Name="1D CDB Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D CDB Array Changed__ogtk.vi"/>
+				<Item Name="1D CSG Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D CSG Array Changed__ogtk.vi"/>
+				<Item Name="1D CXT Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D CXT Array Changed__ogtk.vi"/>
+				<Item Name="1D DBL Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D DBL Array Changed__ogtk.vi"/>
+				<Item Name="1D EXT Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D EXT Array Changed__ogtk.vi"/>
+				<Item Name="1D I16 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D I16 Array Changed__ogtk.vi"/>
+				<Item Name="1D I32 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D I32 Array Changed__ogtk.vi"/>
+				<Item Name="1D I8 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D I8 Array Changed__ogtk.vi"/>
+				<Item Name="1D Path Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D Path Array Changed__ogtk.vi"/>
+				<Item Name="1D SGL Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D SGL Array Changed__ogtk.vi"/>
+				<Item Name="1D String Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D String Array Changed__ogtk.vi"/>
+				<Item Name="1D U16 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D U16 Array Changed__ogtk.vi"/>
+				<Item Name="1D U32 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D U32 Array Changed__ogtk.vi"/>
+				<Item Name="1D U8 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D U8 Array Changed__ogtk.vi"/>
+				<Item Name="2D Boolean Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D Boolean Array Changed__ogtk.vi"/>
+				<Item Name="2D CDB Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D CDB Array Changed__ogtk.vi"/>
+				<Item Name="2D CSG Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D CSG Array Changed__ogtk.vi"/>
+				<Item Name="2D CXT Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D CXT Array Changed__ogtk.vi"/>
+				<Item Name="2D DBL Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D DBL Array Changed__ogtk.vi"/>
+				<Item Name="2D EXT Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D EXT Array Changed__ogtk.vi"/>
+				<Item Name="2D I16 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D I16 Array Changed__ogtk.vi"/>
+				<Item Name="2D I32 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D I32 Array Changed__ogtk.vi"/>
+				<Item Name="2D I8 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D I8 Array Changed__ogtk.vi"/>
+				<Item Name="2D Path Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D Path Array Changed__ogtk.vi"/>
+				<Item Name="2D SGL Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D SGL Array Changed__ogtk.vi"/>
+				<Item Name="2D String Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D String Array Changed__ogtk.vi"/>
+				<Item Name="2D U16 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D U16 Array Changed__ogtk.vi"/>
+				<Item Name="2D U32 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D U32 Array Changed__ogtk.vi"/>
+				<Item Name="2D U8 Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D U8 Array Changed__ogtk.vi"/>
+				<Item Name="1D Variant Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D Variant Array Changed__ogtk.vi"/>
+				<Item Name="2D Variant Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/2D Variant Array Changed__ogtk.vi"/>
+				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
+				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Variant)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Delete Elements from Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from Array__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
+				<Item Name="Sort 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (CDB)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (CXT)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (CSG)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (EXT)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I16)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I8)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (SGL)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U16)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U8)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (String)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (Path)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (String)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I64)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U64)__ogtk.vi"/>
+				<Item Name="Reorder Array2__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder Array2__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (CDB)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (CXT)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (CSG)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (EXT)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I16)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I32)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I8)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (SGL)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U16)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U32)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U8)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Boolean)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (String)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Path)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Variant)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Boolean)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (CDB)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (CSG)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (CXT)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (DBL)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (EXT)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I8)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I16)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I32)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Path)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (SGL)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U8)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U16)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U32)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Variant)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I64)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U64)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I64)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U64)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (LVObject)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (LVObject)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (String)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Variant)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (CDB)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (CSG)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (CXT)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (DBL)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (EXT)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I8)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I16)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I32)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Path)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (SGL)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (String)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U8)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U16)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U32)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Variant)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I64)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U64)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Search Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search Array__ogtk.vi"/>
+				<Item Name="Search 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Search 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Search 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Search 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Search 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Search 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Search 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Search 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Search 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Search 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Search 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Search 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Search 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Search 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (String)__ogtk.vi"/>
+				<Item Name="Search 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Search 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Variant)__ogtk.vi"/>
+				<Item Name="Search 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Search 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Search 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (Variant)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (Boolean)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (CDB)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (CSG)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (CXT)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (DBL)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (EXT)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (I8)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (I16)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (I32)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (Path)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (SGL)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (String)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U8)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U16)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U32)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (Variant)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (I64)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U64)__ogtk.vi"/>
+				<Item Name="Filter 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Filter 1D Array with Scalar (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (LVObject)__ogtk.vi"/>
+				<Item Name="Balloon Engine.lvlib" Type="Library" URL="/&lt;userlib&gt;/_SmartBalloon/Balloon Engine.lvlib"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
+				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
+				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="VI Library__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/VI Library__ogtk.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -528,12 +526,11 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
+			<Item Name="Get Build Spec Information.vi" Type="VI" URL="../Utils_LVTM/Get Build Spec Information.vi"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
-			<Item Name="Get Build Spec Information.vi" Type="VI" URL="../Utils_LVTM/Get Build Spec Information.vi"/>
-			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">
@@ -708,7 +705,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78ACFAAF-6E1D-4B7F-AFA7-E16DDE6BA249}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LV_TaskManager.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager/LV_TaskManager.exe</Property>
