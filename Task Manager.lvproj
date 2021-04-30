@@ -129,7 +129,7 @@
 			<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
 		</Item>
 		<Item Name="External" Type="Folder">
-			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../External/External_Open Blockdiagram.vi"/>
+			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../../builds/Task Manager/LV_TaskManager/External/External_Open Blockdiagram.vi"/>
 			<Item Name="External_Highlight Execution.vi" Type="VI" URL="../External/External_Highlight Execution.vi"/>
 			<Item Name="External_Pause or Resume VIs.vi" Type="VI" URL="../External/External_Pause or Resume VIs.vi"/>
 			<Item Name="External_Retain Wire Values.vi" Type="VI" URL="../External/External_Retain Wire Values.vi"/>
@@ -531,6 +531,7 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../External/External_Open Blockdiagram.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">
@@ -705,7 +706,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78ACFAAF-6E1D-4B7F-AFA7-E16DDE6BA249}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LV_TaskManager.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager/LV_TaskManager.exe</Property>
@@ -720,7 +721,7 @@
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{39A384FB-F1A9-452C-BA04-4A24CCAED191}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F822263E-2AE0-4C6C-8FF6-1CAC9C2CD3B9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVTM.lvlib/LabVIEW Task Manager.vi</Property>
@@ -744,7 +745,12 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Documentation</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Plugins/FindName Task_Manager.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LV_TaskManager</Property>
 				<Property Name="TgtF_internalName" Type="Str">LV_TaskManager</Property>
 				<Property Name="TgtF_productName" Type="Str">LV_TaskManager</Property>
