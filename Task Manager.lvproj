@@ -129,10 +129,10 @@
 			<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
 		</Item>
 		<Item Name="External" Type="Folder">
-			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../../builds/Task Manager/LV_TaskManager/External/External_Open Blockdiagram.vi"/>
 			<Item Name="External_Highlight Execution.vi" Type="VI" URL="../External/External_Highlight Execution.vi"/>
 			<Item Name="External_Pause or Resume VIs.vi" Type="VI" URL="../External/External_Pause or Resume VIs.vi"/>
 			<Item Name="External_Retain Wire Values.vi" Type="VI" URL="../External/External_Retain Wire Values.vi"/>
+			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../External/External_Open Blockdiagram.vi"/>
 		</Item>
 		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
 		<Item Name="LV_TaskManager.ini" Type="Document" URL="../LV_TaskManager.ini"/>
@@ -531,7 +531,6 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../External/External_Open Blockdiagram.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">
@@ -706,7 +705,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78ACFAAF-6E1D-4B7F-AFA7-E16DDE6BA249}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LV_TaskManager.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager/LV_TaskManager.exe</Property>
