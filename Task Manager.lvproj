@@ -134,6 +134,7 @@
 			<Item Name="External_Retain Wire Values.vi" Type="VI" URL="../External/External_Retain Wire Values.vi"/>
 			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../External/External_Open Blockdiagram.vi"/>
 		</Item>
+		<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
 		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
 		<Item Name="LV_TaskManager.ini" Type="Document" URL="../LV_TaskManager.ini"/>
 		<Item Name="Icon.ico" Type="Document" URL="../Icon.ico"/>
@@ -526,7 +527,6 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
 			<Item Name="Get Build Spec Information.vi" Type="VI" URL="../Utils_LVTM/Get Build Spec Information.vi"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
