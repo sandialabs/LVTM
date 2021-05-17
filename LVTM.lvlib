@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*"!!!*Q(C=\&gt;8.43."%)&lt;B$]2BDTC$R;?^6QID%9%$]+63M)]=,'&amp;7GU!&gt;O4I&amp;JV!J/!0E&amp;(L@;=L]3!C$&gt;B%=G+'-`860^_/?VFDKRQ`J4/X9M8TV?&amp;N\/^4^C+U^NDRP0X2\I:W8RW[N0LWH@@FUKL:]VN\;K_X`]PW0(0I_PI`00;[/&lt;N)0X\-H'B^%6&amp;*"/75;JWJ*HO2*HO2*HO2"(O2"(O2"(O2/\O2/\O2/\O2'&lt;O2'&lt;O2'&lt;O4^*"?ZS%5/+:E]G3A:."EA[1R&amp;S5PC34S**`(Q59EH]33?R*.Y[+,%EXA34_**0&amp;SGR*.Y%E`C34Q-V38:4X)]C9@B&amp;8A#4_!*0)'(+26Y!E!Q74"Q-!A-"9X"G]!4?!)0&lt;R6Y!E`A#4S"BW9&amp;HM!4?!*0Y/'3PCL2.?.*DI&gt;BZ(A=D_.R0)[(I?6Y()`D=4S/B_HE?"S0AX!G&gt;!;()/=CJY0TQ@%Y(P\*]4A?R_.Y(!^.`1ZZ8ZF2-Z\E?!S0Y4%]BM@Q-)1-D_%R0)&lt;(]$#M$)`B-4S'R`!QF1S0Y4%]"M39F/FF$':=;(1S!M0$8^]NVO^3&gt;)HV5[L.K^K5KMWGWE3KT;'[[;K&lt;K&lt;J*KM68,;JKM63,I0JS+L1+IZJ%&gt;@(958N?&gt;^37WF"L;E(.K)';5J0RUP`==&lt;`@;\@&lt;;&lt;P&gt;;L0:;,V?;\&amp;9;$;&lt;;2A'4;&gt;443;4B]@!4][("],^=_G+^W/N,O`GK_(0@08L^WWP]ZO,;_L1`E'`J6`AW;B402W8.@I,_$&lt;5#A!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -25,7 +26,7 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Progress" Type="Folder">
 			<Item Name="Clear Progress.vi" Type="VI" URL="../VIs_LVTM/Clear Progress.vi"/>
 			<Item Name="Progress Indicator.vi" Type="VI" URL="../VIs_LVTM/Progress Indicator.vi"/>
@@ -47,7 +48,6 @@
 		<Item Name="Clone VIs FG.vi" Type="VI" URL="../VIs_LVTM/Clone VIs FG.vi"/>
 		<Item Name="Config File Path.vi" Type="VI" URL="../VIs_LVTM/Config File Path.vi"/>
 		<Item Name="Delete All But Current Folder Hierarchy.vi" Type="VI" URL="../VIs_LVTM/Delete All But Current Folder Hierarchy.vi"/>
-		<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
 		<Item Name="Delete Tree Items.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Items.vi"/>
 		<Item Name="Discover ALL VIs in Memory.vi" Type="VI" URL="../VIs_LVTM/Discover ALL VIs in Memory.vi"/>
 		<Item Name="FilterOutProbes.vi" Type="VI" URL="../VIs_LVTM/FilterOutProbes.vi"/>
@@ -110,6 +110,7 @@
 		<Item Name="BuildPathToDynamic.vi" Type="VI" URL="../Utils_LVTM/BuildPathToDynamic.vi"/>
 		<Item Name="Get Modal VIs.vi" Type="VI" URL="../Utils_LVTM/Get Modal VIs.vi"/>
 		<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
+		<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Item Name="Clone Beacon.vi" Type="VI" URL="../VIs_LVTM/Clone Beacon.vi"/>
