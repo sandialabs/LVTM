@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2021-05-28 06:35:29" Creator="Timothy D. Vargo" Comments="" ID="504ec48b542bc49b1191f03709c977bc">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2021-05-28 08:39:58" Creator="Timothy D. Vargo" Comments="" ID="cc2606be9c9110837edb2259c16fce70">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>2.0.0.8</Library_Version>
+    <Library_Version>2.0.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\LVTM_VIPackages</Library_Output_Folder>
@@ -242,6 +242,9 @@
       <Exclusions>
         <Path>Documentation/Manual.docx</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>Tree Control SCmenu.rtm</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>Documentation\License.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -357,7 +360,7 @@
         <Path>VIs_LVTM\Clone Beacon.vi</Path>
         <VI_Title>Clone Beacon</VI_Title>
       </Items_Data>
-      <GUID>444233850D081F3465D411989BED83FF</GUID>
+      <GUID>DFD11D071FAF4B4E0B57A529F153D1D1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
