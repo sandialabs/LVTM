@@ -124,16 +124,12 @@
 			<Item Name="TCP Server" Type="Folder">
 				<Item Name="TCP_Server.lvclass" Type="LVClass" URL="../TCP_Server/TCP_Server.lvclass"/>
 				<Item Name="TCP Control App.vi" Type="VI" URL="../TCP_Server/TCP Control App.vi"/>
+				<Item Name="Get Network Information.vi" Type="VI" URL="../TCP_Server/Get Network Information.vi"/>
 			</Item>
 			<Item Name="LVTM_Plugin.lvclass" Type="LVClass" URL="../Plugin/LVTM_Plugin.lvclass"/>
 			<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
 		</Item>
-		<Item Name="External" Type="Folder">
-			<Item Name="External_Highlight Execution.vi" Type="VI" URL="../External/External_Highlight Execution.vi"/>
-			<Item Name="External_Pause or Resume VIs.vi" Type="VI" URL="../External/External_Pause or Resume VIs.vi"/>
-			<Item Name="External_Retain Wire Values.vi" Type="VI" URL="../External/External_Retain Wire Values.vi"/>
-			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../External/External_Open Blockdiagram.vi"/>
-		</Item>
+		<Item Name="External" Type="Folder"/>
 		<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
 		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
 		<Item Name="LV_TaskManager.ini" Type="Document" URL="../LV_TaskManager.ini"/>
@@ -531,6 +527,10 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="External_Highlight Execution.vi" Type="VI" URL="../External/External_Highlight Execution.vi"/>
+			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../External/External_Open Blockdiagram.vi"/>
+			<Item Name="External_Pause or Resume VIs.vi" Type="VI" URL="../External/External_Pause or Resume VIs.vi"/>
+			<Item Name="External_Retain Wire Values.vi" Type="VI" URL="../External/External_Retain Wire Values.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVTM Zip File" Type="Zip File">
@@ -628,7 +628,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{86172450-2888-4569-924B-1967266758F1}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LVTM Control App.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/builds/NI_AB_PROJECTNAME/LVTM Control App/LVTM Control App.exe</Property>
@@ -666,9 +666,9 @@
 				<Property Name="INST_buildSpecName" Type="Str">ControlApp Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{786A40D9-14E0-4D2D-9A46-AC571FEC7402}</Property>
 				<Property Name="INST_productName" Type="Str">LVTM Control App</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">13000000</Property>
+				<Property Name="InstSpecVersion" Type="Str">13018017</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Binary Palette</Property>
 				<Property Name="MSI_arpContact" Type="Str">Ravi Beniwal</Property>
 				<Property Name="MSI_arpURL" Type="Str">binarypalette.com</Property>
@@ -705,7 +705,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78ACFAAF-6E1D-4B7F-AFA7-E16DDE6BA249}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LV_TaskManager.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager/LV_TaskManager.exe</Property>
