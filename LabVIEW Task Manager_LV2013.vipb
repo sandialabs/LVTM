@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2020-12-19 11:15:42" Creator="Timothy D. Vargo" Comments="" ID="e9062002b80360875a86375f2422b048">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2014-05-28 18:43:42" Modified_Date="2021-05-28 06:35:29" Creator="Timothy D. Vargo" Comments="" ID="504ec48b542bc49b1191f03709c977bc">
   <Library_General_Settings>
     <Package_File_Name>LAVA_lib_LabVIEW_Task_Manager</Package_File_Name>
-    <Library_Version>1.10.0.93</Library_Version>
+    <Library_Version>2.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\LVTM_VIPackages</Library_Output_Folder>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>lava_lib_tree_control_api &gt;= 1.0.1</External_Dependencies>
       <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
       <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_comparison &gt;= 4.0.0.3</External_Dependencies>
@@ -26,6 +27,7 @@
       <Additional_External_Dependencies>oglib_error &gt;=4.2.0.23</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_lvdata &gt;=4.2.0.21</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_string &gt;=4.1.0.12</Additional_External_Dependencies>
+      <Direct_Dependencies>lava_lib_tree_control_api-1.0.1-1</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_comparison-4.0.0.3</Direct_Dependencies>
@@ -69,7 +71,10 @@
       <Copyright>Copyright (c) 2011-2020, Ravi Beniwal, Tim Vargo &amp; Sandia National Laboratories</Copyright>
       <Packager>Ravi Beniwal &amp; Tim Vargo</Packager>
       <URL>https://lavag.org/files/file/245-labview-task-manager</URL>
-      <Release_Notes>24-May-2017 -- v2013.1.10.0 (changes since v1.7.0)
+      <Release_Notes>28-May-2021
+*
+*
+24-May-2017 -- v2013.1.10.0 (changes since v1.7.0)
 (This build requires LV2013+ to run, and VIPM 2014+ to install)
 * Rechecking for new app instances upon mouse over "App Instance" control
 * Do not limit multisection to siblings only
@@ -190,44 +195,19 @@
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>Utils_LVTM</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
+      </Namespace_Overrides>
       <Exclusions>
         <Path>Dev_LVTM</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>DiscoverCommonTypeDefCallers.lvlib</Path>
       </Exclusions>
       <Exclusions>
         <Path>Utils_LVTM/DiscoverCommonTypeDefCallers.dlog</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Utils_LVTM/DiscoverCommonTypeDefCallers.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/DiscoverTypeDefs.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/AnalyzeCommonTypeDefCallers.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/BuildPathToDynamic.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/Filter &amp; Build DependentTypeDefs&amp;Parents.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/GetDependentTypeDefs.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/GetModificationsBitsets.vi</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Utils_LVTM/LabVIEW Mods-Bitset Mappings.xlsx</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/Controls/DependendentTypeDefwParents.ctl</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>VIs_LVTM/FindName Task_Manager Library</Path>
       </Exclusions>
       <Exclusions>
         <Path>HelpAbout_rha/Utilities</Path>
@@ -252,15 +232,6 @@
       </Exclusions>
       <Exclusions>
         <Path>images_LVTM</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/SelectAppInstance.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/Controls/CtrlVITypeCounts.ctl</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Utils_LVTM/Controls</Path>
       </Exclusions>
       <Exclusions>
         <Path>Documentation/LVTM_NIWeek_2017.pptx</Path>
@@ -386,7 +357,7 @@
         <Path>VIs_LVTM\Clone Beacon.vi</Path>
         <VI_Title>Clone Beacon</VI_Title>
       </Items_Data>
-      <GUID>CF54EFAFB3C3BFAB60F459FD189D4CDF</GUID>
+      <GUID>444233850D081F3465D411989BED83FF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

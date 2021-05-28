@@ -9,6 +9,8 @@
 		<Item Name="DependendentTypeDefwParents.ctl" Type="VI" URL="../Utils_LVTM/Controls/DependendentTypeDefwParents.ctl"/>
 	</Item>
 	<Item Name="Methods" Type="Folder">
+		<Item Name="Add Items to All VIs Containing Moded TypeDefs Tree.vi" Type="VI" URL="../Utils_LVTM/Add Items to All VIs Containing Moded TypeDefs Tree.vi"/>
+		<Item Name="Add Items to Modified TypeDefs Tree.vi" Type="VI" URL="../Utils_LVTM/Add Items to Modified TypeDefs Tree.vi"/>
 		<Item Name="AnalyzeCommonTypeDefCallers.vi" Type="VI" URL="../Utils_LVTM/AnalyzeCommonTypeDefCallers.vi"/>
 		<Item Name="DiscoverCommonTypeDefCallers.vi" Type="VI" URL="../Utils_LVTM/DiscoverCommonTypeDefCallers.vi"/>
 		<Item Name="DiscoverTypeDefs.vi" Type="VI" URL="../Utils_LVTM/DiscoverTypeDefs.vi"/>
