@@ -130,10 +130,7 @@
 			<Item Name="FindName Task_Manager.lvlib" Type="Library" URL="../VIs_LVTM/FindName Task_Manager Library/FindName Task_Manager.lvlib"/>
 		</Item>
 		<Item Name="External" Type="Folder">
-			<Item Name="External_Highlight Execution.vi" Type="VI" URL="../External/External_Highlight Execution.vi"/>
-			<Item Name="External_Open Blockdiagram.vi" Type="VI" URL="../External/External_Open Blockdiagram.vi"/>
-			<Item Name="External_Pause or Resume VIs.vi" Type="VI" URL="../External/External_Pause or Resume VIs.vi"/>
-			<Item Name="External_Retain Wire Values.vi" Type="VI" URL="../External/External_Retain Wire Values.vi"/>
+			<Item Name="LVTM_ExecExternal.lvlib" Type="Library" URL="../External/LVTM_ExecExternal.lvlib"/>
 		</Item>
 		<Item Name="DiscoverCommonTypeDefCallers.lvlib" Type="Library" URL="../DiscoverCommonTypeDefCallers.lvlib"/>
 		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
