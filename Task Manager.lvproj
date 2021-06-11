@@ -136,6 +136,7 @@
 		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
 		<Item Name="LV_TaskManager.ini" Type="Document" URL="../LV_TaskManager.ini"/>
 		<Item Name="Icon.ico" Type="Document" URL="../Icon.ico"/>
+		<Item Name="SearchEvents.ctl" Type="VI" URL="../Controls_LVTM/SearchEvents.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -703,7 +704,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78ACFAAF-6E1D-4B7F-AFA7-E16DDE6BA249}</Property>
-				<Property Name="Bld_version.build" Type="Int">41</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LV_TaskManager.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LV_TaskManager/LV_TaskManager.exe</Property>
@@ -718,7 +719,7 @@
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CDA6B42E-377D-45D9-9CFD-B765EB815761}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{116E94D9-40FB-4156-B01D-6AFC0EAE15D1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVTM.lvlib/LabVIEW Task Manager.vi</Property>
