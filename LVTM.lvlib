@@ -19,6 +19,7 @@
 		<Item Name="SharedDataDVR.ctl" Type="VI" URL="../Controls_LVTM/SharedDataDVR.ctl"/>
 		<Item Name="Status.ctl" Type="VI" URL="../Controls_LVTM/Status.ctl"/>
 		<Item Name="Pause Action.ctl" Type="VI" URL="../VIs_LVTM/Pause Action.ctl"/>
+		<Item Name="SearchEvents.ctl" Type="VI" URL="../Controls_LVTM/SearchEvents.ctl"/>
 	</Item>
 	<Item Name="Menu" Type="Folder">
 		<Item Name="Task Manager Menu.rtm" Type="Document" URL="../Task Manager Menu.rtm"/>
@@ -111,6 +112,7 @@
 		<Item Name="Get Modal VIs.vi" Type="VI" URL="../Utils_LVTM/Get Modal VIs.vi"/>
 		<Item Name="Update AppInst Ring.vi" Type="VI" URL="../VIs_LVTM/Update AppInst Ring.vi"/>
 		<Item Name="Delete Tree Item If No Longer Needed.vi" Type="VI" URL="../VIs_LVTM/Delete Tree Item If No Longer Needed.vi"/>
+		<Item Name="Search Events.vi" Type="VI" URL="../VIs_LVTM/Search Events.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Item Name="Clone Beacon.vi" Type="VI" URL="../VIs_LVTM/Clone Beacon.vi"/>
