@@ -15,6 +15,7 @@
 	<Item Name="AdjustIfEmpty.vi" Type="VI" URL="../AdjustIfEmpty.vi"/>
 	<Item Name="Dispatch_FindOrFilterOnName.vi" Type="VI" URL="../Dispatch_FindOrFilterOnName.vi"/>
 	<Item Name="ExtractTreeCluster.vi" Type="VI" URL="../ExtractTreeCluster.vi"/>
+	<Item Name="FilterOrphanFolder.vi" Type="VI" URL="../FilterOrphanFolder.vi"/>
 	<Item Name="FindTagMatches.vi" Type="VI" URL="../FindTagMatches.vi"/>
 	<Item Name="FindTagMatchesTreeCluster.vi" Type="VI" URL="../FindTagMatchesTreeCluster.vi"/>
 	<Item Name="StopLooking.vi" Type="VI" URL="../StopLooking.vi"/>
