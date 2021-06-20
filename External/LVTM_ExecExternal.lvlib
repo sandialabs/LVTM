@@ -4,8 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Highlight Execution.vi" Type="VI" URL="../../../labview-task-manager/External/Highlight Execution.vi"/>
-	<Item Name="Open Blockdiagram.vi" Type="VI" URL="../../../labview-task-manager/External/Open Blockdiagram.vi"/>
-	<Item Name="Pause or Resume VIs.vi" Type="VI" URL="../../../labview-task-manager/External/Pause or Resume VIs.vi"/>
-	<Item Name="Retain Wire Values.vi" Type="VI" URL="../../../labview-task-manager/External/Retain Wire Values.vi"/>
+	<Item Name="Highlight Execution.vi" Type="VI" URL="../Highlight Execution.vi"/>
+	<Item Name="Open Blockdiagram.vi" Type="VI" URL="../Open Blockdiagram.vi"/>
+	<Item Name="Pause or Resume VIs.vi" Type="VI" URL="../Pause or Resume VIs.vi"/>
+	<Item Name="Retain Wire Values.vi" Type="VI" URL="../Retain Wire Values.vi"/>
 </Library>

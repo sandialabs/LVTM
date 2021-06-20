@@ -136,7 +136,6 @@
 		<Item Name="LVTM.lvlib" Type="Library" URL="../LVTM.lvlib"/>
 		<Item Name="LV_TaskManager.ini" Type="Document" URL="../LV_TaskManager.ini"/>
 		<Item Name="Icon.ico" Type="Document" URL="../Icon.ico"/>
-		<Item Name="SearchEvents.ctl" Type="VI" URL="../Controls_LVTM/SearchEvents.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
